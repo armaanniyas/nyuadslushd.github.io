@@ -1,0 +1,94 @@
+.card{
+    
+    margin: 0.3em;
+    position: relative;
+    transition: 1s;
+    cursor: pointer;
+    width: 40vw;
+    height: 50vw;
+    max-width: 400px;
+    max-height: 500px;
+}
+
+@media screen and (max-width: 760px) {
+    .card
+    {
+        width: 40vw;
+        height: 50vw;
+    }
+    p.name
+{
+    color: white;
+    font-family: "Knockout 51 Middleweight";
+    font-size: 1em;
+}
+.overlay .position
+{
+    font-size: 0.7em;
+}
+}
+
+@media screen and (min-width: 768px){
+    .card
+    {
+        width: 22vw;
+        height: 26vw;
+    }
+    p.name
+{
+    color: white;
+    font-family: "Knockout 51 Middleweight";
+    font-size: 1.5em;
+}
+}
+
+
+
+.card:hover, .longcard:hover
+{
+    transform: scale(1.1) !important;
+}
+
+.carousel{
+    overflow: hidden;
+    height: calc(500px + 2em);
+    position: relative;
+}
+
+.carousel_inner{ 
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+    position: absolute;
+    pointer-events: none;
+}
+
+
+
+.card>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay{
+    background-color: rgba(0,0,0,0.55);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.description
+{
+    padding: 2em 2em;
+    position: absolute;
+    bottom: 0;
+}
+
+
+#speakers>.inner_section_content, #why_attend>.inner_section_content
+{
+    padding-bottom: 2em;
+}
+

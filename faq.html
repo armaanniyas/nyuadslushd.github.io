@@ -1,0 +1,112 @@
+<html lang="en">
+
+<head>
+    <title>FAQ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+    <link href="carousel.css" rel="stylesheet">
+    <link href="animations.css" rel="stylesheet">
+    <link href="grids.css" rel="stylesheet">
+    <link href="speakers.css" rel="stylesheet">
+    <link href="agenda.css" rel="stylesheet">
+    <link href="Fonts\stylesheet.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/vv.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <header class="desktop">
+        <!-- logos go here -->
+        <a href="page.html">
+        <div style="height: 8vh; display:flex; align-items:center;">
+            <div id="slushlogo">
+                <img src="Assets/Slush'd_Logo negative.png">
+            </div>
+            <h1>x</h1>
+            <div id="vv">
+                <img src="Assets/vv.png">
+            </div>
+        </div>
+        </a>
+        <div class="menu">
+            <a href="page.html#event_details"><button class="menuitem">EVENT</button></a>
+            <a href="page.html#speakers"><button class="menuitem">SPEAKERS</button></a>
+            <a href="page.html#why_attend"><button class="menuitem">WHY ATTEND?</button></a>
+            <a href="page.html#partners"><button class="menuitem">PARTNERS</button></a>
+            <a href="agenda.html"><button class="menuitem">AGENDA</button></a>
+            <a href="faq.html"><button class="menuitem">FAQ</button></a>
+            <a href="https://forms.gle/EvSmz3xrdvwjj6wx5"><button class="menuitem fancybutton">APPLY</button></a>
+        </div>
+    </header>
+
+    <header class="mobile">
+        <div id="logos" style="display: flex; align-items:center; margin: 1em;">
+            <div id="slushlogo">
+                <img src="Assets/Slush'd_Logo negative.png">
+            </div>
+            <div id="vv">
+                <img src="Assets/vv.png">
+            </div>
+        </div>
+        <div id="mobimenu">
+            <img id="openmenu" src="Icons/menu-burger.svg">
+            <img id="closemenu" class="hidden" src="Icons/cross.svg">
+        </div>
+
+
+        <div id="fullmenu" class="hidden">
+            <a href="page.html"><div class="mobile-menuitem"> <h1 class="section_subtitle">EVENT</h1></div></a>
+            <a href="page.html#speakers"><div class="mobile-menuitem"><h1 class="section_subtitle">SPEAKERS</h1></div></a>
+            <a href="page.html#why_attend"><div class="mobile-menuitem"><h1 class="section_subtitle">WHY ATTEND?</h1></div></a>
+            <a href="page.html#partners">
+                <div class="mobile-menuitem">
+                    <h1 class="section_subtitle">PARTNERS</h1>
+                </div>
+            </a>
+            <a href="agenda.html"><div class="mobile-menuitem"><h1 class="section_subtitle">AGENDA</h1></div></a>
+            <a href="faq.html"><div class="mobile-menuitem"><h1 class="section_subtitle">FAQ</h1></div></a>
+            <a href="https://forms.gle/EvSmz3xrdvwjj6wx5"><div class="mobile-menuitem fbutton"><h1 class="section_subtitle">APPLY</h1></div></a>
+        </div>
+    </header>
+
+    <section id="speakers-cover">
+        <h1 class="super-big">FAQ</h1>
+        <h1 class="section_subtitle">The a's to all your q's. Please contact us if you have any additional questions.</h1>
+    </section>
+
+    <div class="inner_section_content" id="allfaq">
+        <!-- start of question block -->
+        <div class="foldable">
+            <hr style="margin: 1em 0;">
+            <div class="foldable-title" id="t1">
+                <h1 class="section_subtitle">What is Violet Ventures?</h1>
+            </div>
+            <div class="foldable-body" id="b1">
+                <p>Violet Ventures is a student-run startup community anchored at NYU Abu Dhabi, building a community of founders and start-ups in the MENA region. We are looking to make a legitimate dent in the MENA entrepreneurship ecosystem and make NYUAD a hub for world-class founders and venture enthusiasts. 
+                    <br>
+                    In practice, we are a team of 25 students who are motivated by this common mission. Keep your eyes open for future events and team member applications from our Instagram, Linkedin and Facebook.
+                    </p>
+            </div>
+            <hr style="margin: 1em 0;">
+        </div>
+        <!-- end of a block -->
+    </div>
+
+    <footer>
+        <hr style="margin-top: 3em">
+        <div class="inner_section_content">
+            <p class="footer-text"> an event by violet ventures. powered by Slush’D, Playbook, and the Hult Prize.</p>
+            <p class="footer-text"> follow vv on <a href="https://www.instagram.com/vvioletventures/">instagram </a>/ <a href="https://www.linkedin.com/company/violetventures/?originalSubdomain=ae">linkedin</a></p>
+            <p class="footer-text"> <a href="https://www.slush.org/events/helsinki/">slush home</a> / <a href="https://www.slush.org/events/helsinki/faq/">about slush</a> / follow slush on: <a href="https://www.instagram.com/slushhq/">instagram</a> / <a href="https://www.linkedin.com/company/slush">linkedin</a></p>
+        </div>
+
+        <hr style="margin-bottom: 3em;">
+    </footer>
+
+    <script src="cards.js"></script>
+    <script src="menu.js"></script>
+    <script src="faq.js"></script>
+</body>
+
+</html>

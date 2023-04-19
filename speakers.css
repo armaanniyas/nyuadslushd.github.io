@@ -1,0 +1,84 @@
+#speakers-cover
+{
+    text-align: center;
+    margin-bottom: 6em;
+}
+
+
+#speakers-flex-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.super-overlay
+{
+    background-color: #0A0B12;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+    z-index: 10000;
+}
+
+.super-overlay-content
+{
+    width: 90vw;
+    margin: 2em 2em;
+}
+
+.super-overlay-content .section_title
+{
+    margin: 0;
+}
+
+.hidden
+{
+    display: none;
+}
+
+#seemore
+{
+    background: linear-gradient(41deg, rgba(95,155,248,1) 0%, rgba(140,82,246,1) 43%, rgba(140,82,246,1) 57%, rgba(236,91,186,1) 100%);
+    cursor: pointer;
+    text-align: center;
+}
+
+#speaker1, #photo-speaker1
+{
+    background-image: url("Assets/speakers/Ayoola Brimmo.jpeg");
+}
+#speaker2, #photo-speaker2
+{
+    background-image: url("Assets/speakers/Joel Alexander.jpeg")
+}
+#speaker3, #photo-speaker3
+{
+    background-image: url("Assets/speakers/Barbara\ Scheck.jpeg");
+}
+#speaker4, #photo-speaker4
+{
+    background-image: url("Assets/speakers/Simran\ Chowdhry.jpeg");
+}
+#speaker5, #photo-speaker5
+{
+    background-image: url("Assets/speakers/Bhaskar\ Dasgupta.png");
+}
+#speaker6, #photo-speaker6
+{
+    background-image: url("Assets/speakers/Devika\ Speaker\ Photo.jpeg");
+}
+#speaker7, #photo-speaker7
+{
+    background-image: url("Assets/speakers/Aman\ Merchant.jpeg");
+}

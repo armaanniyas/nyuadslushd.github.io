@@ -1,0 +1,121 @@
+.grid{
+    display: grid;
+    column-gap: 2em;
+    margin: 1em;
+    row-gap: 1em;
+}
+
+@media screen and (max-width: 760px) {
+    .grid
+    {
+        grid-template-columns: 1fr;
+    }    
+}
+
+@media screen and (min-width: 761px) {
+    .grid
+    {
+        grid-template-columns: 1fr;
+    }    
+}
+
+.longcard
+{
+    width: 100%;
+    height: 25vh;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#attendees
+{
+    background-image: url("Assets/slushd\ attendees.jpeg");
+}
+
+#investors
+{
+    background-image: url("Assets/investors.jpg");
+}
+
+#volunteers
+{
+    background-image: url("Assets/volunteers.jpg");
+}
+
+#attendees, #investors, #volunteers, .sbs-component {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.longcard
+{
+    position: relative;
+}
+
+.longcard>.overlay>.description
+{
+    text-align:center;
+    width: 100%;
+    top: 10%;
+    padding: 0%;
+    padding-bottom: 2em;
+}
+
+.longcard>.overlay
+{
+    background-color: rgba(0,0,0,0.50);
+}
+
+.longcard>.overlay>.description>.body
+{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.sidebyside
+{
+    display: grid;
+    column-gap: 2em;
+    margin: 3em 1em;
+    row-gap: 3em;
+    padding: 1em 2em;
+}
+
+.sbs-component>h1{
+    margin: 0;
+}
+
+
+@media screen and (max-width: 760px) {
+    .sidebyside
+    {
+        grid-template-columns: 1fr;
+    }    
+}
+
+@media screen and (min-width: 761px) {
+    .sidebyside
+    {
+        grid-template-columns: 1fr 1fr;
+    }    
+}
+
+#photo1
+{
+    background-image: url("Assets/ph1.jpg");
+}
+
+#photo2
+{
+    background-image: url("Assets/ph2.jpg");
+}
+
+
+@media screen and (max-width: 500px) {
+    #photo1, #photo2
+    {
+        height: 40vh;
+    }    
+}
+    
+}

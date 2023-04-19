@@ -1,0 +1,118 @@
+.maingrid
+{
+    display: grid;
+    margin: 4em auto;
+}
+.timetable-inner
+{
+    display: grid;
+    margin: 1em auto;
+}
+
+@media screen and (max-width: 760px) {
+    .maingrid
+    {
+        grid-template-columns: 1fr;
+        margin: 2em;
+    }    
+}
+
+@media screen and (min-width: 761px) {
+    .maingrid
+    {
+        grid-template-columns: 1fr 2fr;
+        width: 90%;
+    }    
+}
+
+.timetable-inner
+{
+    grid-template-columns: 1fr 1fr;
+}
+
+#cover-title
+{
+    background-image: url("Assets/wavy.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.super-big
+{
+    margin: 0.8em auto auto;
+}
+
+
+@media screen and (max-width: 480px) {
+    .super-big
+    {
+        font-size: 4.5em;
+        line-height: 1em;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .super-big
+    {
+        font-size: 6.5em;
+        line-height: 1em;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .super-big
+    {
+        font-size: 7.5em;
+        line-height: 1em;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .super-big
+    {
+        font-size: 9em;
+        line-height: 1em;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    .super-big
+    {
+        font-size: 10em;
+        line-height: 1em;
+    }
+}
+
+#cover
+{
+    text-align: center;
+}
+
+.timetable-inner-left
+{
+  text-align: center;
+  padding: 1em;
+}
+.timetable-inner-right
+{
+  text-align: left;
+  padding: 1em;
+}
+
+.section-block .section_subtitle, .section-block .section_title
+{
+    margin: 0;
+}
+
+.section-block p{
+    margin: 0.2em;
+}
+
+p.timetable-time
+{
+    font-size: 3em;
+    color: white;
+    margin: 0.1em;
+}

@@ -1,0 +1,71 @@
+
+#flashy
+{
+    width: max-content;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+
+.scroll-text {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: marquee 20s linear infinite;
+}
+
+.scroll-text2 {
+  animation: marquee2 24s linear infinite;
+}
+
+.scroll-text p {
+  display: inline-block;
+  font-family: "Knockout 71 Full Middlewt";
+    color: rgba(140,82,246,1);
+    font-size: 5em;
+  margin: 0;
+  margin-top: -0.2em;
+}
+
+.w .scroll-text p{
+  color: white;
+}
+
+.w .scroll-text p.inverted{
+  -webkit-text-stroke: 2px white;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* USE ONLY IF FLASHY TEXT ON TOP OF BIG IMAGE */
+/* #big_image>#flashy>.scroll-text p.inverted {
+  -webkit-text-stroke: 2px white;
+    -webkit-text-fill-color: transparent;
+    margin-right: 2em;
+} */
+
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+@keyframes marquee2 {
+  0% {
+    transform: translate3d(-50%, 0, 0);
+  }
+  100% {
+    
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.inverted
+{
+    -webkit-text-stroke: 2px rgba(140,82,246,1);
+    -webkit-text-fill-color: transparent;
+}

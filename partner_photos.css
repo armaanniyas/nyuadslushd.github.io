@@ -1,0 +1,31 @@
+#partner1
+{
+    background-image: url("Assets/partners/Slush_d_Logo\ negative.png");
+}
+
+#partner2
+{
+    background-image: url("Assets/partners/PLAYBOOK\ Logo.png");
+}
+
+#partner3
+{
+    background-image: url("Assets/partners/Hult\ Prize\ Logo.jpeg");
+}
+
+#partner4
+{
+    background-image: url("Assets/partners/StartAD_logo.png");
+}
+
+#partner5
+{
+    background-image: url("Assets/partners/Student\ Life.png");
+}
+
+#partners .card
+{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

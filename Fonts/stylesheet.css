@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'Knockout 26 Junior Flywght';
+    src: 
+        url('Knockout-26.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 29 Junior Ltweight';
+    src: 
+        url('Knockout-29.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 33 Junior Heviwt';
+    src: 
+        url('Knockout-33.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 34 Junior Sumo';
+    src: 
+        url('Knockout-34.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 32 Junior Cruisewt';
+    src: 
+        url('Knockout-32.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 30 Junior Welterwt';
+    src: 
+        url('Knockout-30.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 46 Flyweight';
+    src: 
+        url('Knockout-46.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 28 Junior Feathrwt';
+    src: 
+        url('Knockout-28.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 31 Junior Middlewt';
+    src:
+        url('Knockout-31.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 27 Junior Bantamwt';
+    src: 
+        url('Knockout-27.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 48 Featherweight';
+    src: 
+        url('Knockout-48.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 51 Middleweight';
+    src: 
+        url('Knockout-51.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 49 Liteweight';
+    src: 
+        url('Knockout-49.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 47 Bantamweight';
+    src: 
+        url('Knockout-47.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 52 Cruiserweight';
+    src:
+        url('Knockout-52.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 50 Welterweight';
+    src: 
+        url('Knockout-50.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 69 Full Liteweight';
+    src: 
+        url('Knockout-69.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 70 Full Welterwt';
+    src: 
+        url('Knockout-70.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 66 Full Flyweight';
+    src: 
+        url('Knockout-66.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 73 Full Heviweight';
+    src:
+        url('Knockout-73.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 68 Full Featherwt';
+    src: 
+        url('Knockout-68.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 72 Full Cruiserwt';
+    src: 
+        url('Knockout-72.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 53 Heviweight';
+    src: 
+        url('Knockout-53.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 67 Full Bantamwt';
+    src: 
+        url('Knockout-67.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 71 Full Middlewt';
+    src:
+        url('Knockout-71.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 54 Sumo';
+    src:
+        url('Knockout-54.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 90 Ultmt Welterwt';
+    src:
+        url('Knockout-90.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 91 Ultmt Middlewt';
+    src:
+        url('Knockout-91.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 92 Ultmt Cruiserwt';
+    src: 
+        url('Knockout-92.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout 74 Full Sumo';
+    src:
+        url('Knockout-74.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
