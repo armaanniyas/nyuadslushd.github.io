@@ -25,7 +25,26 @@
 
 #partners .card
 {
+    width: 17vw;
+    background-color: #0A0B12;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+
+
+
+#partners-flex-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card
+{
+    background-size: cover;
+    background-repeat: no-repeat;
 }

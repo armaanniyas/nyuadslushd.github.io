@@ -11,11 +11,11 @@
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
-    animation: marquee 20s linear infinite;
+    animation: marquee 75s linear infinite;
 }
 
 .scroll-text2 {
-  animation: marquee2 24s linear infinite;
+  animation: marquee2 75s linear infinite;
 }
 
 .scroll-text p {
