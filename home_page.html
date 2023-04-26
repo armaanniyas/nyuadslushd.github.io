@@ -23,7 +23,31 @@
 <body>
     <header class="desktop">
         <!-- logos go here -->
+        <a href="home_page.html">
         <div style="height: 8vh; display:flex; align-items:center;">
+            <div id="slushlogo">
+                <img src="Assets/Slush'd_Logo negative.png">
+            </div>
+            <h1>x</h1>
+            <div id="vv">
+                <img src="Assets/vv.png">
+            </div>
+        </div>
+        </a>
+        <div class="menu">
+            <a href="home_page.html"><button class="menuitem">EVENT</button></a>
+            <a href="speakers_page.html"><button class="menuitem">SPEAKERS</button></a>
+            <a href="why_attend.html"><button class="menuitem">WHY ATTEND?</button></a>
+            <!-- <a href="page.html#partners"><button class="menuitem">PARTNERS</button></a> -->
+            <a href="agenda.html"><button class="menuitem">AGENDA</button></a>
+            <a href="faq.html"><button class="menuitem">FAQ</button></a>
+            <a href="register_page.html"><button class="menuitem fancybutton">REGISTER</button></a>
+            <!-- https://forms.gle/EvSmz3xrdvwjj6wx5  -->
+        </div>
+    </header>
+
+    <header class="mobile">
+        <div id="logos" style="display: flex; align-items:center; margin: 1em;">
             <div id="slushlogo">
                 <img src="Assets/Slush'd_Logo negative.png">
             </div>
@@ -31,14 +55,25 @@
                 <img src="Assets/vv.png">
             </div>
         </div>
-        <div class="menu">
-            <a href="#big_image"><button class="menuitem">EVENT</button></a>
-            <a href="#speakers"><button class="menuitem">SPEAKERS</button></a>
-            <a href="#why_attend"><button class="menuitem">WHY ATTEND?</button></a>
-            <a href="#partners"><button class="menuitem">PARTNERS</button></a>
-            <a href="agenda.html"><button class="menuitem">AGENDA</button></a>
-            <a href="faq.html"><button class="menuitem">FAQ</button></a>
-            <a href="https://forms.gle/EvSmz3xrdvwjj6wx5"><button class="menuitem fancybutton">APPLY</button></a>
+        <div id="mobimenu">
+            <img id="openmenu" src="Icons/menu-burger.svg">
+            <img id="closemenu" class="hidden" src="Icons/cross.svg">
+        </div>
+
+
+        <div id="fullmenu" class="hidden">
+            <a href="page.html"><div class="mobile-menuitem"> <h1 class="section_subtitle">EVENT</h1></div></a>
+            <a href="speakers_page.html"><div class="mobile-menuitem"><h1 class="section_subtitle">SPEAKERS</h1></div></a>
+            <a href="why_attend.html"><div class="mobile-menuitem"><h1 class="section_subtitle">WHY ATTEND?</h1></div></a>
+            <!-- <a href="page.html#partners">
+                <div class="mobile-menuitem">
+                    <h1 class="section_subtitle">PARTNERS</h1>
+                </div>
+            </a> -->
+            <a href="agenda.html"><div class="mobile-menuitem"><h1 class="section_subtitle">AGENDA</h1></div></a>
+            <a href="faq.html"><div class="mobile-menuitem"><h1 class="section_subtitle">FAQ</h1></div></a>
+            <a href="register_page.html"><div class="mobile-menuitem fbutton"><h1 class="section_subtitle">APPLY</h1></div></a>
+            <!-- https://forms.gle/EvSmz3xrdvwjj6wx5 -->
         </div>
     </header>
 
@@ -110,130 +145,6 @@
                 </p> -->
         </div>
     </section>
-
-<!-- countdown timer -->
-<div class="countdown">
-    <div class="time-section" id="days">
-        <div class="time-group">
-            
-
-            <div class="time-segment">
-                <div class="segment-display">
-                  <div class="segment-display__top"></div>
-                  <div class="segment-display__bottom"></div>
-                  <div class="segment-overlay">
-                    <div class="segment-overlay__top"></div>
-                    <div class="segment-overlay__bottom">       </div>
-                  </div>
-                </div>
-              </div>
-
-
-          <div class="time-segment">
-            <div class="segment-display">
-              <div class="segment-display__top"></div>
-              <div class="segment-display__bottom"></div>
-              <div class="segment-overlay">
-                <div class="segment-overlay__top"></div>
-                <div class="segment-overlay__bottom">       </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="time-segment">
-            <div class="segment-display">
-              <div class="segment-display__top"></div>
-              <div class="segment-display__bottom"></div>
-              <div class="segment-overlay">
-                <div class="segment-overlay__top"></div>
-                <div class="segment-overlay__bottom"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <p>Days</p>
-      </div>
-
-
-
-    <div class="time-section" id="hours">
-      <div class="time-group">
-        <div class="time-segment">
-          <div class="segment-display">
-            <div class="segment-display__top"></div>
-            <div class="segment-display__bottom"></div>
-            <div class="segment-overlay">
-              <div class="segment-overlay__top"></div>
-              <div class="segment-overlay__bottom">       </div>
-            </div>
-          </div>
-        </div>
-        <div class="time-segment">
-          <div class="segment-display">
-            <div class="segment-display__top"></div>
-            <div class="segment-display__bottom"></div>
-            <div class="segment-overlay">
-              <div class="segment-overlay__top"></div>
-              <div class="segment-overlay__bottom"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <p>Hours</p>
-    </div>
-
-    <div class="time-section" id="minutes">
-      <div class="time-group">
-        <div class="time-segment">
-          <div class="segment-display">
-            <div class="segment-display__top"></div>
-            <div class="segment-display__bottom"></div>
-            <div class="segment-overlay">
-              <div class="segment-overlay__top"></div>
-              <div class="segment-overlay__bottom"></div>
-            </div>
-          </div>
-        </div>
-        <div class="time-segment">
-          <div class="segment-display">
-            <div class="segment-display__top"></div>
-            <div class="segment-display__bottom"></div>
-            <div class="segment-overlay">
-              <div class="segment-overlay__top"></div>
-              <div class="segment-overlay__bottom"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <p>Minutes</p>
-    </div>
-
-    <div class="time-section" id="seconds">
-      <div class="time-group">
-        <div class="time-segment">
-          <div class="segment-display">
-            <div class="segment-display__top"></div>
-            <div class="segment-display__bottom"></div>
-            <div class="segment-overlay">
-              <div class="segment-overlay__top"></div>
-              <div class="segment-overlay__bottom"></div>
-            </div>
-          </div>
-        </div>
-        <div class="time-segment">
-          <div class="segment-display">
-            <div class="segment-display__top"></div>
-            <div class="segment-display__bottom"></div>
-            <div class="segment-overlay">
-              <div class="segment-overlay__top"></div>
-              <div class="segment-overlay__bottom"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <p>Seconds</p>
-    </div>
-  </div>
 
     <!-- FLASHY SCROLLY TEXT -->
     <div id="flashy w">
