@@ -42,10 +42,19 @@
     background-image: url("Assets/volunteers.jpg");
 }
 
-#attendees, #investors, #volunteers, .sbs-component {
+ #investors, #volunteers, .sbs-component {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+#photo2, #attendees .sbs-component {
+    height: 82vh;
+    width: 50vw;
+}
+
+/* #whats-happening2 , .body, .section_title {
+    margin-left: 2vw;
+} */
 
 .longcard
 {
@@ -75,17 +84,27 @@
 .sidebyside
 {
     display: grid;
-    column-gap: 2em;
+    column-gap: 5em;
     margin: 3em 1em;
     row-gap: 3em;
     padding: 1em 2em;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     font-weight: 400;
+}
+
+h4 {
+    font-size: 2rem;
 }
 
 .sbs-component>h1{
     margin: 0;
 }
+
+.sbs-component>h4{
+    margin: 0;
+}
+
+
 
 
 @media screen and (max-width: 760px) {

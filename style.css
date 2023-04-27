@@ -161,6 +161,10 @@ img
     cursor: pointer;
 }
 
+.menu #currenttab {
+    color: rgba(140,82,246,1);
+}
+
 .menu a:link{
     text-decoration: none;
 
@@ -176,21 +180,26 @@ h3{
     color: white;
     font-family: "Knockout 51 Middleweight";
 }
+
+h4{
+    color: white;
+    font-family: "Knockout 51 Middleweight";
+}
 p{
-    color:lightgray;
+    color:white;
     font-family: "Knockout 31 Junior Middlewt";
     
 }
-
-
 
 #big_image{
     background: rgb(10,11,18);
     background: linear-gradient(180deg, rgba(10,11,18,1) 30%, rgba(140,82,246,1) 100%);
     height: 82vh;
-    padding-top: 2em; 
+    padding-top: 0em; 
     position: relative;
 }
+
+
 
 /* FONTS */
 @media screen and (max-width: 380px){
@@ -282,6 +291,7 @@ p{
     color: #0A0B12;
     border: none;
     cursor: pointer;
+    margin-top: 3vh;
 }
 .fancybutton
 {   
@@ -402,9 +412,6 @@ p{
     {
         background: linear-gradient(41deg, rgba(95,155,248,1) 0%, rgba(140,82,246,1) 43%, rgba(140,82,246,1) 57%, rgba(236,91,186,1) 100%);
     }
-	.footer-distributed{
-		/* font: bold 14px sans-serif; */
-	}
 
 	.footer-distributed .footer-left,
 	.footer-distributed .footer-center,
@@ -460,7 +467,7 @@ p{
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	padding: 55px 50px;
+	padding: 15vh 5vw 1vh 5vw;
 }
 
 .footer-distributed .footer-left,
@@ -609,7 +616,7 @@ p{
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
-	background-color:  #33383b;
+	/* background-color:  #33383b; */
 	/* border-radius: 2px; */
 
 	/* font-size: 20px; */
