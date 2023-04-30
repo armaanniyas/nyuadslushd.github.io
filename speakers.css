@@ -13,6 +13,14 @@
     align-items: center;
 }
 
+#happenings-flex-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 .card
 {
     background-size: cover;
@@ -81,4 +89,18 @@
 #speaker7, #photo-speaker7
 {
     background-image: url("Assets/speakers/Aman\ Merchant.jpeg");
+}
+
+#agendaCard {
+    background-image: url("Assets/volunteers.jpg");
+}
+#speakersCard {
+    background-image: url("Assets/investors.jpg");
+}
+#whyAttendCard {
+    background-image: url("Assets/volunteers.jpg");
+}
+
+#FAQCard {
+    background-image: url("Assets/investors.jpg");
 }

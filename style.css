@@ -109,6 +109,40 @@ img
   .segment-overlay.flip .segment-overlay__bottom {
     animation: flip-bottom 0.8s linear;
   }
+
+  .btn {
+
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 17px 48px;
+    color: #fff;
+    background-color:rgba(140,82,246,1);
+    height: 48px;
+  }
+    .btn:hover{
+        transform: scale(1.04);
+        background-color: rgb(166, 124, 244);
+    }
+
+    .date p{
+        font-family: "Knockout 51 Middleweight";
+        text-decoration: none;
+        height: min-content;
+        font-size: 1rem;
+        /* font-weight: 300; */
+    }
   
   @keyframes flip-top {
     0% {
@@ -199,7 +233,28 @@ p{
     position: relative;
 }
 
+ #partners {
+    background-color: white;
+}
 
+#partners .section_title {
+    color: black;
+}
+
+#partners .partners-container {
+    display: inline-block;
+}
+
+.partners-container > img {
+    width: 200px;/*example only*/
+  height: 300px;/*example only*/
+}
+
+.partners-container > img {
+    max-height: 100%;
+}
+
+/* 5
 
 /* FONTS */
 @media screen and (max-width: 380px){
@@ -276,7 +331,7 @@ p{
 .inner_section_content
 {
     padding: 3em;
-    padding-bottom: 5em;
+    /* padding-bottom: 5em; */
     margin: auto;
     text-align: center;
     width: 70%;
@@ -349,6 +404,12 @@ p{
 .tickets{
     display: inline-block;
     cursor: pointer;
+}
+
+.tab-title {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 10em;
 }
 
 #big_image{
@@ -467,7 +528,7 @@ p{
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	padding: 15vh 5vw 1vh 5vw;
+	padding: 15vh 5vw 5vh 5vw;
 }
 
 .footer-distributed .footer-left,
@@ -554,7 +615,7 @@ p{
 .footer-distributed .footer-center p{
 	display: inline-block;
 	color: #ffffff;
-  font-weight:400;
+    font-weight:400;
 	vertical-align: middle;
 	margin:0;
 }
@@ -592,9 +653,9 @@ p{
 }
 
 .footer-distributed .footer-company-about{
-	line-height: 20px;
+	/* line-height: 20px; */
 	background-color: #0A0B12;
-	font-size: 13px;
+	font-size: 1rem;
 	font-weight: normal;
 	margin: 0;
 }
@@ -602,7 +663,7 @@ p{
 .footer-distributed .footer-company-about span{
 	display: block;
 	color:  #ffffff;
-	font-size: 14px;
+	font-size: 1rem;
 	font-weight: bold;
 	margin-bottom: 20px;
 }
