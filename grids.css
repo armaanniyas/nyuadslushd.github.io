@@ -45,6 +45,8 @@
  #investors, #volunteers, .sbs-component {
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
+
 }
 
 #photo2, #attendees .sbs-component {
