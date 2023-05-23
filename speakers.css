@@ -1,57 +1,11 @@
 #speakers-cover
 {
     text-align: center;
-    margin-bottom: 10em;
-    margin-top: 10em;
+    margin-bottom: 6em;
 }
 
-#speakers-cover .title-text {
-    font-size: 150px;
-    color: white;
-}
-
-#speakers-cover .title-text .inverted {
-    -webkit-text-stroke: 2px white;
-    -webkit-text-fill-color: transparent;
-}
-
-#speakers-content {
-    display: grid;
-    padding: 2rem;
-    grid-template-columns: 1fr 2fr;
-    gap: 2rem;
-    align-items: center;
-    /* max-width: 800px; */
-    margin: 0 3vw;
-    
-}
-
-#speakers-content img {
-    /* max-width: 30vw; */
-    /* width: 100%; */
-    width: 25vw;
-    /* height: 30vw; */
-}
-
-#speaker-content p{
-    font: 30px;
-    text-align: justify;
-    
-}
-#speaker-content ul{
-    font-family: "Knockout 31 Junior Middlewt";
-    font-size: 1.5em;
-}
 
 #speakers-flex-container
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-#happenings-flex-container
 {
     display: flex;
     flex-wrap: wrap;
@@ -128,19 +82,3 @@
 {
     background-image: url("Assets/speakers/Aman\ Merchant.jpeg");
 }
-
-#agendaCard {
-    background-image: url("Assets/volunteers.jpg");
-}
-#speakersCard {
-    background-image: url("Assets/investors.jpg");
-}
-#whyAttendCard {
-    background-image: url("Assets/volunteers.jpg");
-}
-
-#FAQCard {
-    background-image: url("Assets/investors.jpg");
-}
-
-
