@@ -20,14 +20,14 @@
 @media screen and (min-width: 761px) {
     .maingrid
     {
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 3.5fr;
         width: 90%;
     }    
 }
 
 .timetable-inner
 {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2.5fr;
 }
 
 #cover {
@@ -96,13 +96,13 @@
 }
 
 .timetable-inner-left {
-    text-align: center;
-    padding: 1em;
+    text-align: left;
+    padding: 0.5em;
 }
 
 .timetable-inner-right {
     text-align: left;
-    padding: 1em;
+    padding: 1em 4em 1em 1em; /* Increase left padding to 4em */
 }
 
 .section-block .section_subtitle,
