@@ -91,34 +91,43 @@
     }
 }
 
-#cover
-{
+#cover {
     text-align: center;
 }
 
-.timetable-inner-left
-{
-  text-align: center;
-  padding: 1em;
-}
-.timetable-inner-right
-{
-  text-align: left;
-  padding: 1em;
+.timetable-inner-left {
+    text-align: center;
+    padding: 1em;
 }
 
-.section-block .section_subtitle, .section-block .section_title
-{
+.timetable-inner-right {
+    text-align: left;
+    padding: 1em;
+}
+
+.section-block .section_subtitle,
+.section-block .section_title {
     margin: 0;
 }
 
-.section-block p{
+.section-block p {
     margin: 0.2em;
 }
 
-p.timetable-time
-{
+p.timetable-time {
     font-size: 3em;
     color: white;
     margin: 0.1em;
+}
+
+.event-details {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.speaker-pic {
+    display: block;
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 0.5em;
 }
