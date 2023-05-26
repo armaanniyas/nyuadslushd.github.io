@@ -18,3 +18,8 @@ $(".mobile-menuitem").click(function(){
     $("#fullmenu").toggleClass("hidden");
 }
 );
+
+document.querySelector('.submit-email').addEventListener('mousedown', (e) => {
+    e.preventDefault();
+    document.querySelector('.subscription').classList.add('done');
+  });
