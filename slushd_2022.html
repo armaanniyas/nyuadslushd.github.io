@@ -18,26 +18,21 @@
 <body>
     <header class="desktop">
         <!-- logos go here -->
-        <a href="home_page.html"  style="text-decoration: none">
+        <a href="home_page.html" style="text-decoration: none">
         <div style="height: 8vh; display:flex; align-items:center;">
             <div id="slushlogo">
-                <img src="Assets/Slush'd_Logo negative.png">
-            </div>
-            <h1>x</h1>
-            <div id="vv">
-                <img src="Assets/vv.png">
+                <img src="Assets/nyuad_slushd.png">
             </div>
         </div>
         </a>
         <div class="menu">
-            <a href="home_page.html"><button class="menuitem">EVENT</button></a>
-            <a href="speakers_page.html"><button class="menuitem">SPEAKERS</button></a>
+            <a href="home_page.html"><button class="menuitem" ">EVENT</button></a>
+            <a href="speakers.html"><button class="menuitem"  >SPEAKERS</button></a>
             <a href="why_attend.html"><button class="menuitem" >WHY ATTEND?</button></a>
             <a href="slushd_2022.html"><button class="menuitem" id="currenttab">SLUSH'D 2022</button></a>
             <a href="agenda.html"><button class="menuitem">AGENDA</button></a>
             <a href="faq.html"><button class="menuitem">FAQ</button></a>
-            <a href="register_page.html"><button class="menuitem fancybutton">REGISTER</button></a>
-            <!-- https://forms.gle/EvSmz3xrdvwjj6wx5  -->
+            <a href="https://forms.gle/EvSmz3xrdvwjj6wx5"><button class="menuitem fancybutton">PRE-REGISTER</button></a>
         </div>
     </header>
 
@@ -74,7 +69,7 @@
 
    
 
-    <section id="big_image" style="position: relative">
+    <section  style="position: relative">
         <section id="speakers-cover">
             <h1 class="super-big">SLUSH'D 2022</h1>
             <h1 class="section_subtitle">Lorem ipsum </h1>
@@ -88,80 +83,250 @@
         </div>
     </section>
 
+    <style>
+        body {
+          margin: 0;
+        }
+        
+        * {
+          box-sizing: border-box;
+        }
+        
+        img {
+          vertical-align: middle;
+        }
+        
+        /* Position the image container (needed to position the left and right arrows) */
+        .container {
+          position: relative;
+        }
+        
+        /* Hide the images by default */
+        .mySlides {
+          display: none;
+        }
+        
+        /* Add a pointer when hovering over the thumbnail images */
+        .cursor {
+          cursor: pointer;
+        }
+        
+        /* Next & previous buttons */
+        .prev,
+        .next {
+          cursor: pointer;
+          position: absolute;
+          top: 40%;
+          width: auto;
+          padding: 16px;
+          margin-top: -50px;
+          color: white;
+          font-weight: bold;
+          font-size: 20px;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+          -webkit-user-select: none;
+        }
+        
+        /* Position the "next button" to the right */
+        .next {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+          background-color: rgba(0, 0, 0, 0.8);
+        }
+        
+        /* Number text (1/3 etc) */
+        .numbertext {
+          color: #f2f2f2;
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          top: 0;
+        }
+        
+        /* Container for image text */
+        .caption-container {
+          text-align: center;
+          background-color: #222;
+          padding: 2px 16px;
+          color: white;
+        }
+        
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Six columns side by side */
+        .column {
+          float: left;
+          width: 12.5%;
+        }
+        
+        /* Add a transparency effect for thumnbail images */
+        .demo {
+          opacity: 0.6;
+        }
+        
+        .active,
+        .demo:hover {
+          opacity: 1;
+        }
+        </style>
+        <body>
+        
+        <div class="container">
+          <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+            <img src="Assets/investors.jpg" style="width:50%;">
+          </div>
+        
+          <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+            <img src="Assets/volunteers.jpg" style="width:50%">
+          </div>
+        
+          <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+            <img src="Assets/investors.jpg" style="width:50%">
+          </div>
+            
+          <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+            <img src="Assets/volunteers.jpg" style="width:50%">
+          </div>
+        
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+        
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+        
+          <div class="row">
+            <div class="column">
+              <img class="demo cursor" src="Assets/investors.jpg" style="width:100%; align-content: center;" onclick="currentSlide(1)" alt="Students">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="Assets/volunteers.jpg" style="width:100%" onclick="currentSlide(2)" alt="Partners">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="Assets/investors.jpg" style="width:100%" onclick="currentSlide(3)" alt="Volunteers">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="Assets/volunteers.jpg" style="width:100%" onclick="currentSlide(4)" alt="Investors">
+            </div>
+          </div>
+        </div>
+        
+        <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("demo");
+          let captionText = document.getElementById("caption");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+        </script>
+
 
     <footer class="footer-distributed">
 
         <div class="footer-left">
-
-            <h3> <div id="vv1">
-                <img src="Assets/vv.png">
-            </div> <div id="slushlogo1">
-                <img src="Assets/Slush'd_Logo negative.png">
+             <div id="slushlogo1">
+                <img src="Assets/nyuad_slushd.png">
             </div>
-           </h3>
 
-            <p class="footer-links">
+            <p class="footer-links" style="font-size:1em ">
                 <a href="#" class="link-1">Event</a>
-                
                 <a href="#">Speakers</a>
-            
-                <a href="#">Why Attend?</a>
-            
                 <a href="#">Partners</a>
-                
+                <a href="#">Why Attend?</a>
+                <a href="#">Slush'D 2022</a>
                 <a href="#">Agenda</a>
-                
                 <a href="#">FAQ</a>
             </p>
-
-            <p class="footer-company-name">Violet Ventures © 2023</p>
+            <img class="footer-company-name" src="assets/vv.png" style="width: 25px; height: auto; display: inline-block;">
+            <p class="footer-company-name" style="display: inline-block;">Violet Ventures © 2023</p>
         </div>
 
-        <div class="footer-center">
+        <div class="footer-center" style = "font-size: 15px;">
 
             <div>
-                <!-- <i class="fa fa-map-marker"></i> -->
                 <p> Abu Dhabi, UAE</p>
             </div>
 
             <div>
-                <!-- <i class="fa fa-phone"></i> -->
                 <p>New York University</p>
             </div>
-
+            <p class="footer-company-about" style="margin-top: 4vh; margin-bottom: 0;">
+                Learn More About Slush'D:
+            </p>
             <div>
-                <!-- <i class="fa fa-envelope"></i> -->
-                <p><a href="mailto:support@company.com">support@nyu.edu</a></p>
+                <p class="footer-links" style="font-size: 1em; margin: 0;">
+                    <a href="#" class="link-1">Website</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">LinkedIn</a>
+                </p>
             </div>
-
+            
         </div>
 
         <div class="footer-right">
 
-            <p class="footer-company-about">
-                <span>Learn More About the SLUSH'D</span>
+            <p class="footer-company-about" style="margin-top: 0; margin-bottom: 0;">
+                Learn More About Violet Ventures:
             </p>
-
-            <div class="footer-icons">
-
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-
-
+            <div>
+                <p class="footer-links" style="font-size: 1em; margin: 0;">
+                    <a href="#" class="link-1">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">LinkedIn</a>
+                </p>
             </div>
 
-            <p class="footer-company-about">
-                <span>Learn More About the Violet Ventures</span>
+            <p class="footer-company-about" style="margin-top: 2vh; margin-bottom: 0;">
+                <span>Subscripe to Violet Ventures Newsletter:</span>
             </p>
-
-            <div class="footer-icons">
-
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-
-            </div>
+            <div class="new_container">
+                <div class="new_content">
+                  <form class="subscription">
+                    <input class="add-email" type="email" placeholder="subscribe@me.now">
+                    <button class="submit-email" type="button">
+                      <span class="before-submit">Subscribe</span>
+                      <span class="after-submit">Thank you for subscribing!</span>
+                     </button>
+                  </form>
+                </div>
+              </div>
 
         </div>
 
