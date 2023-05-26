@@ -64,6 +64,7 @@
 
 #speaker1, #photo-speaker1
 {
+    filter: grayscale(100%);
     background-image: url("Assets/speakers/Ayoola Brimmo.jpeg");
 }
 #speaker2, #photo-speaker2
@@ -89,4 +90,19 @@
 #speaker7, #photo-speaker7
 {
     background-image: url("Assets/speakers/Aman\ Merchant.jpeg");
+}
+
+.speaker-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.speaker-photo {
+    flex: 1;
+}
+
+.speaker-details {
+    flex: 1;
+    padding: 0 1em;
 }
