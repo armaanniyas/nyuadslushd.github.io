@@ -1,6 +1,6 @@
 #partner1
 {
-    background-image: url("Assets/partners/Slush_d_Logo\ negative.png");
+    background-image: url("Assets/partners/Slush_Black_Logo.png");
 }
 
 #partner2
@@ -15,12 +15,12 @@
 
 #partner4
 {
-    background-image: url("Assets/partners/StartAD_logo.png");
+    background-image: url("Assets/startAD_logo.jpeg");
 }
 
 #partner5
 {
-    background-image: url("Assets/partners/Student\ Life.png");
+    background-image: url("Assets/nyuad_square_logo.jpeg");
 }
 
 .partners-container {
@@ -30,7 +30,7 @@
 #partners .card
 {
     width: 17vw;
-    background-color: #0A0B12;
+    /* background-color: #0A0B12; */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
