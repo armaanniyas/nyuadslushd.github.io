@@ -9,6 +9,7 @@
     <link href="animations.css" rel="stylesheet">
     <link href="grids.css" rel="stylesheet">
     <link href="speakers.css" rel="stylesheet">
+    <link href="slideshow.css" rel="stylesheet">
     <link href="agenda.css" rel="stylesheet">
     <link href="Fonts\stylesheet.css" rel="stylesheet">
     <link rel="shortcut icon" href="assets/vv.png">
@@ -68,195 +69,71 @@
     </header>
 
    
+    <div class="CSSgal">
 
-    <section  style="position: relative">
+        <!-- Don't wrap targets in parent -->
+        <s id="s1"></s> 
+        <s id="s2"></s>
+        <s id="s3"></s>
+        <s id="s4"></s>
+      
+        <div class="slider">
+        <section id="bg-image-1" style="position: relative;">
+          <div>
+            <h1 class="super-big">SLUSH'D 2022</h1>
+            <h1 class="section_subtitle">Let's revisit </h1>
+            <button class="cool_button" style="margin-top: 20vh;"> See More </button> 
+              </div>
+        </section>
+        <section id="bg-image-2" style="position: relative;">
+          <div>
+            <h1 class="super-big">SLUSH'D 2022</h1>
+            <h1 class="section_subtitle">Let's revisit </h1>
+            <button class="cool_button" style="margin-top: 20vh;"> See More </button> 
+              </div>
+        </section>
+        <section id="bg-image-3" style="position: relative;">
+          <div>
+            <h1 class="super-big">SLUSH'D 2022</h1>
+            <h1 class="section_subtitle">Let's revisit </h1>
+            <button class="cool_button" style="margin-top: 20vh;"> See More </button> 
+              </div>
+        </section>
+        <section id="bg-image-4" style="position: relative;">
+          <div>
+            <h1 class="super-big">SLUSH'D 2022</h1>
+            <h1 class="section_subtitle">Let's revisit </h1>
+            <button class="cool_button" style="margin-top: 20vh;"> See More </button> 
+              </div>
+            </section>
+        </div>
+        
+        <div class="prevNext">
+          <div><a href="#s4"></a><a href="#s2"></a></div>
+          <div><a href="#s1"></a><a href="#s3"></a></div>
+          <div><a href="#s2"></a><a href="#s4"></a></div>
+          <div><a href="#s3"></a><a href="#s1"></a></div>
+        </div>
+      
+        <div class="bullets">
+          <a href="#s1">1</a>
+          <a href="#s2">2</a>
+          <a href="#s3">3</a>
+          <a href="#s4">4</a>
+        </div>
+      
+      </div>
+
+    <!-- <section  style="position: relative">
         <section id="speakers-cover">
             <h1 class="super-big">SLUSH'D 2022</h1>
             <h1 class="section_subtitle">Lorem ipsum </h1>
         </section>
         <div class="content" style="text-align: center;">
-
-                <!-- <p style="font-size: 2ch;">Our bootcamp for the 2023 Hult Prize, a 1 million dollar social enterprise challenge. A 2-day
-                    ideathon for mission-driven youth to find inspiration in social impact, build mental toolkits for
-                    launching robust ventures, learn how to launch a company in the UAE and meet the coolest people.
-                </p> -->
         </div>
-    </section>
+    </section> -->
 
-    <style>
-        body {
-          margin: 0;
-        }
-        
-        * {
-          box-sizing: border-box;
-        }
-        
-        img {
-          vertical-align: middle;
-        }
-        
-        /* Position the image container (needed to position the left and right arrows) */
-        .container {
-          position: relative;
-        }
-        
-        /* Hide the images by default */
-        .mySlides {
-          display: none;
-        }
-        
-        /* Add a pointer when hovering over the thumbnail images */
-        .cursor {
-          cursor: pointer;
-        }
-        
-        /* Next & previous buttons */
-        .prev,
-        .next {
-          cursor: pointer;
-          position: absolute;
-          top: 40%;
-          width: auto;
-          padding: 16px;
-          margin-top: -50px;
-          color: white;
-          font-weight: bold;
-          font-size: 20px;
-          border-radius: 0 3px 3px 0;
-          user-select: none;
-          -webkit-user-select: none;
-        }
-        
-        /* Position the "next button" to the right */
-        .next {
-          right: 0;
-          border-radius: 3px 0 0 3px;
-        }
-        
-        /* On hover, add a black background color with a little bit see-through */
-        .prev:hover,
-        .next:hover {
-          background-color: rgba(0, 0, 0, 0.8);
-        }
-        
-        /* Number text (1/3 etc) */
-        .numbertext {
-          color: #f2f2f2;
-          font-size: 12px;
-          padding: 8px 12px;
-          position: absolute;
-          top: 0;
-        }
-        
-        /* Container for image text */
-        .caption-container {
-          text-align: center;
-          background-color: #222;
-          padding: 2px 16px;
-          color: white;
-        }
-        
-        .row:after {
-          content: "";
-          display: table;
-          clear: both;
-        }
-        
-        /* Six columns side by side */
-        .column {
-          float: left;
-          width: 12.5%;
-        }
-        
-        /* Add a transparency effect for thumnbail images */
-        .demo {
-          opacity: 0.6;
-        }
-        
-        .active,
-        .demo:hover {
-          opacity: 1;
-        }
-        </style>
-        <body>
-        
-        <div class="container">
-          <div class="mySlides">
-            <div class="numbertext">1 / 6</div>
-            <img src="Assets/investors.jpg" style="width:50%;">
-          </div>
-        
-          <div class="mySlides">
-            <div class="numbertext">2 / 6</div>
-            <img src="Assets/volunteers.jpg" style="width:50%">
-          </div>
-        
-          <div class="mySlides">
-            <div class="numbertext">3 / 6</div>
-            <img src="Assets/investors.jpg" style="width:50%">
-          </div>
-            
-          <div class="mySlides">
-            <div class="numbertext">4 / 6</div>
-            <img src="Assets/volunteers.jpg" style="width:50%">
-          </div>
-        
-          <a class="prev" onclick="plusSlides(-1)">❮</a>
-          <a class="next" onclick="plusSlides(1)">❯</a>
-        
-          <div class="caption-container">
-            <p id="caption"></p>
-          </div>
-        
-          <div class="row">
-            <div class="column">
-              <img class="demo cursor" src="Assets/investors.jpg" style="width:100%; align-content: center;" onclick="currentSlide(1)" alt="Students">
-            </div>
-            <div class="column">
-              <img class="demo cursor" src="Assets/volunteers.jpg" style="width:100%" onclick="currentSlide(2)" alt="Partners">
-            </div>
-            <div class="column">
-              <img class="demo cursor" src="Assets/investors.jpg" style="width:100%" onclick="currentSlide(3)" alt="Volunteers">
-            </div>
-            <div class="column">
-              <img class="demo cursor" src="Assets/volunteers.jpg" style="width:100%" onclick="currentSlide(4)" alt="Investors">
-            </div>
-          </div>
-        </div>
-        
-        <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
-        
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-        
-        function currentSlide(n) {
-          showSlides(slideIndex = n);
-        }
-        
-        function showSlides(n) {
-          let i;
-          let slides = document.getElementsByClassName("mySlides");
-          let dots = document.getElementsByClassName("demo");
-          let captionText = document.getElementById("caption");
-          if (n > slides.length) {slideIndex = 1}
-          if (n < 1) {slideIndex = slides.length}
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-          }
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";
-          dots[slideIndex-1].className += " active";
-          captionText.innerHTML = dots[slideIndex-1].alt;
-        }
-        </script>
-
-
+   
     <footer class="footer-distributed">
 
         <div class="footer-left">
