@@ -457,7 +457,8 @@ This year, we are transforming the relationship that young founders have with ex
             </p>
             <div class="new_container">
                 <div class="new_content">
-                  <form name="submit-to-google-sheet" class="subscription" >
+                  <form  method="POST" 
+                  action="https://script.google.com/macros/s/AKfycbxU5nvldaS-1NTm3LaejbWKMBsDhhRXXhHHo9ECpgGRbPfcSEPubtkCsTIOpFP4EkeB/exec" class="subscription" id="myform">
                     <input class="add-email" type="email" name= "Email" placeholder="subscribe@me.now" required>
                     <button type= "submit" class="submit-email">
                         <span class="before-submit">Subscribe</span>
@@ -472,6 +473,23 @@ This year, we are transforming the relationship that young founders have with ex
 
     </footer>
     <script>
+    window.addEventListener("load", function() {
+    const form = document.getElementById('myform');
+    form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    })
+    .then(() => {
+      alert("You've subscribed — check your inbox shortly for a message!");
+    })
+  });
+}); 
+    </script>
+    <!-- <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbw8_ysSblKWqetCr7Bt4ceSQnelT2noICzO8-Ag8SgrW2y8qs6VFLpeGOSt7EFwux8W/exec'
         const form = document.forms['submit-to-google-sheet']
       
@@ -481,7 +499,7 @@ This year, we are transforming the relationship that young founders have with ex
             .then(response => console.log('Success!', response))
             .catch(error => console.error('Error!', error.message))
         })
-    </script>
+    </script> -->
     <script src="cards.js"></script>
     <script src="menu.js"></script>
 </body>
