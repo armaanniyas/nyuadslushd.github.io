@@ -483,12 +483,37 @@ p{
     background-repeat: no-repeat;
 }
 
+#bg-image-2022-1{
+    background-image: url("Assets/Slush\'d-23.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#bg-image-2022-2{
+    background-image: url("Assets/Slush\'d-86.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#bg-image-2022-3{
+    background-image: url("Assets/Slush\'d-12.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#bg-image-2022-4 {
+    background-image: url("Assets/Slush\'d-109.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 #for-students-photo {
     margin-top: 15vh;
     background-image: url("Assets/Slush\'d-132.jpg");
     height: 82vh;
     width: 50vw;
-
+}
+#for-partners-photo {
+    background-image: url("Assets/Slush\'d-56.jpg");
+    height: 82vh;
+    width: 50vw;
 }
 
 #about_event {
