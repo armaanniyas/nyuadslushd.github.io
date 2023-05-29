@@ -65,3 +65,18 @@
 #FAQCard {
     background-image: url("Assets/volunteers.jpg");
 }
+
+
+@media screen and (min-width: 381px) and (max-width: 500px) {
+    #partners .card
+{
+    width: 40vw;
+}
+}
+
+@media screen and (max-width: 380px){
+    #partners .card
+{
+    width: 40vw;
+}
+}

@@ -42,11 +42,13 @@
     </header>
 
     <header class="mobile">
-        <div id="logos" style="display: flex; align-items:center; ">
+        <a href="home_page.html" style="text-decoration: none">
+        <!-- <div id="logos" style="display: flex; align-items:center; "> -->
             <div id="slushlogo">
                 <img src="Assets/slushd_nyuad_final_logo.png">
             </div>
-        </div>
+        <!-- </div> -->
+        </a>
         <div id="mobimenu">
             <img id="openmenu" src="Icons/menu-burger.svg">
             <img id="closemenu" class="hidden" src="Icons/cross.svg">
@@ -128,8 +130,9 @@ This year, we are transforming the relationship that young founders have with ex
                     <br/>
                     Lasers overhead. Bass rumbling. NYUAD Slush’D has begun. 
                     <br/>
-
-                <a href="agenda.html"><button class="cool_button ticketbutton" style="font-size: 1.5em;">AGENDA</button></a>
+                    <div class="button_contaner" style="text-align: center"> 
+                        <a href="agenda.html"><button class="cool_button ticketbutton" style="font-size: 1.5rem;">AGENDA</button></a>
+                    </div>
 
             </div>
 
@@ -156,8 +159,9 @@ This year, we are transforming the relationship that young founders have with ex
                     This year, buckle up for high-octane sessions where you'll hack, hustle, and harness your inner creative beast.
                     </p>
 
-
-                <a href="https://forms.gle/EvSmz3xrdvwjj6wx5"><button class="cool_button ticketbutton">PRE-REGISTER</button></a>
+                 <div class="button_contaner" style="text-align: center">
+                    <a href="https://forms.gle/EvSmz3xrdvwjj6wx5"><button class="cool_button ticketbutton" style="font-size: 1.5rem;">PRE-REGISTER</button></a>
+                </div>
             </div>
             <div class="sbs-component" id="photo1">
 
@@ -356,7 +360,8 @@ This year, we are transforming the relationship that young founders have with ex
                 <a href="https://nyuad.nyu.edu">
                 <div class="card" id="partner5">
                 </div>
-            </a>   
+            </a>  
+            </div> 
     </section>
 
     <section id="partners">
@@ -385,6 +390,7 @@ This year, we are transforming the relationship that young founders have with ex
                 <div class="card" id="partner5">
                 </div>
             </a>   
+            </div>
     </section>
 
 
@@ -447,24 +453,35 @@ This year, we are transforming the relationship that young founders have with ex
             </div>
 
             <p class="footer-company-about-2" style="margin-top: 2vh; margin-bottom: 0;">
-                <span>Subscripe to Violet Ventures Newsletter:</span>
+                <span>Subscribe to Violet Ventures Newsletter:</span>
             </p>
             <div class="new_container">
                 <div class="new_content">
-                  <form class="subscription">
-                    <input class="add-email" type="email" placeholder="subscribe@me.now">
-                    <button class="submit-email" type="button">
-                      <span class="before-submit">Subscribe</span>
-                      <span class="after-submit">Thank you for subscribing!</span>
+                  <form name="submit-to-google-sheet" class="subscription" >
+                    <input class="add-email" type="email" name= "Email" placeholder="subscribe@me.now" required>
+                    <button type= "submit" class="submit-email">
+                        <span class="before-submit">Subscribe</span>
+                        <span class="after-submit">Thank you for subscribing!</span>
                      </button>
                   </form>
+                  
                 </div>
               </div>
 
         </div>
 
     </footer>
-
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw8_ysSblKWqetCr7Bt4ceSQnelT2noICzO8-Ag8SgrW2y8qs6VFLpeGOSt7EFwux8W/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
     <script src="cards.js"></script>
     <script src="menu.js"></script>
 </body>

@@ -15,6 +15,8 @@ img
     display: block;
 }
 
+mark { background-color:rgba(95,155,248,1); } 
+
 
 .countdown {
     /* margin: 0; */
@@ -228,9 +230,10 @@ p{
 #big_image{
     background: rgb(10,11,18);
     background: linear-gradient(180deg, rgba(10,11,18,1) 30%, rgba(140,82,246,1) 100%);
-    height: 82vh;
+    height: 100%;
     padding-top: 0em; 
     position: relative;
+    overflow: hidden;
 }
 
 #bg-image-1 #bg-image-2 #bg-image-3 #bg-image-4{
@@ -286,6 +289,65 @@ p{
     {
         font-size: 1em;
     }
+    .position{
+        font-size: 12px;
+    }
+    #about_event{
+        margin: 0.2em;
+    }
+    .new_container{
+        display: none;
+    }
+    .footer-company-about-2 {
+        display:none;
+    }
+    .footer-left a{
+        text-decoration: none;
+        color: gray;
+    }
+    .footer-center a{
+        text-decoration: none;
+        color: gray;
+    }
+    .footer-right a{
+        text-decoration: none;
+        color: gray;
+    }
+    .footer-left .footer-center .footer-right {
+        margin-bottom: 1vh;
+    }
+    .location {
+        display: none;
+    }
+    .footer-distributed {
+        background-color: #0E2038;
+    }
+    #slushlogo > img {
+        margin-left: 10vw;
+        margin-top: 5vw;
+
+    }
+    #slushlogo1 {
+        width: 50vw;
+        margin: auto;
+    }
+    .cool_button {
+        align-items: center;
+    }
+    #partners-flex-container{
+        display: inline-block;
+    }
+    #about_event {
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+        margin-right: 10vw;
+        margin-left: 10vw;
+        text-indent: 3vw;
+    }
+    .scroll-text {
+        font-size: 0.5rem;
+    }
+
 }
 
 
@@ -299,11 +361,15 @@ p{
     {
         font-size: 2.5em;
         margin: 0.2em;
+        text-align: center;
     }
     .section_subtitle
     {
         font-size: 1.5em;
         margin: 0.2em;
+    }
+    h4 {
+        text-align: center;
     }
     p
     {
@@ -340,10 +406,32 @@ p{
         display: none;
     }
     .footer-distributed {
-        background-color: #333;
+        background-color: #0E2038;
     }
-    #slushlogo {
+    #slushlogo > img {
+        margin-left: 10vw;
+        margin-top: 5vw;
+
+    }
+    #slushlogo1 {
         width: 50vw;
+        margin: auto;
+    }
+    .cool_button {
+        align-items: center;
+    }
+    #partners-flex-container{
+        display: inline-block;
+    }
+    #about_event {
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+        margin-right: 10vw;
+        margin-left: 10vw;
+        text-indent: 3vw;
+    }
+    .scroll-text {
+        font-size: 0.5rem;
     }
 }
 @media screen and (min-width: 461px) {
@@ -457,7 +545,7 @@ p{
 }
 
 #big_image{
-    background-image: url("Assets/ppl nyuad.jpeg");
+    background-image: url("Assets/ppl\ nyuad.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -516,9 +604,7 @@ p{
     width: 50vw;
 }
 
-#about_event {
-    margin-top: 10vh; margin-bottom: 15vh; margin-right: 20vw; margin-left: 20vw; text-indent: 3vw;
-}
+
 
 @media screen and (max-width: 760px) {
     .desktop
@@ -591,6 +677,9 @@ p{
 }
 
 @media screen and (min-width: 761px) {
+    #about_event {
+        margin-top: 10vh; margin-bottom: 15vh; margin-right: 20vw; margin-left: 20vw; text-indent: 3vw;
+    }
     .mobile, #fullmenu
     {
         display: none;
@@ -624,7 +713,7 @@ p{
 
 
 .footer-distributed{
-	background-color: #0A0B12;
+	background-color: #0E2038;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
@@ -696,7 +785,7 @@ p{
 }
 
 .footer-distributed .footer-center i{
-	background-color: #0A0B12;
+	/* background-color: #0A0B12; */
 	color: #ffffff;
 	font-size: 25px;
 	width: 38px;
@@ -756,7 +845,7 @@ p{
 
 .footer-distributed .footer-company-about{
 	/* line-height: 20px; */
-	background-color: #0A0B12;
+	/* background-color: #0A0B12; */
 	font-size: 1rem;
 	font-weight: normal;
 	margin: 0;
