@@ -50,3 +50,18 @@
     background-repeat: no-repeat;
 }
 
+#agendaCard {
+    background-image: url("Assets/investors.jpg");
+}
+
+#speakersCard {
+    background-image: url("Assets/volunteers.jpg");
+}
+
+#whyAttendCard {
+    background-image: url("Assets/investors.jpg");
+}
+
+#FAQCard {
+    background-image: url("Assets/volunteers.jpg");
+}

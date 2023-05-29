@@ -126,7 +126,7 @@ h4 {
 
 #photo1
 {
-    background-image: url("Assets/Slush'd-132.jpg");
+    background-image: url("Assets/slushd\ attendees.jpeg");
 }
 
 #photo2
@@ -139,6 +139,14 @@ h4 {
     #photo1, #photo2
     {
         height: 40vh;
+        width: 80vw;
+        /* height: auto; */
+    }    
+    #for-students-photo, #for-partners-photo
+    {
+        height: 40vh;
+        width: 80vw;
+        /* height: auto; */
     }    
 }
     

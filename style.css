@@ -309,7 +309,42 @@ p{
     {
         font-size: 1em;
     }
-    
+    .position{
+        font-size: 12px;
+    }
+    #about_event{
+        margin: 0.2em;
+    }
+    .new_container{
+        display: none;
+    }
+    .footer-company-about-2 {
+        display:none;
+    }
+    .footer-left a{
+        text-decoration: none;
+        color: gray;
+    }
+    .footer-center a{
+        text-decoration: none;
+        color: gray;
+    }
+    .footer-right a{
+        text-decoration: none;
+        color: gray;
+    }
+    .footer-left .footer-center .footer-right {
+        margin-bottom: 1vh;
+    }
+    .location {
+        display: none;
+    }
+    .footer-distributed {
+        background-color: #333;
+    }
+    #slushlogo {
+        width: 50vw;
+    }
 }
 @media screen and (min-width: 461px) {
     .big
@@ -428,7 +463,7 @@ p{
 }
 
 #bg-image-1{
-    background-image: url("Assets/Slush\'d-77.jpg");
+    background-image: url("Assets/Slush\'d-132.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -446,6 +481,18 @@ p{
     background-image: url("Assets/Slush\'d-109.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#for-students-photo {
+    margin-top: 15vh;
+    background-image: url("Assets/Slush\'d-132.jpg");
+    height: 82vh;
+    width: 50vw;
+
+}
+
+#about_event {
+    margin-top: 10vh; margin-bottom: 15vh; margin-right: 20vw; margin-left: 20vw; text-indent: 3vw;
 }
 
 @media screen and (max-width: 760px) {
@@ -509,14 +556,13 @@ p{
 	.footer-distributed .footer-right{
 		display: block;
 		width: 100%;
-		margin-bottom: 40px;
+		margin-bottom: 10px;
 		text-align: center;
 	}
 
 	.footer-distributed .footer-center i{
 		margin-left: 0;
 	}
-
 }
 
 @media screen and (min-width: 761px) {
@@ -692,6 +738,14 @@ p{
 }
 
 .footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 1rem;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-company-about-2 span{
 	display: block;
 	color:  #ffffff;
 	font-size: 1rem;
