@@ -65,32 +65,93 @@
 #speaker1, #photo-speaker1
 {
     filter: grayscale(100%);
-    background-image: url("Assets/speakers/Ayoola Brimmo.jpeg");
+    background-image: url("Assets/speakers/ayoola.jpeg");
 }
 #speaker2, #photo-speaker2
 {
-    background-image: url("Assets/speakers/Joel Alexander.jpeg")
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/joel.jpeg")
 }
 #speaker3, #photo-speaker3
 {
-    background-image: url("Assets/speakers/Barbara\ Scheck.jpeg");
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/barbara.jpeg");
 }
 #speaker4, #photo-speaker4
 {
-    background-image: url("Assets/speakers/Simran\ Chowdhry.jpeg");
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/simran.jpeg");
 }
 #speaker5, #photo-speaker5
 {
-    background-image: url("Assets/speakers/Bhaskar\ Dasgupta.png");
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/bhaskar.png");
 }
 #speaker6, #photo-speaker6
 {
-    background-image: url("Assets/speakers/Devika\ Speaker\ Photo.jpeg");
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/devika.jpeg");
 }
 #speaker7, #photo-speaker7
 {
-    background-image: url("Assets/speakers/Aman\ Merchant.jpeg");
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/aman.jpeg");
 }
+
+#speaker1_2023, #photo-speaker1_2023
+{
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/peter.jpeg");
+}
+#speaker2_2023, #photo-speaker2_2023
+{
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/elliott.jpeg")
+}
+#speaker3_2023, #photo-speaker3_2023
+{
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/shamim.jpeg");
+}
+#speaker4_2023, #photo-speaker4_2023
+{
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/belarbi.jpeg");
+}
+#speaker5_2023, #photo-speaker5_2023
+{
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/marc.jpeg");
+}
+#speaker6_2023, #photo-speaker6_2023
+{
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/idriss.jpg");
+}
+#speaker7_2023, #photo-speaker7_2023
+{
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/latifa.jpeg");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .speaker-container {
     display: flex;
