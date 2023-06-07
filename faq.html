@@ -112,7 +112,7 @@
                 <a href="#">Agenda</a>
                 <a href="#">FAQ</a>
             </p>
-            <img class="footer-company-name" src="assets/vv.png" style="width: 25px; height: auto; display: inline-block;">
+            <img class="footer-company-name" src="Assets/vv.png" style="width: 25px; height: auto; display: inline-block;">
             <p class="footer-company-name" style="display: inline-block;">Violet Ventures © 2023</p>
         </div>
 
@@ -170,6 +170,23 @@
         </div>
 
     </footer>
+    <script>
+        window.addEventListener("load", function() {
+        const form = document.getElementById('myform');
+        form.addEventListener("submit", function(e) {
+        e.preventDefault();
+        const data = new FormData(form);
+        const action = e.target.action;
+        fetch(action, {
+          method: 'POST',
+          body: data,
+        })
+        .then(() => {
+          alert("You've subscribed — check your inbox shortly for a message!");
+        })
+      });
+    }); 
+        </script>
 
     <script src="cards.js"></script>
     <script src="menu.js"></script>

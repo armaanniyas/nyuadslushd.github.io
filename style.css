@@ -15,7 +15,10 @@ img
     display: block;
 }
 
-mark { background-color:rgba(95,155,248,1); } 
+mark { 
+    background-color:
+    rgba(139, 82, 246, 0.5); 
+    color: white;} 
 
 
 .countdown {
@@ -320,7 +323,7 @@ p{
         display: none;
     }
     .footer-distributed {
-        background-color: #0E2038;
+        background-color: #0A0B12;
     }
     #slushlogo > img {
         margin-left: 10vw;
@@ -406,7 +409,7 @@ p{
         display: none;
     }
     .footer-distributed {
-        background-color: #0E2038;
+        background-color: #17171a;
     }
     #slushlogo > img {
         margin-left: 10vw;
@@ -713,7 +716,7 @@ p{
 
 
 .footer-distributed{
-	background-color: #0E2038;
+	background-color: #17171a;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
