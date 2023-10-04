@@ -101,37 +101,37 @@
 #speaker1_2023, #photo-speaker1_2023
 {
     filter: grayscale(100%);
-    background-image: url("Assets/speakers/peter.jpeg");
+    background-image: url("Assets/speakers/Mira\ Tabbara.jpg");
 }
 #speaker2_2023, #photo-speaker2_2023
 {
     filter: grayscale(100%);
-    background-image: url("Assets/speakers/elliott.jpeg")
+    background-image: url("Assets/speakers/Yedhu\ Gopan.jpeg")
 }
 #speaker3_2023, #photo-speaker3_2023
 {
     filter: grayscale(100%);
-    background-image: url("Assets/speakers/shamim.jpeg");
+    background-image: url("Assets/speakers/Shamim\ Chowdhury.jpeg");
 }
 #speaker4_2023, #photo-speaker4_2023
 {
     filter: grayscale(100%);
-    background-image: url("Assets/speakers/belarbi.jpeg");
+    background-image: url("Assets/speakers/Surabhi\ Shenoy.jpg");
 }
 #speaker5_2023, #photo-speaker5_2023
 {
     filter: grayscale(100%);
-    background-image: url("Assets/speakers/marc.jpeg");
+    background-image: url("Assets/speakers/Daifullah\ Alrajhi.png");
 }
 #speaker6_2023, #photo-speaker6_2023
 {
     filter: grayscale(100%);
-    background-image: url("Assets/speakers/idriss.jpg");
+    background-image: url("Assets/speakers/Maher\ Al\ Kabi.png");
 }
 #speaker7_2023, #photo-speaker7_2023
 {
     filter: grayscale(100%);
-    background-image: url("Assets/speakers/latifa.jpeg");
+    background-image: url("Assets/speakers/reema\ Mohamed.jpg");
 }
 
 #close-speaker1_2023 {
