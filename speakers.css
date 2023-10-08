@@ -75,7 +75,7 @@
 #speaker3, #photo-speaker3
 {
     filter: grayscale(100%);
-    background-image: url("Assets/speakers/barbara.jpeg");
+    background-image: url("Assets/speakers/Barbara.jpeg");
 }
 #speaker4, #photo-speaker4
 {
