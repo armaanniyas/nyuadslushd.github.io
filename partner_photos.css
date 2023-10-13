@@ -23,6 +23,32 @@
     background-image: url("Assets/nyuad_square_logo.jpeg");
 }
 
+#partner6
+{
+    background-image: url("Assets/partners/plug-and-play.png");
+}
+
+#partner7
+{
+    background-image: url("Assets/partners/sharooq.png");
+}
+#partner8
+{
+    background-image: url("Assets/partners/hub71.png");
+}
+#partner9
+{
+    background-image: url("Assets/partners/khalifa\ fund.jpeg");
+}
+#partner10
+{
+    background-image: url("Assets/partners/antler_logo.jpeg");
+}
+#partner11
+{
+    background-image: url("Assets/partners/businessfinland.jpeg");
+}
+
 .partners-container {
     display: inline-block;
 }
