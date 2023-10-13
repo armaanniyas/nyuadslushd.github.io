@@ -1,4 +1,3 @@
-
 $("#speaker1").click(function() {
     $("#overlay-speaker1").toggleClass("hidden");
 });
@@ -60,6 +59,21 @@ $("#close-speaker7").click(function() {
 
 
 
+$("#speaker0_2023").click(function() {
+    $("#overlay-speaker0_2023").toggleClass("hidden");
+});
+
+$("#close-speaker0_2023").click(function() {
+    $("#overlay-speaker0_2023").toggleClass("hidden");
+});
+$("#speaker00_2023").click(function() {
+    $("#overlay-speaker00_2023").toggleClass("hidden");
+});
+
+$("#close-speaker00_2023").click(function() {
+    $("#overlay-speaker00_2023").toggleClass("hidden");
+});
+
 $("#speaker1_2023").click(function() {
     $("#overlay-speaker1_2023").toggleClass("hidden");
 });
@@ -114,4 +128,33 @@ $("#speaker7_2023").click(function() {
 
 $("#close-speaker7_2023").click(function() {
     $("#overlay-speaker7_2023").toggleClass("hidden");
+});
+
+$("#speaker8_2023").click(function() {
+    $("#overlay-speaker8_2023").toggleClass("hidden");
+});
+
+$("#close-speaker8_2023").click(function() {
+    $("#overlay-speaker8_2023").toggleClass("hidden");
+});
+$("#speaker9_2023").click(function() {
+    $("#overlay-speaker9_2023").toggleClass("hidden");
+});
+
+$("#close-speaker9_2023").click(function() {
+    $("#overlay-speaker9_2023").toggleClass("hidden");
+});
+$("#speaker10_2023").click(function() {
+    $("#overlay-speaker10_2023").toggleClass("hidden");
+});
+
+$("#close-speaker10_2023").click(function() {
+    $("#overlay-speaker10_2023").toggleClass("hidden");
+});
+$("#speaker11_2023").click(function() {
+    $("#overlay-speaker11_2023").toggleClass("hidden");
+});
+
+$("#close-speaker11_2023").click(function() {
+    $("#overlay-speaker11_2023").toggleClass("hidden");
 });

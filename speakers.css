@@ -98,10 +98,23 @@
     background-image: url("Assets/speakers/aman.jpeg");
 }
 
+
 #speaker1_2023, #photo-speaker1_2023
 {
     filter: grayscale(100%);
     background-image: url("Assets/speakers/Mira\ Tabbara.jpg");
+}
+
+
+#speaker0_2023, #photo-speaker0_2023
+{
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/peter.jpeg");
+}
+#speaker00_2023, #photo-speaker00_2023
+{
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/marwan.jpeg");
 }
 #speaker2_2023, #photo-speaker2_2023
 {
@@ -133,8 +146,33 @@
     filter: grayscale(100%);
     background-image: url("Assets/speakers/reema\ Mohamed.jpg");
 }
-
+#speaker8_2023, #photo-speaker8_2023
+{
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/yana.png");
+}
+#speaker9_2023, #photo-speaker9_2023
+{
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/mustafa\ abd\ ellatif.jpg");
+}
+#speaker10_2023, #photo-speaker10_2023
+{
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Medea.jpg");
+}
+#speaker11_2023, #photo-speaker11_2023
+{
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Vignesh.jpg");
+}
 #close-speaker1_2023 {
+    float: right;
+}
+#close-speaker00_2023 {
+    float: right;
+}
+#close-speaker0_2023 {
     float: right;
 }
 

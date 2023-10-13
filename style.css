@@ -456,8 +456,8 @@ p{
     .super-overlay-content .section_title{
         text-align: left;
     }
-    #close-speaker1_2023, #close-speaker2_2023, #close-speaker3_2023, #close-speaker4_2023,
-    #close-speaker5_2023, #close-speaker6_2023, #close-speaker7_2023, #close-speaker1,
+    #close-speaker0_2023, #close-speaker00_2023, #close-speaker1_2023, #close-speaker2_2023, #close-speaker3_2023, #close-speaker4_2023,
+    #close-speaker5_2023, #close-speaker6_2023, #close-speaker7_2023,  #close-speaker8_2023, #close-speaker9_2023,  #close-speaker10_2023,  #close-speaker11_2023, #close-speaker1,
     #close-speaker2,  #close-speaker3, #close-speaker4, #close-speaker5,  #close-speaker6, #close-speaker7{
         font-size: 1em;
         margin-top: 0;
@@ -981,7 +981,7 @@ p{
     background: rgba(140,82,246,1);
     color: #FFFFFF;
     transition: width .35s ease-in-out,
-      background .35s ease-in-out;
+    background .35s ease-in-out;
   }
   
   .subscription.done .submit-email {
