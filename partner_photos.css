@@ -20,7 +20,7 @@
 
 #partner5
 {
-    background-image: url("Assets/nyuad_square_logo.jpeg");
+    background-image: url("Assets/partners/nyuad-cdc.png");
 }
 
 #partner6
@@ -48,6 +48,75 @@
 {
     background-image: url("Assets/partners/businessfinland.jpeg");
 }
+#partner12
+{
+    background-image: url("Assets/partners/500\ logo.png");
+}
+#partner13
+{
+    background-image: url("Assets/partners/Finnish-Embassy-Abu-Dhabi-Careers.jpg");
+}
+#partner14
+{
+    background-image: url("Assets/partners/sharjah-investment-and-development-authority-shurooq-logo-vector.png");
+}
+#partner15
+{
+    background-image: url("Assets/partners/nuwa\ logo.png");
+}
+#partner16
+{
+    background-image: url("Assets/partners/baytukum_logo_gb_400.png");
+}
+#partner17
+{
+    background-image: url("Assets/partners/Sheraa+Logo.png");
+}
+#partner18
+{
+    background-image: url("Assets/partners/global\ vent\ logo.jpeg");
+}
+#partner19
+{
+    background-image: url("Assets/partners/Fetchr-logo.jpg");
+}
+#partner20
+{
+    background-image: url("Assets/partners/startglobal\ logo.jpeg");
+}
+#partner21
+{
+    background-image: url("Assets/partners/fuse\ logo.png");
+}
+#partner22
+{
+    background-image: url("Assets/partners/Livewire-Logo.png");
+}
+#partner23
+{
+    background-image: url("Assets/partners/eyouth_logo.jpeg");
+}
+#partner24
+{
+    background-image: url("Assets/partners/by_venture_partners_logo.jpeg");
+}
+#partner25
+{
+    background-image: url("Assets/partners/buildspace-logo.jpeg");
+}
+#partner26
+{
+    background-image: url("Assets/partners/pretiosum-logo.jpeg");
+}
+#partner27
+{
+    background-image: url("Assets/partners/blink-logo.jpeg");
+}
+#partner28
+{
+    background-image: url("Assets/partners/fevafit.png");
+}
+
 
 .partners-container {
     display: inline-block;
@@ -55,11 +124,13 @@
 
 #partners .card
 {
-    width: 17vw;
+    width: 10vw;
     /* background-color: #0A0B12; */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    height: 10vh;
+    margin: 1vw;
 }
 
 #partners-flex-container

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+    <link href="carousel.css" rel="stylesheet">
+    <link href="animations.css" rel="stylesheet">
+    <link href="grids.css" rel="stylesheet">
+    <link href="agenda.css" rel="stylesheet">
+    <link href="speakers.css" rel="stylesheet">
+    <link href="Fonts\stylesheet.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/vv.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <style>
+        body {
+            font-family: "Knockout 51 Middleweight";
+    
+        }
+
+        .vertical-line {
+            /* margin: 0;
+            padding: 0; */
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+            /* height: 100vh; */
+            margin-left: 50vw;
+            width: 2px;
+            height: 200%; /* Extend the line to the bottom */
+            position: absolute;
+            top: 70vh; /* Start from 50vh */
+            background-color: white; /* Change the background color as desired */
+        }
+
+        .circle-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: absolute;
+            top: 60vh; /* Start from the middle (50vh) */
+            left: 50%; /* Center horizontally */
+            transform: translateX(-50%); /* Center horizontally */
+        }
+
+        .circle {
+            width: 20px;
+            height: 20px;
+            background-color: #FF5733; /* Change the circle color as desired */
+            border-radius: 50%;
+            margin: 10vh 0; /* Add 20vh vertical margin to create intervals */
+        }
+        .time {
+            position: absolute;
+            left: -22vw; /* Adjust the distance of the time from the line */
+            color: white;
+            font-size: 2em;
+        }
+
+        .time_label {
+            position: absolute;
+            left: -10vw;
+            top: -5vh;
+            color: rgba(140,82,246,1);
+            font-size: 1.5em;
+        }
+        .column1_event_location {
+            position: absolute;
+            left: 12vw; /* Adjust the distance of the time from the line */
+            top: -5vh;
+            color: rgba(140,82,246,1);
+            font-size: 1.5em;
+        }
+
+        .column2_event_location {
+            position: absolute;
+            left: 24vw; /* Adjust the distance of the time from the line */
+            top: -5vh;
+            color: rgba(140,82,246,1);
+            font-size: 1.5em;
+            white-space: nowrap;
+        }
+
+        .column3_event_location {
+            position: absolute;
+            left: 36vw; /* Adjust the distance of the time from the line */
+            top: -5vh;
+            color: rgba(140,82,246,1);
+            font-size: 1.5em;
+            white-space: nowrap;
+        }
+
+        .column1_event {
+            position: absolute;
+            left: 12vw; /* Adjust the distance of the time from the line */
+            color: white;
+            font-size: 1.2em;
+            white-space: nowrap;
+        }
+        .column2_event {
+            position: absolute;
+            left: 24vw; /* Adjust the distance of the time from the line */
+            color: white;
+            font-size: 1.2em;
+            white-space: nowrap;
+        }
+        .column3_event {
+            position: absolute;
+            left: 36vw; /* Adjust the distance of the time from the line */
+            padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 1.2em;
+            white-space: nowrap;
+
+        }
+    </style>
+</head>
+<body>
+    <header class="desktop">
+        <!-- logos go here -->
+        <a href="home_page.html" style="text-decoration: none">
+        <div style="height: 8vh; display:flex; align-items:center;">
+            <div id="slushlogo">
+                <img src="Assets/slushd_nyuad_final_logo.png">
+            </div>
+        </div>
+        </a>
+        <div class="menu">
+            <a href="home_page.html"><button class="menuitem" ">EVENT</button></a>
+            <a href="speakers.html"><button class="menuitem"  >SPEAKERS</button></a>
+            <a href="why_attend.html"><button class="menuitem" >WHY ATTEND?</button></a>
+            <a href="slushd_2022.html"><button class="menuitem" >SLUSH'D 2022</button></a>
+            <a href="agenda.html"><button class="menuitem" id="currenttab">AGENDA</button></a>
+            <a href="faq.html"><button class="menuitem">FAQ</button></a>
+            <a href="https://form.jotform.com/231682653840358"><button class="menuitem fancybutton">PRE-REGISTER</button></a>
+        </div>
+    </header>
+
+    <header class="mobile">
+        <div id="logos" style="display: flex; align-items:center; margin: 1em;">
+            <div id="slushlogo">
+                <img src="Assets/Slush'd_Logo negative.png">
+            </div>
+            <div id="vv">
+                <img src="Assets/vv.png">
+            </div>
+        </div>
+        <div id="mobimenu">
+            <img id="openmenu" src="Icons/menu-burger.svg">
+            <img id="closemenu" class="hidden" src="Icons/cross.svg">
+        </div>
+
+
+        <div id="fullmenu" class="hidden">
+            <a href="page.html"><div class="mobile-menuitem"> <h1 class="section_subtitle">EVENT</h1></div></a>
+            <a href="speakers_page.html"><div class="mobile-menuitem"><h1 class="section_subtitle">SPEAKERS</h1></div></a>
+            <a href="why_attend.html"><div class="mobile-menuitem"><h1 class="section_subtitle">WHY ATTEND?</h1></div></a>
+            <!-- <a href="page.html#partners">
+                <div class="mobile-menuitem">
+                    <h1 class="section_subtitle">PARTNERS</h1>
+                </div>
+            </a> -->
+            <a href="agenda.html"><div class="mobile-menuitem"><h1 class="section_subtitle">AGENDA</h1></div></a>
+            <a href="faq.html"><div class="mobile-menuitem"><h1 class="section_subtitle">FAQ</h1></div></a>
+            <a href="register_page.html"><div class="mobile-menuitem fbutton"><h1 class="section_subtitle">APPLY</h1></div></a>
+            <!-- https://form.jotform.com/231682653840358 -->
+        </div>
+    </header>
+
+
+    <section id="cover">
+        <div id="cover-title">
+            <!-- <h1 class="super-big">AGENDA</h1>    -->
+            <h1 class="big" margin-top="10vh" padding-top="10vh">AGENDA</h1> 
+        </div>
+        <!-- <h1 class="section_subtitle">From Mission Building to Tangible Next Steps</h1> -->
+    </section>
+
+    <div class="vertical-line"></div>
+    <div class="circle-container">
+       
+        <div class="circle" margin-bottom="5vh">
+            <div class="time"  >08:00-09:00 AM</div>
+            <div class="column1_event"> Check-in </div>
+         
+        </div>
+        <div class="circle" margin-top= "5vh">
+            <div class="time_label" > Time </div>
+            <div class="time" >09:00-09:30 AM</div>
+            <div class="column1_event_location"> Auditorium </div>
+            <div class="column2_event_location"> A6-101A </div>
+            
+            <div class="column3_event_location"> A6-101B </div>
+            <div class="column1_event"> Introduction Launch <br/>
+                + Agenda + Opening </div>
+        </div>
+        <div class="circle">
+            <div class="time">09:30-09:45 AM</div>
+            <div class="column1_event"> Warm-Up Session  <br/> Speaker: Hany Sayed</div>
+        </div>
+        
+        <div class="circle">
+            <div class="time">11:30-12:10 AM</div>
+            <div class="column2_event"> Workshop: <br/> Reflection on the  <br/> past failures  <br/>and mistakes</div>
+            <div class="column3_event"> Workshop: <br/> Creating a Failure <br/>Reflecting journal</div>
+        </div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+</body>
+</html>
