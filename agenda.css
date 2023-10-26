@@ -9,6 +9,120 @@
     margin: 1em auto;
 }
 
+
+body {
+    font-family: "Knockout 51 Middleweight";
+    min-height:385vh;
+    text-align: justify;
+
+}
+
+.vertical-line {
+    /* margin: 0;
+    padding: 0; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* height: 100vh; */
+    margin-left: 50vw;
+    width: 2px;
+    height: 80%; /* Extend the line to the bottom */
+    position: absolute;
+    top: 65vh; /* Start from 50vh */
+    background-color: white; /* Change the background color as desired */
+}
+
+.highlighted {
+    color: rgb(95,155,248);
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+}
+
+.circle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 58.5vh; /* Start from the middle (50vh) */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: #FF5733; /* Change the circle color as desired */
+    border-radius: 50%;
+    margin: 6.5vh 0; /* Add 20vh vertical margin to create intervals */
+}
+.time {
+    position: absolute;
+    left: -22vw; /* Adjust the distance of the time from the line */
+    color: white;
+    font-size: 2em;
+}
+
+.time_label {
+    position: absolute;
+    left: -10vw;
+    top: -5vh;
+    color: rgba(140,82,246,1);
+    font-size: 1.5em;
+}
+.column1_event_location {
+    position: absolute;
+    left: 10vw; /* Adjust the distance of the time from the line */
+    top: -5vh;
+    color: rgba(140,82,246,1);
+    font-size: 1.5em;
+}
+
+.column2_event_location {
+    position: absolute;
+    left: 24vw; /* Adjust the distance of the time from the line */
+    top: -5vh;
+    color: rgba(140,82,246,1);
+    font-size: 1.5em;
+    white-space: nowrap;
+}
+
+.column3_event_location {
+    position: absolute;
+    left: 36vw; /* Adjust the distance of the time from the line */
+    top: -5vh;
+    color: rgba(140,82,246,1);
+    font-size: 1.5em;
+    white-space: nowrap;
+}
+
+.column1_event {
+    position: absolute;
+    left: 10vw; /* Adjust the distance of the time from the line */
+    color: white;
+    font-size: 1.2em;
+    white-space: nowrap;
+}
+.column2_event {
+    position: absolute;
+    left: 24vw; /* Adjust the distance of the time from the line */
+    color: white;
+    font-size: 1.2em;
+    white-space: nowrap;
+}
+.column3_event {
+    position: absolute;
+    left: 36vw; /* Adjust the distance of the time from the line */
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 1.2em;
+    white-space: nowrap;
+
+}
+
 @media screen and (max-width: 760px) {
     .maingrid
     {
@@ -57,6 +171,124 @@
         font-size: 4.5em;
         line-height: 1em;
     }
+    #cover {
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .container_agenda {
+        font-size: 1rem;
+        
+    }
+
+    body {
+        min-height:330vh;
+        
+    }
+
+
+.vertical-line {
+    margin-left: 35vw;
+    width: 2px;
+    height: 80%; /* Extend the line to the bottom */
+    position: absolute;
+    top: 40vh; /* Start from 50vh */
+    background-color: white; /* Change the background color as desired */
+}
+
+.highlighted {
+    color: rgb(95,155,248);
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+}
+
+.circle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 35vh; /* Start from the middle (50vh) */
+    left: 35%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: #FF5733; /* Change the circle color as desired */
+    border-radius: 50%;
+    margin: 5vh 0; /* Add 20vh vertical margin to create intervals */
+}
+.time {
+    position: absolute;
+    left: -25vw; /* Adjust the distance of the time from the line */
+    color: white;
+    /* font-size: 10px; */
+    font-size: 0.8em;
+}
+
+.time_label {
+    position: absolute;
+    left: -20vw;
+    top: -5vh;
+    color: rgba(140,82,246,1);
+    font-size: 1em;
+}
+.column1_event_location {
+    position: absolute;
+    left: 5vw; /* Adjust the distance of the time from the line */
+    top: -5vh;
+    color: rgba(140,82,246,1);
+    font-size: 1em;
+}
+
+.column2_event_location {
+    position: absolute;
+    left: 27vw; /* Adjust the distance of the time from the line */
+    top: -5vh;
+    color: rgba(140,82,246,1);
+    font-size: 1em;
+    white-space: nowrap;
+}
+
+.column3_event_location {
+    position: absolute;
+    left: 44vw; /* Adjust the distance of the time from the line */
+    top: -5vh;
+    color: rgba(140,82,246,1);
+    font-size: 1em;
+    white-space: nowrap;
+}
+
+.column1_event {
+    position: absolute;
+    left: 10vw; /* Adjust the distance of the time from the line */
+    color: white;
+    font-size: 0.6em;
+    white-space: nowrap;
+}
+.column2_event {
+    position: absolute;
+    left: 32vw; /* Adjust the distance of the time from the line */
+    color: white;
+    font-size: 0.6em;
+    white-space: nowrap;
+}
+.column3_event {
+    position: absolute;
+    left: 48vw; /* Adjust the distance of the time from the line */
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 0.6em;
+    white-space: nowrap;
+
+}
+
+
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -65,6 +297,26 @@
         font-size: 6.5em;
         line-height: 1em;
     }
+    #cover {
+        text-align: center;
+        margin-bottom: 5em;
+        margin-top: 5em;
+    }
+    .container_agenda {
+        font-size: 7px;
+        
+    }
+
+
+.vertical-line {
+    margin-left: 35vw;
+    width: 2px;
+    height: 80%; /* Extend the line to the bottom */
+    position: absolute;
+    top: 40vh; /* Start from 50vh */
+    background-color: white; /* Change the background color as desired */
+}
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -72,6 +324,11 @@
     {
         font-size: 7.5em;
         line-height: 1em;
+    }
+    #cover {
+        text-align: center;
+        margin-bottom: 5em;
+        margin-top: 5em;
     }
 }
 
@@ -81,6 +338,7 @@
         font-size: 9em;
         line-height: 1em;
     }
+
 }
 
 @media screen and (min-width: 1441px) {
@@ -131,3 +389,4 @@ p.timetable-time {
     height: auto;
     margin-bottom: 0.5em;
 }
+
