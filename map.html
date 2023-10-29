@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Map</title>
+    <style>
+        /* CSS for the map container and popup */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .map-container {
+            position: relative;
+        }
+
+        .map {
+            max-width: 100%; /* Make the map image responsive */
+            display: block;
+        }
+
+        .popup {
+            position: absolute;
+            display: none;
+            background-color: #fff;
+            padding: 10px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            width: 50%; /* Set popup width to 50% of the viewport width */
+            left: 25%; /* Center the popup horizontally */
+            top: 10%; /* Adjust the vertical position as needed */
+        }
+        #popup-image {
+            width: 100%; /* Make the image inside the popup responsive */
+        }
+        .close-button {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 30px; /* Adjust the size of the circle */
+            height: 30px; /* Adjust the size of the circle */
+            background-color: #ccc;
+            border-radius: 50%; /* Create a circular background */
+            text-align: center;
+            line-height: 30px; /* Center the text vertically */
+            cursor: pointer;
+            font-family: sans-serif; /* Use sans-serif font */
+        }
+    </style>
+</head>
+<body>
+    <div class="map-container">
+        <img class="map" src="./Assets/slushdmap.png" alt="Interactive Map" id="map">
+        <div class="popup" id="popup">
+            <span class="close-button" id="close-button">X</span>
+            <img src="" alt="" id="popup-image">
+        </div>
+    </div>
+
+    <script>
+        // JavaScript for displaying the popup when clicking on the map
+        const map = document.getElementById("map");
+        const popup = document.getElementById("popup");
+        const popupImage = document.getElementById("popup-image");
+        const closeButton = document.getElementById("close-button");
+
+        // Define the clickable areas on the map using relative coordinates (percentages)
+        const mapAreas = [
+            { coords: "30,50,40,55", imageSrc: "./Assets/Slush'd_Logo.png" }, //wr2
+            { coords: "55,45,65,55", imageSrc: "./Assets/investors.jpg" }, // wr1
+            { coords: "30,25,40,45", imageSrc: "./Assets/main_stage.jpg" }, // mainstage
+            { coords: "52,25,55,45", imageSrc: "./Assets/slushd\ attendees.jpeg" }, // coffe breaks
+            // Define more areas using percentages
+        ];
+
+        map.addEventListener("click", function (e) {
+            const xPercent = (e.clientX - map.getBoundingClientRect().left) / map.offsetWidth * 100;
+            const yPercent = (e.clientY - map.getBoundingClientRect().top) / map.offsetHeight * 100;
+
+            for (const area of mapAreas) {
+                const coords = area.coords.split(",");
+                const x1 = parseFloat(coords[0]);
+                const y1 = parseFloat(coords[1]);
+                const x2 = parseFloat(coords[2]);
+                const y2 = parseFloat(coords[3]);
+
+                if (xPercent >= x1 && xPercent <= x2 && yPercent >= y1 && yPercent <= y2) {
+                    popup.style.display = "block";
+                    popupImage.src = area.imageSrc;
+                    break;
+                }
+            }
+        });
+
+        // Close the popup when clicking anywhere on the document
+        document.addEventListener("click", function (e) {
+            if (e.target !== map && e.target !== popup) {
+                popup.style.display = "none";
+            }
+        });
+        // Close the popup when clicking anywhere on the document or the close button
+        document.addEventListener("click", function (e) {
+            if (e.target !== map && e.target !== popup && e.target !== closeButton) {
+                popup.style.display = "none";
+            }
+        });
+    </script>
+</body>
+</html>
