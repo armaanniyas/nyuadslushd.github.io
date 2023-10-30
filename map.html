@@ -4,7 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Map</title>
+    <link href="Fonts\stylesheet.css" rel="stylesheet">
     <style>
+        /* CSS for the main container */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100vh;
+        }
+
+        /* CSS for the header */
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            width: 100vw;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            width: 30vw;
+
+        }
         /* CSS for the map container and popup */
         body {
             display: flex;
@@ -49,32 +74,83 @@
             cursor: pointer;
             font-family: sans-serif; /* Use sans-serif font */
         }
+        .event-list-container {
+            margin-top: 5vh;
+            margin-left: 5vw;
+            margin-right: 5vw;
+        }
+
+        #event-list {
+            list-style: none;
+            padding: 0;
+            font-family: "Knockout 51 Middleweight";
+        }
+
+        #event-list li {
+            background-color: #fce7f3; /* Soft pink background color */
+            border: 1px solid #e0e0e0;
+            padding: 2vh;
+            margin: 2vw 0;
+            font-size: 1rem;
+        }
+        #event-list li.first-event {
+            background-color: #ffcccb; /* Light red background color */
+            font-weight: bold;
+        }
+         /* Make the list responsive and add margins */
+         @media (max-width: 768px) {
+            /* Increase the size of the logo when screen width is less than 480px */
+            .logo {
+                width: 50vw;
+            }
+            .popup {
+                background-color: #fff;
+                padding: 0;
+                border: 0;
+                box-shadow: none;
+            }
+        }
     </style>
 </head>
 <body>
-    <div class="map-container">
-        <img class="map" src="./Assets/slushdmap.png" alt="Interactive Map" id="map">
-        <div class="popup" id="popup">
-            <span class="close-button" id="close-button">X</span>
-            <img src="" alt="" id="popup-image">
+    <div class="container">
+        <div class="header">
+            <img class="logo" src="./Assets/slushd_nyuad_final_logo.png" alt="Logo">
+        </div>
+        <div class="map-container">
+            <img class="map" src="./Assets/slushdmap.png" alt="Interactive Map" id="map">
+            <div class="popup" id="popup">
+                <span class="close-button" id="close-button">X</span>
+                <img src="" alt="" id="popup-image">
+            </div>
+        </div>
+        <div class="event-list-container">
+            <ul id="event-list"></ul>
         </div>
     </div>
+    
 
     <script>
-        // JavaScript for displaying the popup when clicking on the map
+        const eventList = document.getElementById("event-list");
+
+        // Define event data (location, events, etc.)
+        const eventData = {
+            "wr1": ["A6A - 114 - StartAD room", "11:30 am - Workshop: Design Thinking Delve", "12:10 pm - Workshop: Learn to Fail", 
+            "1:45 pm - Workshop: Team Building Rodeo: A Guide to Startup Leadership"],
+            "wr2": ["A6A - 101B", "11:30 am - Workshop: Redefining Failure", "12:10 pm - Workshop: Tools to Navigate Failure",
+            "1:45 pm - Workshop: Common Pitching Pitfalls: Understanding Investors' Expectations", "3:30 pm - Workshop: Legal Circle"],
+            "mainstage": ["A6A - 108 - Auditorium", "9:00 am - Introduction Launch + Agenda + Opening", "9:30 am - Warm-Up Session with Hany Sayed",
+            "9:50 am - Keynote with Peter Vesterbacka", "10:10 am - Keynote with Tiko", " 10:30 am - Fireside Chat with Marwan Alserkal",
+        "11:30 am - Founder Panel", "1:50 pm - Keynote with Maher El kaabi", "2:10 pm - Fireside Chat with Zain Tarawneh",
+    "2:45 pm - Fireside Chat with Latifa Bin Haider", "3:35 pm - Fireside Chat with Kristof Lukovich", "4:05 pm -  VC Panel", "5:00 pm - Keynote with Rami", "5:10 pm - Closing"],
+            "coffee": ["Atrium","11:00 - 11:30 - Coffee Break", "5:30 - 8:00 pm - Networking + Startup Booths"],
+            // Add more location-event pairs as needed
+        };
+
         const map = document.getElementById("map");
         const popup = document.getElementById("popup");
         const popupImage = document.getElementById("popup-image");
         const closeButton = document.getElementById("close-button");
-
-        // Define the clickable areas on the map using relative coordinates (percentages)
-        const mapAreas = [
-            { coords: "30,50,40,55", imageSrc: "./Assets/Slush'd_Logo.png" }, //wr2
-            { coords: "55,45,65,55", imageSrc: "./Assets/investors.jpg" }, // wr1
-            { coords: "30,25,40,45", imageSrc: "./Assets/main_stage.jpg" }, // mainstage
-            { coords: "52,25,55,45", imageSrc: "./Assets/slushd\ attendees.jpeg" }, // coffe breaks
-            // Define more areas using percentages
-        ];
 
         map.addEventListener("click", function (e) {
             const xPercent = (e.clientX - map.getBoundingClientRect().left) / map.offsetWidth * 100;
@@ -88,12 +164,38 @@
                 const y2 = parseFloat(coords[3]);
 
                 if (xPercent >= x1 && xPercent <= x2 && yPercent >= y1 && yPercent <= y2) {
+                    displayEvents(eventData[area.locationName]);
                     popup.style.display = "block";
                     popupImage.src = area.imageSrc;
                     break;
                 }
             }
         });
+
+        function displayEvents(events) {
+            eventList.innerHTML = "";
+
+            if (events && events.length > 0) {
+                    events.forEach((event, index) => {
+                        const li = document.createElement("li");
+                        li.textContent = event;
+                        li.innerHTML = event;
+                        // Apply special styling to the first event
+                        if (index === 0) {
+                            li.classList.add("first-event");
+                        }
+                        eventList.appendChild(li);
+                    });
+            }
+        }
+
+        const mapAreas = [
+            { coords: "30,50,40,55", imageSrc: "./Assets/Slush'd_Logo.png", locationName: "wr2" }, //wr2
+            { coords: "55,45,65,55", imageSrc: "./Assets/investors.jpg", locationName: "wr1" }, // wr1
+            { coords: "30,25,40,45", imageSrc: "./Assets/main_stage.jpg", locationName: "mainstage"  }, // mainstage
+            { coords: "52,25,55,45", imageSrc: "./Assets/slushd\ attendees.jpeg",  locationName: "coffee"  }, // coffe breaks
+            // Add more areas with corresponding location names
+        ];
 
         // Close the popup when clicking anywhere on the document
         document.addEventListener("click", function (e) {
@@ -107,6 +209,7 @@
                 popup.style.display = "none";
             }
         });
+
     </script>
 </body>
 </html>
