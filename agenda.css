@@ -24,7 +24,7 @@ body {
     justify-content: center;
     align-items: center; */
     /* height: 100vh; */
-    margin-left: 50vw;
+    margin-left: 25vw;
     width: 2px;
     height: 80%; /* Extend the line to the bottom */
     position: absolute;
@@ -47,7 +47,7 @@ footer {
     align-items: center;
     position: absolute;
     top: 58.5vh; /* Start from the middle (50vh) */
-    left: 50%; /* Center horizontally */
+    left: 25%; /* Center horizontally */
     transform: translateX(-50%); /* Center horizontally */
 }
 
@@ -60,7 +60,7 @@ footer {
 }
 .time {
     position: absolute;
-    left: -22vw; /* Adjust the distance of the time from the line */
+    left: -12vw; /* Adjust the distance of the time from the line */
     color: white;
     font-size: 2em;
 }
@@ -82,7 +82,7 @@ footer {
 
 .column2_event_location {
     position: absolute;
-    left: 24vw; /* Adjust the distance of the time from the line */
+    left: 35vw; /* Adjust the distance of the time from the line */
     top: -5vh;
     color: rgba(140,82,246,1);
     font-size: 1.5em;
@@ -91,7 +91,7 @@ footer {
 
 .column3_event_location {
     position: absolute;
-    left: 36vw; /* Adjust the distance of the time from the line */
+    left: 55vw; /* Adjust the distance of the time from the line */
     top: -5vh;
     color: rgba(140,82,246,1);
     font-size: 1.5em;
@@ -107,14 +107,14 @@ footer {
 }
 .column2_event {
     position: absolute;
-    left: 24vw; /* Adjust the distance of the time from the line */
+    left: 35vw; /* Adjust the distance of the time from the line */
     color: white;
     font-size: 1.2em;
     white-space: nowrap;
 }
 .column3_event {
     position: absolute;
-    left: 36vw; /* Adjust the distance of the time from the line */
+    left: 55vw; /* Adjust the distance of the time from the line */
     padding: 0;
     margin: 0;
     color: white;
@@ -188,7 +188,7 @@ footer {
 
 
 .vertical-line {
-    margin-left: 35vw;
+    margin-left: 20vw;
     width: 2px;
     height: 80%; /* Extend the line to the bottom */
     position: absolute;
@@ -211,7 +211,7 @@ footer {
     align-items: center;
     position: absolute;
     top: 35vh; /* Start from the middle (50vh) */
-    left: 35%; /* Center horizontally */
+    left: 20%; /* Center horizontally */
     transform: translateX(-50%); /* Center horizontally */
 }
 
@@ -224,7 +224,7 @@ footer {
 }
 .time {
     position: absolute;
-    left: -25vw; /* Adjust the distance of the time from the line */
+    left: -15vw; /* Adjust the distance of the time from the line */
     color: white;
     /* font-size: 10px; */
     font-size: 0.8em;
@@ -232,7 +232,7 @@ footer {
 
 .time_label {
     position: absolute;
-    left: -20vw;
+    left: -10vw;
     top: -5vh;
     color: rgba(140,82,246,1);
     font-size: 1em;
@@ -247,7 +247,7 @@ footer {
 
 .column2_event_location {
     position: absolute;
-    left: 27vw; /* Adjust the distance of the time from the line */
+    left: 32vw; /* Adjust the distance of the time from the line */
     top: -5vh;
     color: rgba(140,82,246,1);
     font-size: 1em;
@@ -256,7 +256,7 @@ footer {
 
 .column3_event_location {
     position: absolute;
-    left: 44vw; /* Adjust the distance of the time from the line */
+    left: 57vw; /* Adjust the distance of the time from the line */
     top: -5vh;
     color: rgba(140,82,246,1);
     font-size: 1em;
@@ -272,14 +272,14 @@ footer {
 }
 .column2_event {
     position: absolute;
-    left: 32vw; /* Adjust the distance of the time from the line */
+    left: 35vw; /* Adjust the distance of the time from the line */
     color: white;
     font-size: 0.6em;
     white-space: nowrap;
 }
 .column3_event {
     position: absolute;
-    left: 48vw; /* Adjust the distance of the time from the line */
+    left: 60vw; /* Adjust the distance of the time from the line */
     padding: 0;
     margin: 0;
     color: white;
