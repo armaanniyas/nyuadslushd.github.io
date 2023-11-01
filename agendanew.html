@@ -15,122 +15,8 @@
     <link href="Fonts\stylesheet.css" rel="stylesheet">
     <link rel="shortcut icon" href="assets/vv.png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-    <!-- <style>
-        body {
-            font-family: "Knockout 51 Middleweight";
-            min-height:350vh;
-            text-align: justify;
-    
-        }
-
-        .vertical-line {
-            /* margin: 0;
-            padding: 0; */
-            /* display: flex;
-            justify-content: center;
-            align-items: center; */
-            /* height: 100vh; */
-            margin-left: 50vw;
-            width: 2px;
-            height: 80%; /* Extend the line to the bottom */
-            position: absolute;
-            top: 65vh; /* Start from 50vh */
-            background-color: white; /* Change the background color as desired */
-        }
-
-        .highlighted {
-            color: rgb(95,155,248);
-        }
-
-        footer {
-            position:absolute;
-            bottom:0;
-        }
-
-        .circle-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            position: absolute;
-            top: 60vh; /* Start from the middle (50vh) */
-            left: 50%; /* Center horizontally */
-            transform: translateX(-50%); /* Center horizontally */
-        }
-
-        .circle {
-            width: 20px;
-            height: 20px;
-            background-color: #FF5733; /* Change the circle color as desired */
-            border-radius: 50%;
-            margin: 5vh 0; /* Add 20vh vertical margin to create intervals */
-        }
-        .time {
-            position: absolute;
-            left: -22vw; /* Adjust the distance of the time from the line */
-            color: white;
-            font-size: 2em;
-        }
-
-        .time_label {
-            position: absolute;
-            left: -10vw;
-            top: -5vh;
-            color: rgba(140,82,246,1);
-            font-size: 1.5em;
-        }
-        .column1_event_location {
-            position: absolute;
-            left: 10vw; /* Adjust the distance of the time from the line */
-            top: -5vh;
-            color: rgba(140,82,246,1);
-            font-size: 1.5em;
-        }
-
-        .column2_event_location {
-            position: absolute;
-            left: 24vw; /* Adjust the distance of the time from the line */
-            top: -5vh;
-            color: rgba(140,82,246,1);
-            font-size: 1.5em;
-            white-space: nowrap;
-        }
-
-        .column3_event_location {
-            position: absolute;
-            left: 36vw; /* Adjust the distance of the time from the line */
-            top: -5vh;
-            color: rgba(140,82,246,1);
-            font-size: 1.5em;
-            white-space: nowrap;
-        }
-
-        .column1_event {
-            position: absolute;
-            left: 10vw; /* Adjust the distance of the time from the line */
-            color: white;
-            font-size: 1.2em;
-            white-space: nowrap;
-        }
-        .column2_event {
-            position: absolute;
-            left: 24vw; /* Adjust the distance of the time from the line */
-            color: white;
-            font-size: 1.2em;
-            white-space: nowrap;
-        }
-        .column3_event {
-            position: absolute;
-            left: 36vw; /* Adjust the distance of the time from the line */
-            padding: 0;
-            margin: 0;
-            color: white;
-            font-size: 1.2em;
-            white-space: nowrap;
-
-        }
-        
-    </style> -->
+    <script src="cards.js"></script>
+    <script src="menu.js"></script>
 </head>
 <body>
     <header class="desktop">
@@ -179,8 +65,8 @@
 
     <section id="cover">
         <div id="cover-title">
-            <!-- <h1 class="super-big">AGENDA</h1>    -->
-            <h1 class="big" margin-top="10vh" padding-top="10vh">AGENDA</h1> 
+            <!-- <h1 class="super-big" style="margin-top:0; margin-bottom:5vh;">AGENDA</h1>    -->
+            <h1 class="big">AGENDA</h1> 
         </div>
         <!-- <h1 class="section_subtitle">From Mission Building to Tangible Next Steps</h1> -->
     </section>
@@ -197,7 +83,7 @@
             <div class="circle" margin-top= "5vh">
                 <div class="time_label" > Time </div>
                 <div class="time" >09:00 </br>09:20 AM</div>
-                <div class="column1_event_location"> Stage Auditorium </div>
+                <div class="column1_event_location"> Stage </div>
                 <div class="column2_event_location"> Builder Room  </div>
                 
                 <div class="column3_event_location"> Genesis Room </div>
@@ -229,14 +115,14 @@
             </div>
             <div class="circle">
                 <div class="time">11:35 AM</div>
-                <div class="column1_event"> Founder Panel<div  class="highlighted"> Resilience in Entrepreneurship:<br/>a journey of choices<br/> and pivotal moments</div> Speakers: Fares Ghandour, <br/>Padmini Gupta,<br/>Mo Ali Yusuf, <br/>Mustafa Abd Ellatif</div>
-                <div class="column2_event">Workshop: <div  class="highlighted">  Design Thinking <br/>Delve  </div> Facilitator: Yedhu Gopan</div>
-                <div class="column3_event">  Workshop: <div  class="highlighted">Redefining <br/> failure </div> Facilitator: Mira Tabbara </div>
+                <div class="column1_event"> Founder Panel<div  class="highlighted"> Resilience in <br/> Entrepreneurship: <br/> a journey of choices<br/> and pivotal moments</div> Speakers: Fares Ghandour, <br/>Padmini Gupta,<br/>Mo Ali Yusuf, <br/>Mustafa Abd Ellatif</div>
+                <div class="column2_event" >Workshop: <a href="" class="open-overlay-button" data-overlay="overlay-workshop1"> <div  class="highlighted" >  Design Thinking <br/>Delve  </div>  </a>Facilitator: Yedhu Gopan</div>
+                <div class="column3_event">  Workshop: <a href="" class="open-overlay-button" data-overlay="overlay-workshop2"><div  class="highlighted">Redefining <br/> failure </div></a> Facilitator: Mira Tabbara </div>
             </div>
             <div class="circle">
                 <div class="time">12:10 </br>01:00 PM</div>
-                <div class="column2_event" >  Workshop: <div  class="highlighted"> Learn to Fail </div> Facilitator: Shamim Chowdhury</div>
-                <div class="column3_event">  Workshop:<div  class="highlighted">  Tools to<br/> Navigate<br/> Failure </div> Facilitator:Rami Aljundi </div>
+                <div class="column2_event" >  Workshop:  <a href="" class="open-overlay-button" data-overlay="overlay-workshop3"> <div  class="highlighted"> Learn to Fail </div> </a>Facilitator: <br/> Shamim Chowdhury</div>
+                <div class="column3_event">  Workshop: <a href="" class="open-overlay-button" data-overlay="overlay-workshop4"><div  class="highlighted">  Tools to<br/> Navigate<br/> Failure </div> </a>Facilitator: Rami Aljundi </div>
             </div>
             <div class="circle">
                 <div class="time">01:00 </br>01:45 PM</div>
@@ -244,9 +130,9 @@
             </div>
             <div class="circle">
                 <div class="time">01:45 </br>03:15 PM</div>
-                <div class="column1_event"> Keynote: <div class="highlighted">The Art of Entrepreneurship<br/> via Venture Studios</div>  Speaker: Maher El Kaabi </div>
-                <div class="column3_event"> Workshop:<div  class="highlighted">  Common Pitching  <br/> Pitfalls: <br/> Understanding  <br/> Investors' <br/> Expectations</div>Facilitators: Louiza Chitour <br/> and Hisham Akhtar </div>
-                <div class="column2_event">Workshop: <div  class="highlighted"> Team Building  <br/> Rodeo: <br/>   A Guide to Startup   <br/> Leadership </div>Failitator: Dr. Ashaia Haroun </div>
+                <div class="column1_event"> Keynote: <div class="highlighted">The Art of <br/>  Entrepreneurship via <br/> Venture Studios</div>  Speaker: Maher El Kaabi </div>
+                <div class="column3_event"> Workshop:<a href="" class="open-overlay-button" data-overlay="overlay-workshop5"><div  class="highlighted">  Common Pitching  <br/> Pitfalls: <br/> Understanding  <br/> Investors' <br/> Expectations</div></a>Facilitators: Louiza Chitour <br/> and Hisham Akhtar </div>
+                <div class="column2_event">Workshop:<a href="" class="open-overlay-button" data-overlay="overlay-workshop6"> <div  class="highlighted"> Team Building  <br/> Rodeo: <br/>   A Guide to Startup   <br/> Leadership </div></a>Failitator:<br/>  Dr. Ashaia Haroun </div>
             </div>
             <div class="circle">
                 <div class="column1_event"> Fireside Chat <div class="highlighted"> Slushtainability: Where </br>  is the world heading?</div>Speaker: Zain Tarawneh </div>
@@ -262,7 +148,7 @@
                 <div class="time">03:30 </br>05:10 PM</div>
                 <div class="column1_event"> Fireside Chat  <div class="highlighted"> A Roadmap for Innovation, </br>Talent and Leadership</div>Speaker: Kristof Lukovich</div>
                 <!-- <div class="column2_event"> <div  class="highlighted"> Workshop:</div>  Legal Circle </div> -->
-                <div class="column3_event">  Workshop: <div  class="highlighted">Legal Circle </div>Facilitator: Suraya Turk</div>
+                <div class="column3_event">  Workshop: <a href="" class="open-overlay-button" data-overlay="overlay-workshop7"><div  class="highlighted">Legal Circle </div></a>Facilitator: Suraya Turk</div>
             </div>
             <div class="circle">
                 <div class="column1_event"> VC Panel<div class="highlighted"> Investing in the future founders</div> Speakers: Daif Alrajhi <br/> Yana Abramova <br/> Louiza Chitour<br/> Jules Chasles </div>
@@ -279,23 +165,156 @@
     
     </div>
 
-
-
-    <div class="super-overlay hidden" id="overlay-speaker1">
-        <div class="super-overlay-content">
-            <div id="photo-speaker1">
-            </div> 
-            <div id="text-speaker1">
-                <button class="cool_button" id="close-speaker1" style="float: right;">CLOSE</button>
-                <h1 class="section_title">Ayoola Brimmo</h1>
-                <div class="desktop-version">
-                    <div style="flex: 1;">
-                    <img src="Assets/speakers/ayoola.jpeg">
-                    
-                </div>
+<div class="super-overlay hidden" id="overlay-workshop1">
+    <div class="super-overlay-content">
+        <div id="photo-speaker11_2023">
+        </div> 
+        <div id="text-speaker11_2023">
+            <button class="cool_button close-button" id="close-overlay-button" data-overlay="overlay-workshop1" style="float: right;">CLOSE</button>
+            <h1 class="section_title">BUILDER ROOM: Design Thinking Delve </h1>
+            <div class="desktop-version">
                 <div style="flex: 1; padding: 0 1em;">
-                <p>Ayoola is an Engineer and social entrepreneur. He co-founded Cycled Technologies in 2016 to deliver waste management products and services that help buildings and municipalities recycle more and reduce logistics expenses. Since then, he has led operations at the company and championed the development of the Cycled Self Sorting SmartBin Technology which earned him an “MIT Technology Reviews Innovator Under 35” recognition. Ayoola also holds a PhD in Mechanical Engineering and by virtue of his scientific exploits, he was involved in the development of the Non-contact Multiphysics Probe, which is a groundbreaking addition to the toolkit of the Human Atlas Project -- the world's most ambitious genetic research project. Prior to co-founding Cycled Technologies, Ayoola served as the Executive Director of Nordoest which was the Middle East’s Representative of Innovation Norway — the Norwegian Government’s most important instrument for innovation and development of Norwegian enterprises. He also served as the Technical Director of Nordic Innovation Hub — a cleantech incubator in Masdar City Abu Dhabi, set up as a collaboration between the five Nordic countries and supported by Nordic Innovation. Ayoola will be speaking in the founder panel about passion and mission building through his venture.
+                    <p> By Yedhu Gopan (Product Manager |Ex-Kitopi | Ex-Aramex)
                     </p>
+                    <p> SKILLS: Market Analysis, Customer Profiling, Ideation, Prototyping...
+                    </p>
+                    <p>
+                        Learn how to identify market opportunities, create customer-centric solutions, and build successful ventures with Yedhu. This hands-on experience will provide the tools and hacks you need in ideation, prototyping, and creative problem-solving, guided by the coach's life experiences and anecdotes. You will explore the various stages of design thinking and apply the concepts to real-world examples.
+                    </p>
+                    <p> Morning 1: 11:30 am to 12:10 pm (40 Minutes)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="super-overlay hidden" id="overlay-workshop2">
+    <div class="super-overlay-content">
+        <div id="photo-speaker11_2023">
+        </div> 
+        <div id="text-speaker11_2023">
+            <button class="cool_button close-button" id="close-overlay-button" data-overlay="overlay-workshop2" style="float: right;">CLOSE</button>
+            <h1 class="section_title">GENESIS ROOM: The Failosophy Mindset: Redefining Failure </h1>
+            <div class="desktop-version">
+                <div style="flex: 1; padding: 0 1em;">
+                    <p>  By Mira Tabbara (Decision Analytics and Wellness Coach)
+                    </p>
+                    <p> SKILLS: Resilience-Building Strategies, Goal-Setting, Stress and Fear Control...
+                    </p>
+                    <p>
+                        Embark on a transformative journey where you'll reframe your understanding of failure, recognizing it as a stepping stone to innovation and success. Through interactive activities, insightful discussions, and practical resilience-building strategies, you'll learn to navigate setbacks with greater self-compassion and a growth mindset. Leave empowered with a personal action plan to boldly turn future failures into opportunities for development and breakthroughs.                    </p>
+                    <p> Morning 1: 11:30 am to 12:10 pm (40 Minutes)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="super-overlay hidden" id="overlay-workshop3">
+    <div class="super-overlay-content">
+        <div id="photo-speaker11_2023">
+        </div> 
+        <div id="text-speaker11_2023">
+            <button class="cool_button close-button" id="close-overlay-button" data-overlay="overlay-workshop3" style="float: right;">CLOSE</button>
+            <h1 class="section_title">BUILDER ROOM: Learn to Fail </h1>
+            <div class="desktop-version">
+                <div style="flex: 1; padding: 0 1em;">
+                    <p> By Shamim Chowdhury (Co-Founder & Chief Empowerment Officer @LETSRISE)
+                    </p>
+                    <p> SKILLS: Mind-Mapping, Pattern-Recognition, Self-Evaluation, Actionability...
+                    </p>
+                    <p>
+                        Join us for a groundbreaking workshop where you'll craft your unique "failure resume," spotlighting your setbacks and the invaluable lessons they taught you. This reflective exercise not only allows you to view failures as catalysts for growth but also inspires resilience as you share and discover the often-overlooked realities of personal journeys. Walk away with a renewed perspective, ready to embrace future challenges fearlessly and to appreciate the hidden opportunities they bring.
+                    </p>
+                    <p> Afternoon 1: 12:10 pm to 1:00 pm (50 Minutes)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="super-overlay hidden" id="overlay-workshop4">
+    <div class="super-overlay-content">
+        <div id="photo-speaker11_2023">
+        </div> 
+        <div id="text-speaker11_2023">
+            <button class="cool_button close-button" id="close-overlay-button" data-overlay="overlay-workshop4" style="float: right;">CLOSE</button>
+            <h1 class="section_title">GENESIS ROOM: Tools to Navigate Failure</h1>
+            <div class="desktop-version">
+                <div style="flex: 1; padding: 0 1em;">
+                    <p> By Rami Aljundi (Assistant Director @ StartAD)
+                    </p>
+                    <p> SKILLS: Time Management, Self-motivation, Delegation...
+                    </p>
+                    <p>
+                        Join us for an engaging workshop led by a seasoned entrepreneur of 14 years who has weathered the highs and lows of the business world. In this session, we'll delve into the entrepreneurial mindset and explore the concept of "failing fast" as seen through the eyes of someone who has experienced it firsthand. Discover the practical strategies, psychological hacks, and management techniques that have not only helped our speaker bounce back but thrive in the face of adversity.
+
+                        The presentation will be followed by an extensive Q&A session with Rami to ask him anything you want or pick his mind on your personal challenges!                    </p>
+                    <p> Afternoon 1: 12:10 pm to 1:00 pm (50 Minutes)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="super-overlay hidden" id="overlay-workshop5">
+    <div class="super-overlay-content">
+        <div id="photo-speaker11_2023">
+        </div> 
+        <div id="text-speaker11_2023">
+            <button class="cool_button close-button" id="close-overlay-button" data-overlay="overlay-workshop5" style="float: right;">CLOSE</button>
+            <h1 class="section_title">GENESIS ROOM: From Idea to Impact: Common Pitching Pitfalls and Perfecting Your Pitch!  </h1>
+            <div class="desktop-version">
+                <div style="flex: 1; padding: 0 1em;">
+                    <p> By Dr. Louiza Chitour & Hisham Akhtar (Directors and Program Managers @Plug & Play)
+                    </p>
+                    <p> SKILLS: Pitching DOs & DON'Ts, Elevator Pitch + Real-Time Application...
+
+
+                    </p>
+                    <p>
+                        Coming up with ideas is the first step of the entrepreneurial process, but crafting a stellar story to communicate them to the world really makes ideas come to life. Not only that, great stories help investors buy into your grand vision. Join us for an interactive workshop around Pitching Pitfalls led by Hisham Akhtar and Dr. Louiza Chitour from Plug and Play, one of the most active early-stage VCs globally - you will not only learn about best practices but actually craft your elevator pitch and present it during the session! Don't miss this opportunity!                    </p>
+                    <p> Afternoon 2: 1:45 pm to 3:15 pm (1h30)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="super-overlay hidden" id="overlay-workshop6">
+    <div class="super-overlay-content">
+        <div id="photo-speaker11_2023">
+        </div> 
+        <div id="text-speaker11_2023">
+            <button class="cool_button close-button" id="close-overlay-button" data-overlay="overlay-workshop6" style="float: right;">CLOSE</button>
+            <h1 class="section_title">BUILDER ROOM: Team Building Rodeo: A Guide to Startup Leadership </h1>
+            <div class="desktop-version">
+                <div style="flex: 1; padding: 0 1em;">
+                    <p> By Dr. Ashaia Haroun (Mentor @Khalifa Fund | Ex-Toyota Management)
+                    </p>
+                    <p> SKILLS: Management, Task-Delegation, KPI-Design, Vision-Setting...
+                    </p>
+                    <p>
+                        How to hack human behavior cues to build a formidable team? How to recognize a truly competent recruit in a mere 30-minute interview? How to empower your teammates into agency and master the art of delegation? How do situations dictate what type of leadership you should showcase? What management tools can you use depending on the stage of your team... Explore all of these questions through interactive discussions, scenario analysis, situational simulations, and more with Dr. Ashaia and draw on his 40-year life experience in management.                    </p>
+                    <p> Afternoon 2: 1:45 pm to 3:15 pm (1h30)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="super-overlay hidden" id="overlay-workshop7">
+    <div class="super-overlay-content">
+        <div id="photo-speaker11_2023">
+        </div> 
+        <div id="text-speaker11_2023">
+            <button class="cool_button close-button" id="close-overlay-button" data-overlay="overlay-workshop7" style="float: right;">CLOSE</button>
+            <h1 class="section_title">BUILDER ROOM: Law & Order: UAE Edition - Navigating the Legal Startup Landscape </h1>
+            <div class="desktop-version">
+                <div style="flex: 1; padding: 0 1em;">
+                    <p> By Suraya Turk (Managing Partner & Lawyer @Legal Circle) 
+                    </p>
+                    <p> SKILLS: Legal Roadmap, Tips & Tricks + Free Advisory...
+                    </p>
+                    <p>
+                        How to register my startup in the UAE? Can I own a startup as a student? What visas do I get access to? Navigate the intricate web of the UAE Legal Landscape, delve into the distinctions between Mainland and Freezone, decipher the nuances of UAE's legal jurisdictions and fundraising, learn how to safeguard your intellectual property, and use our extensive Q&A and Free Consultancy session with Legal Circle to ask all YOUR OWN specific questions.
+                    </p>
+                    <p> Afternoon 3: 3:30 pm to 5 pm (1h30)</p>
                 </div>
             </div>
         </div>
@@ -303,8 +322,6 @@
 </div>
 
 
-
-</body>
 
 <footer class="footer-distributed">
 
@@ -380,4 +397,5 @@
 
 </footer>
 
+</body>
 </html>

@@ -158,7 +158,71 @@ $("#close-speaker11_2023").click(function() {
 
 
 // Overlays for agenda
-$("#close-speaker7").click(function() {
-    $("#overlay-speaker7").toggleClass("hidden");
-});
 
+// document.addEventListener("DOMContentLoaded", function() {
+//     // Function to open the overlay
+//     function openOverlay(overlayId) {
+//         var overlay = document.getElementById(overlayId);
+//         if (overlay) {
+//             overlay.classList.remove("hidden");
+//         }
+//     }
+
+//     // Function to close the overlay
+//     function closeOverlay(overlayId) {
+//         var overlay = document.getElementById(overlayId);
+//         if (overlay) {
+//             overlay.classList.add("hidden");
+//         }
+//     }
+
+//     // Add a click event listener to the "CLOSE" button within the overlay
+//     var closeButton = document.getElementById("close-speaker11_2023");
+//     closeButton.addEventListener("click", function() {
+//         closeOverlay("overlay-speaker11_2023"); // Close the overlay when the button is clicked
+//     });
+
+//     // Add a click event listener to the anchor element with the ID "hello" to open the overlay
+//     var helloLink = document.getElementById("hello");
+//     helloLink.addEventListener("click", function(event) {
+//         event.preventDefault();
+//         openOverlay("overlay-speaker11_2023"); // Open the overlay when the link is clicked
+//     });
+// });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Function to open an overlay by ID
+    function openOverlay(overlayId) {
+        var overlay = document.getElementById(overlayId);
+        if (overlay) {
+            overlay.classList.remove("hidden");
+        }
+    }
+
+    // Function to close an overlay by ID
+    function closeOverlay(overlayId) {
+        var overlay = document.getElementById(overlayId);
+        if (overlay) {
+            overlay.classList.add("hidden");
+        }
+    }
+
+    // Add event listeners to open and close each overlay
+    var helloLinks = document.querySelectorAll(".open-overlay-button");
+    helloLinks.forEach(function(link) {
+        link.addEventListener("click", function(event) {
+            event.preventDefault();
+            var overlayId = link.getAttribute("data-overlay");
+            openOverlay(overlayId);
+        });
+    });
+
+    var closeButtons = document.querySelectorAll(".close-button");
+    closeButtons.forEach(function(button) {
+        button.addEventListener("click", function() {
+            var overlayId = button.getAttribute("data-overlay");
+            closeOverlay(overlayId);
+        });
+    });
+});
