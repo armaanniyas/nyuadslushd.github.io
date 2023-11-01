@@ -13,7 +13,7 @@
 body {
     font-family: "Knockout 51 Middleweight";
     min-height:385vh;
-  
+    
 
 }
 
@@ -78,6 +78,7 @@ footer {
     top: -5vh;
     color: rgba(140,82,246,1);
     font-size: 1.5em;
+    white-space: nowrap;
 }
 
 .column2_event_location {
@@ -97,6 +98,15 @@ footer {
     font-size: 1.5em;
     white-space: nowrap;
 }
+a:link, a:visited{
+    color: white;
+    text-decoration: none!important;
+    
+  }
+
+a:hover {
+    color: rgba(140,82,246,1);
+}
 
 .column1_event {
     position: absolute;
@@ -104,6 +114,7 @@ footer {
     color: white;
     font-size: 1.2em;
     white-space: nowrap;
+    text-decoration: none;
 }
 .column2_event {
     position: absolute;
@@ -111,6 +122,7 @@ footer {
     color: white;
     font-size: 1.2em;
     white-space: nowrap;
+    text-decoration: none;
 }
 .column3_event {
     position: absolute;
@@ -120,6 +132,7 @@ footer {
     color: white;
     font-size: 1.2em;
     white-space: nowrap;
+    text-decoration: none;
 
 }
 

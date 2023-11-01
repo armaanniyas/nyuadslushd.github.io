@@ -56,9 +56,6 @@ $("#close-speaker7").click(function() {
 
 
 
-
-
-
 $("#speaker0_2023").click(function() {
     $("#overlay-speaker0_2023").toggleClass("hidden");
 });
@@ -158,3 +155,10 @@ $("#speaker11_2023").click(function() {
 $("#close-speaker11_2023").click(function() {
     $("#overlay-speaker11_2023").toggleClass("hidden");
 });
+
+
+// Overlays for agenda
+$("#close-speaker7").click(function() {
+    $("#overlay-speaker7").toggleClass("hidden");
+});
+

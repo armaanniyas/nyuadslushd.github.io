@@ -1,3 +1,21 @@
+
+#sponsor1
+{
+    background-image: url("Assets/partners/khalifa\ fund.jpeg");
+}
+#sponsor2
+{
+    background-image: url("Assets/partners/Copy\ of\ Torches-CDC-Wordmark-Violet.png");
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+#sponsor3
+{
+    background-image: url("Assets/partners/businessfinland.fi.png");
+}
+
+
 #partner1
 {
     background-image: url("Assets/partners/Slush_Black_Logo.png");
@@ -7,6 +25,11 @@
 {
     background-image: url("Assets/partners/PLAYBOOK\ Logo.png");
 }
+#partner5
+{
+    background-image: url("Assets/partners/Copy\ of\ Torches-CDC-Wordmark-Violet.png");
+}
+
 
 #partner3
 {
@@ -18,10 +41,6 @@
     background-image: url("Assets/startAD_logo.jpeg");
 }
 
-#partner5
-{
-    background-image: url("Assets/partners/nyuad-cdc.png");
-}
 
 #partner6
 {
@@ -116,6 +135,14 @@
 {
     background-image: url("Assets/partners/fevafit.png");
 }
+#partner29
+{
+    background-image: url("Assets/partners/conjcapitallogo.png");
+}
+#partner30
+{
+    background-image: url("Assets/partners/tigerpaylogo.png");
+}
 
 
 .partners-container {
@@ -140,6 +167,31 @@
     justify-content: center;
     align-items: center;
 }
+
+
+.sponsors-container {
+    display: inline-block;
+}
+
+#sponsors .card
+{
+    width: 30vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20vh;
+    margin: 1vw;
+}
+
+#sponsors-flex-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
 
 .card
 {
@@ -169,10 +221,18 @@
 {
     width: 40vw;
 }
+#sponsors .card
+{
+    width: 40vw;
+}
 }
 
 @media screen and (max-width: 380px){
     #partners .card
+{
+    width: 40vw;
+}
+#sponsors .card
 {
     width: 40vw;
 }
