@@ -297,6 +297,18 @@ p{
     display: flex;
 }
 
+#attendees_uni .attendees-container {
+    display: inline-block;
+}
+
+.attendings-flex-container > img {
+    width: 200px;/*example only*/
+  height: 300px;/*example only*/
+}
+
+.attendings-flex-container > img {
+    max-height: 100%;
+}
 /* 5
 
 
@@ -463,6 +475,9 @@ p{
         display: inline-block;
     }
     #sponsors-flex-container{
+        display: inline-block;
+    }
+    #attendings-flex-container{
         display: inline-block;
     }
     #about_event {

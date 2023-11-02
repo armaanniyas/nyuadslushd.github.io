@@ -15,6 +15,20 @@
     background-image: url("Assets/partners/businessfinland.fi.png");
 }
 
+#attending_uni1 {
+    background-image: url("Assets/partners/UAE-AI-Uni.jpeg");
+}
+#attending_uni2 {
+    background-image: url("Assets/partners/zayed_uni.png");
+}
+#attending_uni3 {
+    background-image: url("Assets/partners/Khalifa-University-logo.jpg");
+}
+#attending_uni4 {
+    background-image: url("Assets/partners/sorbonne.png");
+}
+
+
 
 #partner1
 {
@@ -141,7 +155,7 @@
 }
 #partner30
 {
-    background-image: url("Assets/partners/tigerpaylogo.png");
+    background-image: url("Assets/partners/tigerpay.png");
 }
 #partner31
 {
@@ -151,6 +165,104 @@
 {
     background-image: url("Assets/partners/xare.png");
 }
+#partner33
+{
+    background-image: url("Assets/partners/ATHEON_LOGO.png");
+}
+
+#partner34
+{
+    background-image: url("Assets/partners/phoenix.jpeg");
+}
+
+#partner35
+{
+    background-image: url("Assets/partners/ARE");
+}
+#partner36
+{
+    background-image: url("Assets/partners/braineering-logo.png");
+}
+#partner37
+{
+    background-image: url("Assets/partners/bunn-logo-vector.png");
+}
+#partner38
+{
+    background-image: url("Assets/partners/capmob.jpeg");
+}
+#partner39
+{
+    background-image: url("Assets/partners/chalhoub-group-logo-vector.png");
+}
+#partner40
+{
+    background-image: url("Assets/partners/click_logo.png");
+}
+#partner41
+{
+    background-image: url("Assets/partners/cognit\ dx.png");
+}
+#partner42
+{
+    background-image: url("Assets/partners/dh3.jpeg");
+}
+#partner43
+{
+    background-image: url("Assets/partners/Dystinct-Learners.png");
+}
+#partner44
+{
+    background-image: url("Assets/partners/EY\ logo.png");
+}
+#partner45
+{
+    background-image: url("Assets/partners/fenix.png");
+}
+
+#partner46
+{
+    background-image: url("Assets/partners/Grambell-organisational-logo.webp");
+}
+#partner47
+{
+    background-image: url("Assets/partners/inseyab.png");
+}
+#partner48
+{
+    background-image: url("Assets/partners/KPMG_logo.svg.png");
+}
+#partner49
+{
+    background-image: url("Assets/partners/mempool\ ventures.png");
+}
+
+
+#partner50
+{
+    background-image: url("Assets/partners/north\ star.jpeg");
+}
+
+#partner51
+{
+    background-image: url("Assets/partners/revent.png");
+}
+#partner52
+{
+    background-image: url("Assets/partners/Zealous\ Full\ Logo\ \(Blue\ +\ Black\ Tagline\)\ \(1\).webp");
+}
+#partner53
+{
+    background-image: url("Assets/partners/zywa.png");
+}
+
+
+
+
+
+
+
+
 
 
 .partners-container {
@@ -201,6 +313,29 @@
 }
 
 
+.attendees-container {
+    display: inline-block;
+}
+#attendees_uni .card
+{
+    width: 20vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20vh;
+    margin: 1vw;
+}
+
+#attendings-flex-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+
 .card
 {
     background-size: cover;
@@ -233,6 +368,10 @@
 {
     width: 40vw;
 }
+#attendees_uni .card
+{
+    width: 40vw;
+}
 }
 
 @media screen and (max-width: 380px){
@@ -242,6 +381,9 @@
 }
 #sponsors .card
 {
+    width: 40vw;
+}
+#attendees_uni .card {
     width: 40vw;
 }
 }
