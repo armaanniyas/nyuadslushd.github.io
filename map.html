@@ -13,6 +13,7 @@
             align-items: center;
             justify-content: flex-start;
             height: 100vh;
+            
         }
 
         /* CSS for the header */
@@ -38,6 +39,7 @@
             align-items: center;
             height: 100vh;
             margin: 0;
+            background-color: black;
         }
         .map-container {
             margin-top: 5vh;
@@ -126,7 +128,7 @@
             <img class="logo" src="./Assets/slushd_nyuad_final_logo.png" alt="Logo">
         </div>
         <div class="map-container">
-            <img class="map" src="./Assets/slushdmap.png" alt="Interactive Map" id="map">
+            <img class="map" src="./Assets/slushd_map_wb.png" alt="Interactive Map" id="map">
             <div class="popup" id="popup">
                 <span class="close-button" id="close-button">X</span>
                 <img src="" alt="" id="popup-image">
@@ -143,11 +145,11 @@
 
         // Define event data (location, events, etc.)
         const eventData = {
-            "wr1": ["A6A - 114 - StartAD room", "11:30 am - Workshop: Design Thinking Delve", "12:10 pm - Workshop: Learn to Fail", 
+            "wr1": ["A6-114 - BUILDER ROOM", "11:30 am - Workshop: Design Thinking Delve", "12:10 pm - Workshop: Learn to Fail", 
             "1:45 pm - Workshop: Team Building Rodeo: A Guide to Startup Leadership"],
-            "wr2": ["A6A - 101B", "11:30 am - Workshop: Redefining Failure", "12:10 pm - Workshop: Tools to Navigate Failure",
+            "wr2": ["A6-101 GENESIS ROOM", "11:30 am - Workshop: Redefining Failure", "12:10 pm - Workshop: Tools to Navigate Failure",
             "1:45 pm - Workshop: Common Pitching Pitfalls: Understanding Investors' Expectations", "3:30 pm - Workshop: Legal Circle"],
-            "mainstage": ["A6A - 108 - Auditorium", "9:00 am - Introduction Launch + Agenda + Opening", "9:30 am - Warm-Up Session with Hany Sayed",
+            "mainstage": ["A6-108 - MAIN STAGE", "9:00 am - Opening Remarks by the Vice Chancellor Mariet Westermann", "9:30 am - Warm-Up Session with Hany Sayed",
             "9:50 am - Keynote with Peter Vesterbacka", "10:10 am - Keynote with Tiko", " 10:30 am - Fireside Chat with Marwan Alserkal",
         "11:30 am - Founder Panel", "1:50 pm - Keynote with Maher El kaabi", "2:10 pm - Fireside Chat with Zain Tarawneh",
     "2:45 pm - Fireside Chat with Latifa Bin Haider", "3:35 pm - Fireside Chat with Kristof Lukovich", "4:05 pm -  VC Panel", "5:00 pm - Keynote with Rami", "5:10 pm - Closing"],
@@ -198,10 +200,10 @@
         }
 
         const mapAreas = [
-            { coords: "30,50,40,55", imageSrc: "./Assets/Slush'd_Logo.png", locationName: "wr2" }, //wr2
-            { coords: "55,45,65,55", imageSrc: "./Assets/investors.jpg", locationName: "wr1" }, // wr1
+            { coords: "25,60,35,70", imageSrc: "./Assets/Slush'd_Logo.png", locationName: "wr2" }, //wr2
+            { coords: "55,60,68,77", imageSrc: "./Assets/genesis.jpg", locationName: "wr1" }, // wr1
             { coords: "30,25,40,45", imageSrc: "./Assets/main_stage.jpg", locationName: "mainstage"  }, // mainstage
-            { coords: "52,25,55,45", imageSrc: "./Assets/slushd\ attendees.jpeg",  locationName: "coffee"  }, // coffe breaks
+            { coords: "50,25,65,45", imageSrc: "./Assets/slushd\ attendees.jpeg",  locationName: "coffee"  }, // coffe breaks
             // Add more areas with corresponding location names
         ];
 
