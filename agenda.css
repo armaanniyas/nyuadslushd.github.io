@@ -12,7 +12,7 @@
 
 body {
     font-family: "Knockout 51 Middleweight";
-    min-height:385vh;
+    min-height:420vh;
     
 
 }
@@ -46,7 +46,7 @@ footer {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 58.5vh; /* Start from the middle (50vh) */
+    top: 57vh; /* Start from the middle (50vh) */
     left: 25%; /* Center horizontally */
     transform: translateX(-50%); /* Center horizontally */
 }
@@ -54,9 +54,9 @@ footer {
 .circle {
     width: 20px;
     height: 20px;
-    background-color: #FF5733; /* Change the circle color as desired */
+    background-color: #FCE366; /* Change the circle color as desired */
     border-radius: 50%;
-    margin: 6.5vh 0; /* Add 20vh vertical margin to create intervals */
+    margin: 8vh 0; /* Add 20vh vertical margin to create intervals */
 }
 .time {
     position: absolute;
@@ -201,7 +201,7 @@ a:hover {
     }
 
     body {
-        min-height:330vh;
+        min-height:300vh;
         
     }
 
@@ -211,7 +211,7 @@ a:hover {
     width: 2px;
     height: 80%; /* Extend the line to the bottom */
     position: absolute;
-    top: 40vh; /* Start from 50vh */
+    top: 42vh; /* Start from 50vh */
     background-color: white; /* Change the background color as desired */
 }
 
@@ -237,9 +237,9 @@ footer {
 .circle {
     width: 20px;
     height: 20px;
-    background-color: #FF5733; /* Change the circle color as desired */
+    background-color: #FCE366; /* Change the circle color as desired */
     border-radius: 50%;
-    margin: 5vh 0; /* Add 20vh vertical margin to create intervals */
+    margin: 6vh 0; /* Add 20vh vertical margin to create intervals */
 }
 .time {
     position: absolute;
