@@ -1,5 +1,5 @@
 *{box-sizing: border-box; -webkit-box-sizing: border-box; }
-html, body { height: 100%; }
+html, body { height: 25%; }
 body { margin: 0; font: 16px/1.3 sans-serif; }
 
 /*
@@ -10,7 +10,7 @@ http://stackoverflow.com/a/34696029/383904
 .CSSgal {
 	position: relative;
 	overflow: hidden;
-	height: 100%; /* Or set a fixed height */
+	height: 25%; /* Or set a fixed height */
 }
 
 /* SLIDER */
