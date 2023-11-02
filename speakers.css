@@ -166,6 +166,61 @@
     filter: grayscale(100%);
     background-image: url("Assets/speakers/Fares\ Ghandour-Wamda-color\ -\ Fares\ Ghandour.jpeg");
 }
+#speaker12_2023, #photo-speaker12_2023
+{
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/hany_sayed.png");
+}
+#speaker13_2023, #photo-speaker13_2023
+{
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/rami.jpeg");
+}
+#speaker14_2023, #photo-speaker14_2023
+{
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Ashaia\ Haroun.jpg");
+}
+#speaker15_2023, #photo-speaker15_2023
+{
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Kristof-Lukovich.jpg");
+}
+#speaker16_2023, #photo-speaker16_2023
+{
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Suraya\ Turk\ -\ Ilham\ A.jpg");
+}
+#speaker17_2023, #photo-speaker17_2023
+{
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/latifa.jpeg");
+}
+#speaker18_2023, #photo-speaker18_2023
+{
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/moritz.jpeg");
+}
+#speaker19_2023, #photo-speaker19_2023
+{
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Padmini\ Linkedin\ -\ Padmini\ Gupta.jpg");
+}
+#speaker20_2023, #photo-speaker20_2023
+{
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/zain-tarawneh.jpg");
+}
+#speaker21_2023, #photo-speaker21_2023
+{
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/tarek.jpeg");
+}
+#speaker22_2023, #photo-speaker22_2023
+{
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Mo\ Ali.jpg");
+}
 #close-speaker1_2023 {
     float: right;
 }

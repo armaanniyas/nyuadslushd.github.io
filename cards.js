@@ -156,6 +156,91 @@ $("#close-speaker11_2023").click(function() {
     $("#overlay-speaker11_2023").toggleClass("hidden");
 });
 
+$("#speaker12_2023").click(function() {
+    $("#overlay-speaker12_2023").toggleClass("hidden");
+});
+
+$("#close-speaker12_2023").click(function() {
+    $("#overlay-speaker12_2023").toggleClass("hidden");
+});
+
+$("#speaker13_2023").click(function() {
+    $("#overlay-speaker13_2023").toggleClass("hidden");
+});
+
+$("#close-speaker13_2023").click(function() {
+    $("#overlay-speaker13_2023").toggleClass("hidden");
+});
+
+$("#speaker14_2023").click(function() {
+    $("#overlay-speaker14_2023").toggleClass("hidden");
+});
+
+$("#close-speaker14_2023").click(function() {
+    $("#overlay-speaker14_2023").toggleClass("hidden");
+});
+
+$("#speaker15_2023").click(function() {
+    $("#overlay-speaker15_2023").toggleClass("hidden");
+});
+
+$("#close-speaker15_2023").click(function() {
+    $("#overlay-speaker15_2023").toggleClass("hidden");
+});
+
+$("#speaker16_2023").click(function() {
+    $("#overlay-speaker16_2023").toggleClass("hidden");
+});
+
+$("#close-speaker16_2023").click(function() {
+    $("#overlay-speaker16_2023").toggleClass("hidden");
+});
+
+$("#speaker17_2023").click(function() {
+    $("#overlay-speaker17_2023").toggleClass("hidden");
+});
+
+$("#close-speaker17_2023").click(function() {
+    $("#overlay-speaker17_2023").toggleClass("hidden");
+});
+$("#speaker18_2023").click(function() {
+    $("#overlay-speaker18_2023").toggleClass("hidden");
+});
+
+$("#close-speaker18_2023").click(function() {
+    $("#overlay-speaker18_2023").toggleClass("hidden");
+});
+$("#speaker19_2023").click(function() {
+    $("#overlay-speaker19_2023").toggleClass("hidden");
+});
+
+$("#close-speaker19_2023").click(function() {
+    $("#overlay-speaker19_2023").toggleClass("hidden");
+});
+
+$("#speaker20_2023").click(function() {
+    $("#overlay-speaker20_2023").toggleClass("hidden");
+});
+
+$("#close-speaker20_2023").click(function() {
+    $("#overlay-speaker20_2023").toggleClass("hidden");
+});
+
+$("#speaker21_2023").click(function() {
+    $("#overlay-speaker21_2023").toggleClass("hidden");
+});
+
+$("#close-speaker21_2023").click(function() {
+    $("#overlay-speaker21_2023").toggleClass("hidden");
+});
+
+$("#speaker22_2023").click(function() {
+    $("#overlay-speaker22_2023").toggleClass("hidden");
+});
+
+$("#close-speaker22_2023").click(function() {
+    $("#overlay-speaker22_2023").toggleClass("hidden");
+});
 
 // Overlays for agenda
 

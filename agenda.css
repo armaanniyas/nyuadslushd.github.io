@@ -136,6 +136,10 @@ a:hover {
 
 }
 
+.subtitle {
+    font-size: 0.7em;
+}
+
 @media screen and (max-width: 760px) {
     .maingrid
     {
