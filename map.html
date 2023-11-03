@@ -14,6 +14,7 @@
             justify-content: flex-start;
             height: 100vh;
             
+
         }
 
         /* CSS for the header */
@@ -40,6 +41,13 @@
             height: 100vh;
             margin: 0;
             background-color: black;
+        }
+        .intro-message {
+            text-align: center;
+            font-size: 1.2rem;
+            margin-top: 2vh;
+            color: #fff; /* Choose a text color that contrasts with your header background */
+            font-family: "Knockout 51 Middleweight";
         }
         .map-container {
             margin-top: 5vh;
@@ -99,6 +107,7 @@
             padding: 2vh;
             margin: 2vw 0;
             font-size: 1rem;
+            
         }
         #event-list li.first-event {
             background-color: #ffcccb; /* Light red background color */
@@ -151,6 +160,13 @@
                 border: 0;
                 box-shadow: none;
             }
+        
+            .intro-message {
+                font-size: 1rem; /* Adjust font size for smaller screens */
+                max-width: 80%; /* Set a maximum width for the message */
+                word-wrap: break-word; /* Allow the message to wrap onto the next line */
+            }
+
         }
     </style>
 </head>
@@ -158,6 +174,9 @@
     <div class="container">
         <div class="header">
             <img class="logo" src="./Assets/slushd_nyuad_final_logo.png" alt="Logo">
+        </div>
+        <div class="intro-message">
+            <p>You can click on the different map areas for more details!</p>
         </div>
         <div class="map-container">
             <img class="map" src="./Assets/slushd_map_finall.png" alt="Interactive Map" id="map">
@@ -182,14 +201,14 @@
             "wr2": ["A6-101 GENESIS ROOM", "11:30 am - Workshop: Redefining Failure by Mira Tabbara", "12:10 pm - Workshop: Tools to Navigate Failure by Rami Aljundi",
             "1:45 pm - Workshop: Common Pitching Pitfalls: Understanding Investors' Expectations by Louiza Chitour and Hisham Akhtar (Plug and play)", "3:30 pm - Workshop: Legal Circle by Suraya Turk (Legal Cirlce)"],
             "mainstage": ["A6-108 - MAIN STAGE", "9:00 am - Opening Remarks by the Vice Chancellor Mariet Westermann", "9:20 am - Keynote: Impossible is Nothing by Peter Vesterbacka (Angry Birds)", 
-            "4:40 am - Keynote: Failing Forward: Embracing Failures, Unlocking Wisdom by Tiko (SHOROOQ)", " 10:00 am - Keynote: The Life of Digital by Hany Sayed (D&B Properties)",
+            "4:40 am - Keynote: Failing Forward: Embracing Failures, Unlocking Wisdom by Tarek Fouad (SHOROOQ)", " 10:00 am - Keynote: The Life of Digital by Hany Sayed (D&B Properties)",
             " 10:00 am - Fireside Chat: Unlocking Your True North Star with Marwan Alserkal",
             "11:35 am - Founder Panel: Resilience in Entrepreneurship: a journey of choices and pivotal moments. Panelists: Mo Ali Yusuf (Fuse), Padmini Gupta (XARE),Mustafa Abd Ellatif (EYOUTH)", 
             "12:40 pm - Keynote: Your Time is Now by Moritz Gripp (FUTURIZE)", "1:50 pm - Keynote: The Art of Entrepreneurship via Venture Studios by Maher Al Kaabi", "2:10 pm - Fireside Chat: Slushtainability: Where is the world heading? with Zain Tarawneh (Green Future Project)",
             "2:45 pm - Fireside Chat: The Leap: From Graduate to CEO with Latifa Bin Haider (Baytukum)", "3:35 pm - Fireside Chat: A Roadmap for Innovation, Talent and Leadership with Kristof Lukovich (SHERAA)", 
-            "4:05 pm -  VC Panel: Investing in the future founders. Paneluists: Daif Alrajhi (500Global), Yana Abramova (Pretiosum Ventures), Louiza Chitour (PnP), Jules Chasles (Global Ventures)  ", 
+            "4:05 pm -  VC Panel: Investing in the future founders. Panelists: Daif Alrajhi (500Global), Yana Abramova (Pretiosum Ventures), Louiza Chitour (PnP), Jules Chasles (Global Ventures)  ", 
             "5:10 pm - Closing Speech"],
-            "coffee": ["Coffee Break Area/ Atrium","11:00 - 11:30 am - Coffee Break","3:15 - 3:30 pm - Coffee Break " , "5:30 - 8:00 pm - Networking + Startup Booths"],
+            "coffee": ["Coffee Break Area/ Atrium","11:00 - 11:30 am - Coffee Break","3:15 - 3:30 pm - Coffee Break " , "5:30 - 8:00 pm - Networking and Startup Booths                       "],
             // Add more location-event pairs as needed
         };
 
