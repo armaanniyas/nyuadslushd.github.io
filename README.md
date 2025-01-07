@@ -1,1 +1,1 @@
-# VV Slush 2023 Website
+# NYUAD Slush'D 2025 Website (by Violet Ventures)
