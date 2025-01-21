@@ -37,6 +37,7 @@
     width: 100vw;
     overflow: scroll;
     z-index: 10000;
+    
 }
 
 .super-overlay-content
@@ -221,6 +222,18 @@
     filter: grayscale(100%);
     background-image: url("Assets/speakers/Mo\ Ali.jpg");
 }
+
+#Speaker2025_1, #photo-Speaker2025_1 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/shadad.jpg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_1:hover, #photo-Speaker2025_1:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+
 #close-speaker1_2023 {
     float: right;
 }
