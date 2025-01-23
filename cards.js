@@ -242,13 +242,13 @@ $("#close-speaker22_2023").click(function() {
     $("#overlay-speaker22_2023").toggleClass("hidden");
 });
 
-$("#Speaker2025_1").click(function() {
-    $("#overlay-Speaker2025_1").toggleClass("hidden");
-});
+// $("#Speaker2025_1").click(function() {
+//     $("#overlay-Speaker2025_1").toggleClass("hidden");
+// });
 
-$("#close-Speaker2025_1").click(function() {
-    $("#overlay-Speaker2025_1").toggleClass("hidden");
-});
+// $("#close-Speaker2025_1").click(function() {
+//     $("#overlay-Speaker2025_1").toggleClass("hidden");
+// });
 // Overlays for agenda
 
 // document.addEventListener("DOMContentLoaded", function() {
