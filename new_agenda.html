@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGENDA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+    <link href="carousel.css" rel="stylesheet">
+    <link href="animations.css" rel="stylesheet">
+    <link href="grids.css" rel="stylesheet">
+    <link href="new_agenda.css" rel="stylesheet">
+    <link href="speakers.css" rel="stylesheet">
+    <link href="Fonts\stylesheet.css" rel="stylesheet">
+    <link rel="icon" href="https:\/\/slush.org\/wp-content\/uploads\/2023\/05\/slush-s-icon.jpeg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="cards.js"></script>
+    <script src="menu.js"></script>
+</head>
+<style>
+    body {
+    font-family: "Knockout 51 Middleweight";
+    min-height:420vh;
+    
+
+}
+</style>
+<body>
+    <header class="desktop">
+        <!-- logos go here -->
+        <a href="index.html" style="text-decoration: none">
+        <div style="height: 8vh; display:flex; align-items:center;">
+            <div id="slushlogo">
+                <img src="Assets/slushd_nyuad_final_logo.png">
+            </div>
+        </div>
+        </a>
+        <div class="menu">
+            <a href="index.html"><button class="menuitem" ">EVENT</button></a>
+            <a href="speakers.html"><button class="menuitem" >SPEAKERS</button></a>
+            <a href="why_attend.html"><button class="menuitem">WHY ATTEND?</button></a>
+            <a href="slushd_2022.html"><button class="menuitem">SLUSH'D 2022</button></a>
+            <a href="agenda.html"><button class="menuitem" id="currenttab" >AGENDA</button></a>
+            <a href="faq.html"><button class="menuitem">FAQ</button></a>
+            <a href="https://form.jotform.com/233022636221443"><button class="menuitem fancybutton">REGISTER</button></a>
+        </div>
+    </header>
+
+    <header class="mobile">
+        <a href="index.html" style="text-decoration: none">
+        <!-- <div id="logos" style="display: flex; align-items:center; "> -->
+            <div id="slushlogo">
+                <img src="Assets/slushd_nyuad_final_logo.png">
+            </div>
+        <!-- </div> -->
+        </a>
+        <div id="mobimenu">
+            <img id="openmenu" src="Icons/menu-burger.svg">
+            <img id="closemenu" class="hidden" src="Icons/cross.svg">
+        </div>
+
+        <div id="fullmenu" class="hidden">
+            <a href="index.html"><div class="mobile-menuitem"> <h1 class="section_subtitle">EVENT</h1></div></a>
+            <a href="speakers.html"><div class="mobile-menuitem"><h1 class="section_subtitle">SPEAKERS</h1></div></a>
+            <a href="why_attend.html"><div class="mobile-menuitem"><h1 class="section_subtitle">WHY ATTEND?</h1></div></a>
+            <a href="slushd_2022.html"><div class="mobile-menuitem"><h1 class="section_subtitle">SLUSH'D 2022</h1></div></a>
+            <a href="agenda.html"><div class="mobile-menuitem"><h1 class="section_subtitle">AGENDA</h1></div></a>
+            <a href="faq.html"><div class="mobile-menuitem"><h1 class="section_subtitle">FAQ</h1></div></a>
+            <a href="https://form.jotform.com/233022636221443"><div class="mobile-menuitem fbutton"><h1 class="section_subtitle">REGISTER</h1></div></a>
+        </div>
+    </header>
+
+    <section id="cover" style = "margin-top: -2vh;">
+        <div id="cover-title">
+            <!-- <h1 class="super-big" style="margin-top:0; margin-bottom:5vh;">AGENDA</h1>    -->
+            <h1 class="big">AGENDA</h1> 
+        </div>
+        <!-- <h1 class="section_subtitle">From Mission Building to Tangible Next Steps</h1> -->
+    </section>
+
+
+    <div class="agenda-container">
+        <!-- <div class="agenda-header">
+            <h1>NYUAD Slush'D Agenda</h1>
+        </div> -->
+
+
+        <div class="agenda-subheader">
+            <h2>Welcoming Ceremony</h2>
+        </div>
+
+        <div class="timeline">
+            <!-- Event 1 -->
+            <div class="event">
+                <div class="event-circle"></div>
+                <div class="event-content">
+                    <div class="event-time">9:00 AM - 9:05 AM</div>
+                    <div class="event-title">Welcome to NYUAD Slush'D!</div>
+                    <div class="event-speakers">Speakers: <span>Serhii Durytskyi, Aknur Kassym</span></div>
+                </div>
+            </div>
+
+            <!-- Event 2 -->
+            <div class="event">
+                <div class="event-circle"></div>
+                <div class="event-content">
+                    <div class="event-time">9:07 AM - 9:15 AM</div>
+                    <div class="event-title">Keynote from Vice Chancellor</div>
+                    <div class="event-speakers">Speaker: <span>Fabio Piano, VC at NYU Abu Dhabi</span></div>
+                </div>
+            </div>
+
+            <!-- Event 3 -->
+            <div class="event">
+                <div class="event-circle"></div>
+                <div class="event-content">
+                    <div class="event-time">9:17 AM - 9:32 AM</div>
+                    <div class="event-title">Special Guest Keynote</div>
+                    <div class="event-speakers">Speakers: <span>H.E. Omar Saif Ghobash, H.E. Alia Bint Abdulla Al Mazrouei</span></div>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="event-circle"></div>
+                <div class="event-content">
+                    <div class="event-time">9:34 AM - 9:40 AM</div>
+                    <div class="event-title">Special Guest Keynote</div>
+                    <div class="event-speakers">Speaker: <span>Tuula Yrjölä, Ambassador of Finland in the UAE</span></div>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="event-circle"></div>
+                <div class="event-content">
+                    <div class="event-time">9:42 AM - 9:57 AM</div>
+                    <div class="event-title">Platinum Sponsor Keynote: Nokia</div>
+                    <div class="event-speakers">Speaker: <span>Danial Mausoof, Vice President, Technology, Products and Services, Nokia
+                        Rima Manna, VP of Network Infrastructure, Middle East
+                        </span></div>
+                </div>
+            </div>
+
+            <div class="agenda-subheader">
+                <h2>Slush'D Part I</h2>
+            </div>
+            <!-- More events can be added in a similar format -->
+
+            
+                <!-- Event 1 -->
+                <div class="event">
+                    <div class="event-circle"></div>
+                    <div class="event-content">
+                        <div class="event-time">9:00 AM - 9:05 AM</div>
+                        <div class="event-title">Fireside Chat: Daring to Dream: UAE as a Future for Entrepreneurs</div>
+                        <div class="event-speakers">Speaker: <span>H.E. Alia Bint Abdulla Al Mazrouei, Minister of State for Entrepreneurship</span></div>
+                    </div>
+                </div>
+    
+                <!-- Event 2 -->
+                
+    
+                <!-- Event 3 -->
+                <div class="event">
+                    <div class="event-circle"></div>
+                    <div class="event-content">
+                        <div class="event-time">10:30 AM - 10:55 AM</div>
+                        <div class="event-title">Fireside Chat: TBD, Powered by Google</div>
+                        <div class="event-speakers">Speaker: <span>Christophe Zoghbi (Founder & CEO, ZAKA)</span></div>
+                    </div>
+                </div>
+
+                <div class="event">
+                    <div class="event-circle"></div>
+                    <div class="event-content">
+                        <div class="event-time">11:00 AM - 11:25 AM</div>
+                        <div class="event-title">Panel: Unicorn: Building a Billion Dollar Journey</div>
+                        <div class="event-speakers">Speaker: <span>Bassel Al Nahlaoui (CBO, Careem)
+                        </span></div>
+                    </div>
+                </div>
+
+
+               
+                    <!-- Event 1 -->
+                    <div class="event">
+                        <div class="event-circle"></div>
+                        <div class="event-content">
+                            <div class="event-time">11:30 AM - 11:55 AM</div>
+                            <div class="event-title">Fireside Chat: Backing the Future: Key Trends and Challenges in AI Startup Funding</div>
+                            <div class="event-speakers">Speakers: <span>Eddy Farhat (Executive Director, e& Capital) and 
+                                Reda Nidhakou (Head of VentureONE)
+                                </span></div>
+                        </div>
+                    </div>
+        
+                    <!-- Event 2 -->
+                    <div class="event">
+                        <div class="event-circle"></div>
+                        <div class="event-content">
+                            <div class="event-time">12:00 PM - 12:25 PM</div>
+                            <div class="event-title">Panel: Can You Learn to Be a Founder? The Skills You Need</div>
+                            <div class="event-speakers">Speakers: <span>Faisal Iqbal (Head of Innovation Programs, AWS Middle East & Africa)
+                                Rauda Al Dhaheri (Head of the Research Center, ADGMA)
+                                Stern at NYUAD Faculty
+                                </span></div>
+                        </div>
+                    </div>
+        
+                    <!-- Event 3 -->
+                    <div class="event">
+                        <div class="event-circle"></div>
+                        <div class="event-content">
+                            <div class="event-time">12:30 PM  - 1:30 PM</div>
+                            <div class="event-title">Student Startup Showcase and Lunch</div>
+                        </div>
+                    </div>
+
+
+                    <div class="agenda-subheader">
+                        <h2>Slush'D Part II</h2>
+                    </div>
+
+
+                    
+                        <!-- Event 1 -->
+                        <div class="event">
+                            <div class="event-circle"></div>
+                            <div class="event-content">
+                                <div class="event-time">1:30 PM - 1:55 PM</div>
+                                <div class="event-title">Panel: AI Revolution: Founders Leading the Charge</div>
+                                <div class="event-speakers">Speakers: <span>Muhammad Khalid (AIREV Holding, OnDemand, invested by G42)
+                                    Hao Li (MBZUAI, Founder of Pinscreen)
+                                    Alok Kumar (CEO of CozmoX AI, backed by YC)
+                                    </span></div>
+                            </div>
+                        </div>
+            
+                        <!-- Event 2 -->
+                        <div class="event">
+                            <div class="event-circle"></div>
+                            <div class="event-content">
+                                <div class="event-time">2:00 PM - 2:25 PM</div>
+                                <div class="event-title">Presentation: Will AI Take My Job? Job Search Unlocked</div>
+                                <div class="event-speakers">Speaker: <span>Maimuna Rashid (CEO of Pupilar, Forbes 30u30)
+                                    Aqsa Khalifa (COO of Pupilar, Forbes 30u30)
+                                    </span></div>
+                            </div>
+                        </div>
+            
+                        <!-- Event 3 -->
+                        <div class="event">
+                            <div class="event-circle"></div>
+                            <div class="event-content">
+                                <div class="event-time">2:30 PM - 2:55 PM</div>
+                                <div class="event-title">Panel: AI in Healthcare</div>
+                                <div class="event-speakers">Speakers: <span>Moritz Gripp (Futurize)
+                                    Louiza Chitour (10FT Ventures)
+                                    Farah Emad Shamout (NYUAD, Clinical Artificial Intelligence Lab)
+                                    </span></div>
+                            </div>
+                        </div>
+
+
+                       
+                            <!-- Event 1 -->
+                            <div class="event">
+                                <div class="event-circle"></div>
+                                <div class="event-content">
+                                    <div class="event-time">3:00 PM - 3:25 PM</div>
+                                    <div class="event-title">Presentation: Can Machines Think? Unlocking Reasoning in LLMs</div>
+                                    <div class="event-speakers">Speakers: <span>Keith W. Ross</span></div>
+                                </div>
+                            </div>
+                
+                            <!-- Event 2 -->
+                            <div class="event">
+                                <div class="event-circle"></div>
+                                <div class="event-content">
+                                    <div class="event-time">3:30 PM - 3:55 PM</div>
+                                    <div class="event-title">Panel: AI in Fintech</div>
+                                    <div class="event-speakers">Speaker: <span>Bilal Abou Diab, Co-Founder at Vault</span></div>
+                                </div>
+                            </div>
+                
+                            <!-- Event 3 -->
+                            <div class="event">
+                                <div class="event-circle"></div>
+                                <div class="event-content">
+                                    <div class="event-time">4:00 PM - 4:25 PM</div>
+                                    <div class="event-title">Presentation: The Future of AI in Aerospace Systems</div>
+                                    <div class="event-speakers">Speakers: <span>Roberto Sabatini, Khalifa University, Chair of the Aerospace Research Strategy Committee</span></div>
+                                </div>
+                            </div>
+
+
+                           
+                                <!-- Event 1 -->
+                                <div class="event">
+                                    <div class="event-circle"></div>
+                                    <div class="event-content">
+                                        <div class="event-time">4:30 PM - 4:55 PM</div>
+                                        <div class="event-title">Fireside Chat: Arabic LLM: Soaring Innovations</div>
+                                        <div class="event-speakers">Speakers: <span>Hakim Hacid (Chief Researcher, TII, FalconLLM)</span></div>
+                                    </div>
+                                </div>
+                    
+                                <!-- Event 2 -->
+                                <div class="event">
+                                    <div class="event-circle"></div>
+                                    <div class="event-content">
+                                        <div class="event-time">9:07 AM - 9:15 AM</div>
+                                        <div class="event-title">Closing Notes for Part II</div>
+                                        <div class="event-speakers">Speakers: <span>Violet Ventures Team</span></div>
+                                    </div>
+                                </div>
+
+
+
+                    <div class="agenda-subheader">
+                        <h2>Slush'D Part III</h2>
+                    </div>
+
+                    <!-- Event 1 -->
+                    <div class="event">
+                        <div class="event-circle"></div>
+                        <div class="event-content">
+                            <div class="event-time">5:00 PM - 5:10 PM</div>
+                            <div class="event-title">Pitch Competition: Opening Words</div>
+                            <div class="event-speakers">Speakers: <span>Judges</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Event 2 -->
+                    <div class="event">
+                        <div class="event-circle"></div>
+                        <div class="event-content">
+                            <div class="event-time">5:10 PM - 6:00 PM</div>
+                            <div class="event-title">Pitches</div>
+                        </div>
+                    </div>
+                    <!-- <div class="event"></div>
+                            <div class="event-circle"></div>
+                            <div class="event-content">
+                                <div class="event-time">5:00 PM - 5:10 PM</div>
+                                <div class="event-title">See you next time: Closing remarks!</div>
+                                <div class="event-speakers">Speakers: <span>Serhii Durytskyi, Aknur Kassym
+                                    </span></div>
+                            </div>
+                    </div>  -->
+                    
+                
+        </div>
+    </div>
+
+
+
+
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+         <div id="slushlogo1">
+            <img src="Assets/slushd_nyuad_final_logo.png">
+        </div>
+
+        <p class="footer-links" style="font-size:1em ">
+            <a href="#" class="link-1">Event</a>
+            <a href="speakers.html">Speakers</a>
+            <!-- <a href="">Partners</a> -->
+            <a href="why_attend.html">Why Attend?</a>
+            <a href="slushd_2022.html">Slush'D 2022</a>
+            <a href="agenda.html">Agenda</a>
+            <a href="faq.html">FAQ</a>
+        </p>
+        <img class="footer-company-name" src="Assets/vv.png" style="width: 25px; height: auto; display: inline-block;">
+        <p class="footer-company-name" style="display: inline-block;">Violet Ventures © 2023</p>
+    </div>
+
+    <div class="footer-center" style = "font-size: 15px;">
+
+        <div class="city">
+            <p> Abu Dhabi, UAE</p>
+        </div>
+
+        <div class="place">
+            <p>New York University Abu Dhabi</p>
+        </div>
+        <p class="footer-company-about" style="margin-top: 4vh; margin-bottom: 0;">
+            Learn More About Slush'D:
+        </p>
+        <div>
+            <p class="footer-links" style="font-size: 1em; margin: 0;">
+                <a href="https://www.slush.org/slushd/" class="link-1">Website</a>
+                <a href="https://www.instagram.com/nyuad_slushd/">Instagram</a>
+                <!-- <a href="#">LinkedIn</a> -->
+            </p>
+        </div>
+        
+    </div>
+
+    <div class="footer-right">
+
+        <p class="footer-company-about" style="margin-top: 0; margin-bottom: 0;">
+            Learn More About Violet Ventures:
+        </p>
+        <div>
+            <p class="footer-links" style="font-size: 1em; margin: 0;">
+                <a href="https://podcasters.spotify.com/pod/show/violet-ventures-nyu" class="link-1">Podcast</a>
+                <a href="https://www.instagram.com/vvioletventures/">Instagram</a>
+                <a href="https://www.linkedin.com/company/violetventures/mycompany/">LinkedIn</a>
+            </p>
+        </div>
+
+        <p class="footer-company-about" id="newsletter" style="margin-top: 2vh; margin-bottom: 0;">
+            <span>Subscripe to Violet Ventures Newsletter:</span>
+        </p>
+        <div class="new_container">
+            <div class="new_content">
+              <form class="subscription">
+                <input class="add-email" type="email" placeholder="subscribe@me.now">
+                <button class="submit-email" type="button">
+                  <span class="before-submit">Subscribe</span>
+                  <span class="after-submit">Thank you for subscribing!</span>
+                 </button>
+              </form>
+            </div>
+          </div>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
