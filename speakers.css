@@ -226,12 +226,6 @@
 #Speaker2025_1, #photo-Speaker2025_1 {
     filter: grayscale(100%);
     background-image: url("Assets/speakers/Deeb\ Aljundi.JPG");
-    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-
-#Speaker2025_1:hover, #photo-Speaker2025_1:hover {
-    filter: none;
-    transform: scale(1.05);
 }
 
 #Speaker2025_2, #photo-Speaker2025_2 {
