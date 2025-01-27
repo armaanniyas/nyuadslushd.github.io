@@ -242,13 +242,168 @@ $("#close-speaker22_2023").click(function() {
     $("#overlay-speaker22_2023").toggleClass("hidden");
 });
 
-// $("#Speaker2025_1").click(function() {
-//     $("#overlay-Speaker2025_1").toggleClass("hidden");
-// });
+$("#Speaker2025_1").click(function() {
+    $("#overlay-Speaker2025_1").toggleClass("hidden");
+});
 
-// $("#close-Speaker2025_1").click(function() {
-//     $("#overlay-Speaker2025_1").toggleClass("hidden");
-// });
+$("#close-Speaker2025_1").click(function() {
+    $("#overlay-Speaker2025_1").toggleClass("hidden");
+});
+$("#Speaker2025_2").click(function() {
+    $("#overlay-Speaker2025_2").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_2").click(function() {
+    $("#overlay-Speaker2025_2").toggleClass("hidden");
+});
+$("#Speaker2025_3").click(function() {
+    $("#overlay-Speaker2025_3").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_3").click(function() {
+    $("#overlay-Speaker2025_3").toggleClass("hidden");
+});
+$("#Speaker2025_4").click(function() {
+    $("#overlay-Speaker2025_4").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_4").click(function() {
+    $("#overlay-Speaker2025_4").toggleClass("hidden");
+});
+$("#Speaker2025_5").click(function() {
+    $("#overlay-Speaker2025_5").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_5").click(function() {
+    $("#overlay-Speaker2025_5").toggleClass("hidden");
+});
+$("#Speaker2025_6").click(function() {
+    $("#overlay-Speaker2025_6").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_6").click(function() {
+    $("#overlay-Speaker2025_6").toggleClass("hidden");
+});
+$("#Speaker2025_7").click(function() {
+    $("#overlay-Speaker2025_7").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_7").click(function() {
+    $("#overlay-Speaker2025_7").toggleClass("hidden");
+});
+$("#Speaker2025_8").click(function() {
+    $("#overlay-Speaker2025_8").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_8").click(function() {
+    $("#overlay-Speaker2025_8").toggleClass("hidden");
+});
+$("#Speaker2025_9").click(function() {
+    $("#overlay-Speaker2025_9").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_9").click(function() {
+    $("#overlay-Speaker2025_9").toggleClass("hidden");
+});
+$("#Speaker2025_10").click(function() {
+    $("#overlay-Speaker2025_10").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_10").click(function() {
+    $("#overlay-Speaker2025_10").toggleClass("hidden");
+});
+$("#Speaker2025_11").click(function() {
+    $("#overlay-Speaker2025_11").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_11").click(function() {
+    $("#overlay-Speaker2025_11").toggleClass("hidden");
+});
+$("#Speaker2025_12").click(function() {
+    $("#overlay-Speaker2025_12").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_12").click(function() {
+    $("#overlay-Speaker2025_12").toggleClass("hidden");
+});
+$("#Speaker2025_13").click(function() {
+    $("#overlay-Speaker2025_13").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_13").click(function() {
+    $("#overlay-Speaker2025_13").toggleClass("hidden");
+});
+$("#Speaker2025_14").click(function() {
+    $("#overlay-Speaker2025_14").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_14").click(function() {
+    $("#overlay-Speaker2025_14").toggleClass("hidden");
+});
+$("#Speaker2025_15").click(function() {
+    $("#overlay-Speaker2025_15").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_15").click(function() {
+    $("#overlay-Speaker2025_15").toggleClass("hidden");
+});
+$("#Speaker2025_16").click(function() {
+    $("#overlay-Speaker2025_16").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_16").click(function() {
+    $("#overlay-Speaker2025_16").toggleClass("hidden");
+});
+$("#Speaker2025_17").click(function() {
+    $("#overlay-Speaker2025_17").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_17").click(function() {
+    $("#overlay-Speaker2025_17").toggleClass("hidden");
+});
+$("#Speaker2025_18").click(function() {
+    $("#overlay-Speaker2025_18").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_18").click(function() {
+    $("#overlay-Speaker2025_18").toggleClass("hidden");
+});
+$("#Speaker2025_19").click(function() {
+    $("#overlay-Speaker2025_19").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_19").click(function() {
+    $("#overlay-Speaker2025_19").toggleClass("hidden");
+});
+$("#Speaker2025_20").click(function() {
+    $("#overlay-Speaker2025_20").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_20").click(function() {
+    $("#overlay-Speaker2025_20").toggleClass("hidden");
+});
+$("#Speaker2025_21").click(function() {
+    $("#overlay-Speaker2025_21").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_21").click(function() {
+    $("#overlay-Speaker2025_21").toggleClass("hidden");
+});
+$("#Speaker2025_22").click(function() {
+    $("#overlay-Speaker2025_22").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_22").click(function() {
+    $("#overlay-Speaker2025_22").toggleClass("hidden");
+});
+$("#Speaker2025_23").click(function() {
+    $("#overlay-Speaker2025_23").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_23").click(function() {
+    $("#overlay-Speaker2025_23").toggleClass("hidden");
+});
+
 // Overlays for agenda
 
 // document.addEventListener("DOMContentLoaded", function() {

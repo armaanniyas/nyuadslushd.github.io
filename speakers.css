@@ -230,16 +230,231 @@
     background-image: url("Assets/speakers/Mo\ Ali.jpg");
 }
 
-/* #Speaker2025_1, #photo-Speaker2025_1 {
+#Speaker2025_1, #photo-Speaker2025_1 {
     filter: grayscale(100%);
-    background-image: url("Assets/speakers/shadad.jpg");
+    background-image: url("Assets/speakers/Deeb\ Aljundi.JPG");
+}
+
+#Speaker2025_2, #photo-Speaker2025_2 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Ashwin\ Joshi.jpg");
     transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
-#Speaker2025_1:hover, #photo-Speaker2025_1:hover {
+#Speaker2025_2:hover, #photo-Speaker2025_2:hover {
     filter: none;
     transform: scale(1.05);
-} */
+}
+#Speaker2025_3, #photo-Speaker2025_3 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Danial\ Mausoof.png");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_3:hover, #photo-Speaker2025_3:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_4, #photo-Speaker2025_4 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Rima\ Manna.jpg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_4:hover, #photo-Speaker2025_4:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_5, #photo-Speaker2025_5 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Yedhu\ Gopan.jpeg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_5:hover, #photo-Speaker2025_5:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_6, #photo-Speaker2025_6 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/photo2\ -\ Keith\ Ross.jpg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_6:hover, #photo-Speaker2025_6:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_7, #photo-Speaker2025_7 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Bashar_pic\ -\ Bashar\ Alhafni.jpg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_7:hover, #photo-Speaker2025_7:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_8, #photo-Speaker2025_8 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Updated\ Linkedin\ -\ Anne\ Salmela.jpg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_8:hover, #photo-Speaker2025_8:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_9, #photo-Speaker2025_9 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Eddy_photo_Head\ -\ Eddy\ Farhat.jpg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_9:hover, #photo-Speaker2025_9:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_10, #photo-Speaker2025_10 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Tuula.png");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_10:hover, #photo-Speaker2025_10:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_11, #photo-Speaker2025_11 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/fs999_\ 5_1mb\ -\ Farah\ Shamout.jpg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_11:hover, #photo-Speaker2025_11:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_12, #photo-Speaker2025_12 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Maimuna.png");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_12:hover, #photo-Speaker2025_12:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_13, #photo-Speaker2025_13 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Cofounder\ -Aqsa\ Khalifa\ -\ Pupilar\ Team.jpg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_13:hover, #photo-Speaker2025_13:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_14, #photo-Speaker2025_14 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/jules_team_picture\ -\ Jules\ Chasles.jpg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_14:hover, #photo-Speaker2025_14:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_15, #photo-Speaker2025_15 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/IMG_0732\ White\ -\ Faisal\ Iqbal.jpg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_15:hover, #photo-Speaker2025_15:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_16, #photo-Speaker2025_16 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Fabio\ Piano\ Photo\ \ -\ Fabio\ Piano.jpg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_16:hover, #photo-Speaker2025_16:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_17, #photo-Speaker2025_17 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Rauda.jpeg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_17:hover, #photo-Speaker2025_17:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_18, #photo-Speaker2025_18 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Louiza\ Chitour\ \(2\)-min\ -\ Louiza\ Chitour.jpg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_18:hover, #photo-Speaker2025_18:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_19, #photo-Speaker2025_19 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/_Chris\ -\ Christophe\ Zoghbi.jpg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_19:hover, #photo-Speaker2025_19:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_20, #photo-Speaker2025_20 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/unnamed\ \(10\)\ -\ Swati\ Trivedi.webp");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_20:hover, #photo-Speaker2025_20:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_21, #photo-Speaker2025_21 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Hakim\ Hacid\ -\ Pic\ -\ Karen\ Panikar.jpg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_21:hover, #photo-Speaker2025_21:hover {
+    filter: none;
+    transform: scale(1.05);   
+}
+#Speaker2025_22, #photo-Speaker2025_22 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/website-scaled\ -\ Rasa\ Karapandza.jpg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_22:hover, #photo-Speaker2025_22:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_23, #photo-Speaker2025_23 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Bassel.png");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_23:hover, #photo-Speaker2025_23:hover {
+    filter: none;
+    transform: scale(1.05);
+}
 
 #close-speaker1_2023 {
     float: right;
