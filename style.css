@@ -1086,6 +1086,7 @@ p{
     
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: button;
+  appearance: button;
   background-color: #000;
   background-image: none;
   color: #fff;
@@ -1097,6 +1098,7 @@ p{
   line-height: 1.5;
   margin: 0;
   -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  mask-image: radial-gradient(#000, #fff);
   padding: 0;
   width: 500px
 
@@ -1195,9 +1197,43 @@ p{
   margin-right: 0.3em; /* Adjust the space here */
 }
 
+/* Section container styling */
+#statistics {
+    background-color: #0A0B12;   /* Light background (optional) */
+    text-align: center;
+    padding: 3em 1em;           /* Top/bottom spacing = 3em; sides = 1em (adjust as needed) */
+    margin: 0 auto;             /* Center in the parent container */
+    max-width: 1200px;          /* Optional max width so it doesn't stretch too wide */
+}
 
+/* Headings (the big numbers) */
+#statistics h2 {
+    font-family:"Knockout 51 Middleweight"; /* Use the custom font */
+    font-size: 4em;             /* Make the numbers larger */
+    margin: 0.5em 0;
+    font-weight: 700;           /* Bold text */
+    color: #dfdfdf;                /* Darker color for contrast */
+    letter-spacing: 2px;        /* Spacing between letters */
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth transition for scaling and color change */
+}
 
-/* mobile header */
+#statistics h2:hover {
+    transform: scale(1.05); /* Slightly enlarge the text on hover */
+    color: #8c52f6; /* Change color on hover */
+}
+
+/* Paragraph text (labels) */
+#statistics p {
+    font-size: 1.5em;
+    margin: 0.5em 0 2em;        /* A bit more space below to separate from next block */
+    color: #dfdfdf;                /* Slightly lighter color for contrast with numbers */
+    font-weight: 500;           /* Medium weight to distinguish from the bold h2 */
+    transition: color 0.3s ease-in-out; /* Smooth transition for color change */
+}
+
+#statistics p:hover {
+    color: #8c52f6; /* Change color on hover */
+}
 
 
 .clock
