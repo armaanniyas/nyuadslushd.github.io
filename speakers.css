@@ -460,6 +460,10 @@
     background-image: url("Assets/speakers/Alok-Kumar\ -\ Nitin\ Desai.jpg");
     transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
+#Speaker2025_24:hover, #photo-Speaker2024_24:hover {
+    filter: none;
+    transform: scale(1.05);
+}
 #Speaker2025_25, #photo-Speaker2025_25 {
     filter: grayscale(100%);
     background-image: url("Assets/speakers/Self\ Photo\ -\ Cropped\ -\ Bilal\ Abou-Diab.jpeg");
