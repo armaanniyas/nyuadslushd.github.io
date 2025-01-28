@@ -403,7 +403,76 @@ $("#Speaker2025_23").click(function() {
 $("#close-Speaker2025_23").click(function() {
     $("#overlay-Speaker2025_23").toggleClass("hidden");
 });
+$("#Speaker2025_24").click(function() {
+    $("#overlay-Speaker2025_24").toggleClass("hidden");
+});
 
+$("#close-Speaker2025_24").click(function() {
+    $("#overlay-Speaker2025_24").toggleClass("hidden");
+});
+$("#Speaker2025_25").click(function() {
+    $("#overlay-Speaker2025_25").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_25").click(function() {
+    $("#overlay-Speaker2025_25").toggleClass("hidden");
+});
+$("#Speaker2025_26").click(function() {
+    $("#overlay-Speaker2025_26").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_26").click(function() {
+    $("#overlay-Speaker2025_26").toggleClass("hidden");
+});
+$("#Speaker2025_27").click(function() {
+    $("#overlay-Speaker2025_27").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_27").click(function() {
+    $("#overlay-Speaker2025_27").toggleClass("hidden");
+});
+$("#Speaker2025_28").click(function() {
+    $("#overlay-Speaker2025_28").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_28").click(function() {
+    $("#overlay-Speaker2025_28").toggleClass("hidden");
+});
+$("#Speaker2025_29").click(function() {
+    $("#overlay-Speaker2025_29").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_29").click(function() {
+    $("#overlay-Speaker2025_29").toggleClass("hidden");
+});
+$("#Speaker2025_30").click(function() {
+    $("#overlay-Speaker2025_30").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_30").click(function() {
+    $("#overlay-Speaker2025_30").toggleClass("hidden");
+});
+$("#Speaker2025_31").click(function() {
+    $("#overlay-Speaker2025_31").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_31").click(function() {
+    $("#overlay-Speaker2025_31").toggleClass("hidden");
+});
+$("#Speaker2025_32").click(function() {
+    $("#overlay-Speaker2025_32").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_32").click(function() {
+    $("#overlay-Speaker2025_32").toggleClass("hidden");
+});
+$("#Speaker2025_33").click(function() {
+    $("#overlay-Speaker2025_33").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_33").click(function() {
+    $("#overlay-Speaker2025_33").toggleClass("hidden");
+});
 // Overlays for agenda
 
 // document.addEventListener("DOMContentLoaded", function() {
