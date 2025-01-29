@@ -107,7 +107,17 @@ body {
     color: #cccccc;
 }
 
+.event-moderators {
+    font-size: 0.9rem;
+    color: #cccccc;
+}
+
 .event-speakers span {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.event-moderators span {
     font-weight: bold;
     color: #ffffff;
 }

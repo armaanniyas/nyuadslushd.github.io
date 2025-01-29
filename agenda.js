@@ -14,7 +14,7 @@ const mainStage = {
                 {
                     time: "9:07 AM - 9:13 AM",
                     title: "Keynote from Vice Chancellor",
-                    speakers: ["Fabio Piano, VC at NYU Abu Dhabi"]
+                    speakers: ["Fabio Piano, Vice Chancellor at NYU Abu Dhabi"]
                 },
                 {
                     time: "9:15 AM - 9:30 AM",
@@ -22,7 +22,7 @@ const mainStage = {
                     speakers: [
                         "H.E. Omar Saif Ghobash, Assistant Minister for Cultural Affairs",
                         "H.E. Alia Bint Abdulla Al Mazrouei, Minister of State for Entrepreneurship",
-                        "ADCCI - TBD - 5 min"
+                        "Abu Dhabi Chamber of Commerce and Industry - TBD - 5 min"
                     ]
                 },
                 {
@@ -35,7 +35,7 @@ const mainStage = {
                     title: "Platinum Sponsor Keynote: Nokia",
                     speakers: [
                         "Danial Mausoof, Vice President, Technology, Products and Services, Nokia",
-                        "Rima Manna, VP of Network Infrastructure, Middle East"
+                        "Rima Manna, Vice President of Network Infrastructure, Middle East"
                     ]
                 }
             ]
@@ -105,7 +105,7 @@ const mainStage = {
                     title: "Panel: Can You Learn to Be a Founder? The Skills You Need",
                     speakers: [
                         "Faisal Iqbal (Head of Innovation Programs, AWS Middle East & Africa)",
-                        "Rauda Al Dhaheri (Head of the Research Center, ADGMA)"
+                        "Rauda Al Dhaheri (Head of the Research Center, ADGM Academy)"
                     ],
                     moderators: ["Barbara Scheck, Stern at NYUAD"]
                 },
@@ -115,7 +115,7 @@ const mainStage = {
                     speakers: [
                         "Muhammad Khalid (AIREV Holding, OnDemand, invested by G42)",
                         "Hao Li (MBZUAI, Founder of Pinscreen)",
-                        "Alok Kumar (CEO of CozmoX AI, backed by YC)"
+                        "Alok Kumar (CEO of CozmoX AI, backed by YCombinator)"
                     ]
                 },
                 {
@@ -251,6 +251,7 @@ function renderAgenda() {
                         <div class="event-time">${event.time}</div>
                         <div class="event-title">${event.title}</div>
                         ${event.speakers ? `<div class="event-speakers">Speakers: <span>${event.speakers.join(', ')}</span></div>` : ''}
+                        ${event.moderators ? `<div class="event-moderators">Moderators: <span>${event.moderators.join(', ')}</span></div>` : ''}
                     </div>
                 </div>
             `;
