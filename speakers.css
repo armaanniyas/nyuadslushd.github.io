@@ -463,6 +463,105 @@
     filter: none;
     transform: scale(1.05);
 }
+#Speaker2025_24, #photo-Speaker2025_24 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Alok-Kumar\ -\ Nitin\ Desai.jpg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+#Speaker2025_24:hover, #photo-Speaker2024_24:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_25, #photo-Speaker2025_25 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Self\ Photo\ -\ Cropped\ -\ Bilal\ Abou-Diab.jpeg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_25:hover, #photo-Speaker2025_25:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_26, #photo-Speaker2025_26 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/richa\ patil.jpg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_26:hover, #photo-Speaker2025_26:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_27, #photo-Speaker2025_27 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/1722982097425\ -\ Moritz\ Gripp.jpeg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_27:hover, #photo-Speaker2025_27:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_28, #photo-Speaker2025_28 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/20241031-Barbara-Scheck-bcs7910-\ -\ Barbara\ Scheck.jpg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_28:hover, #photo-Speaker2025_28:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_29, #photo-Speaker2025_29 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/C\ Ogurno\ Curly\ Hair\ Out\ Headshot\ -\ Chinny\ C.\ Ogunro.JPG");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_29:hover, #photo-Speaker2025_29:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_30, #photo-Speaker2025_30 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/thumbnail_IMG_0626\ -\ Mohamed\ Alzaabi.jpg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_30:hover, #photo-Speaker2025_30:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_31, #photo-Speaker2025_31 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/20241030Hugo\ photo\ placeholder\ -\ Hugo\ Cugnet-1.png");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_31:hover, #photo-Speaker2025_31:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_32, #photo-Speaker2025_32 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/IMG_0005\ -\ Adel\ Hamwi.jpeg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_32:hover, #photo-Speaker2025_32:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_33, #photo-Speaker2025_33 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Karim\ -\ Aryamaan\ Dholakia.jpg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_33:hover, #photo-Speaker2025_33:hover {
+    filter: none;
+    transform: scale(1.05);
+}
 
 #close-speaker1_2023 {
     float: right;
