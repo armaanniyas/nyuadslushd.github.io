@@ -343,7 +343,7 @@
 }
 
 #agendaCard {
-    background-image: url("Assets/investors.jpg");
+    background-image: url("Assets/agenda.jpg");
 }
 
 #speakersCard {
@@ -355,7 +355,17 @@
 }
 
 #FAQCard {
-    background-image: url("Assets/volunteers.jpg");
+    background-image: url("Assets/faq.jpg");
+}
+
+#careerfairCard {
+    background-image: url("Assets/career_fair_banner.jpg");
+}
+#hackathonCard {
+    background-image: url("Assets/hackathonbanner.jpg");
+}
+#studentexpoCard {
+    background-image: url("Assets/studentexpobanner.jpg");
 }
 
 
