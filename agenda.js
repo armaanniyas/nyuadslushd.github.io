@@ -21,8 +21,7 @@ const mainStage = {
                     title: "Special Guest Keynote",
                     speakers: [
                         "H.E. Omar Saif Ghobash, Assistant Minister for Cultural Affairs",
-                        "H.E. Alia Bint Abdulla Al Mazrouei, Minister of State for Entrepreneurship",
-                        "Abu Dhabi Chamber of Commerce and Industry - TBD - 5 min"
+                        "H.E. Alia Bint Abdulla Al Mazrouei, Minister of State for Entrepreneurship"
                     ]
                 },
                 {
@@ -60,26 +59,26 @@ const mainStage = {
                     title: "Panel: Unicorn: Building a Billion Dollar Journey",
                     speakers: [
                         "Bassel Al Nahlaoui (CBO, Careem)",
-                        "Karim Abadir (Investment Principal, BECO Capital)",
-                        "Anne-Maria Salmela (Chief of Staff of Triton Liquid Fund)"
-                    ]
+                        "Karim Abadir (Investment Principal, BECO Capital)"
+                    ],
+                    moderators: ["Anne-Maria Salmela (Chief of Staff of Triton Liquid Fund)"]
                 },
                 {
                     time: "11:30 AM - 11:55 AM",
-                    title: "Fireside Chat: Backing the Future: Key Trends and Challenges in AI Startup Funding",
-                    speakers: [
-                        "Eddy Farhat (Executive Director, e& Capital)",
-                        "Reda Nidhakou (Head of VentureONE)"
-                    ],
-                    moderators: ["Swati Trivedi, Marketing Lead at MAGNiTT"]
-                },
-                {
-                    time: "12:00 PM - 12:25 PM",
                     title: "Presentation: Will AI Take My Job? Job Search Unlocked",
                     speakers: [
                         "Maimuna Rashid (CEO of Pupilar, Forbes 30u30)",
                         "Aqsa Khalifa (COO of Pupilar, Forbes 30u30)"
                     ]
+                },
+                {
+                    time: "12:00 PM - 12:25 PM",
+                    title: "Panel: Can You Learn to Be a Founder? The Skills You Need",
+                    speakers: [
+                        "Faisal Iqbal (Head of Innovation Programs, AWS Middle East & Africa)",
+                        "Rauda Al Dhaheri (Head of the Research Center, ADGM Academy)"
+                    ],
+                    moderators: ["Barbara Constance Scheck (Professor at NYU Stern School of Business at NYU Abu Dhabi)"]
                 }
             ]
         },
@@ -92,8 +91,7 @@ const mainStage = {
                 },
                 {
                     time: "12:30 PM - 1:30 PM",
-                    title: "Student Startup Exhibition",
-                    speakers: ["Invited student startups"]
+                    title: "Student Startup Exhibition"
                 }
             ]
         },
@@ -102,12 +100,12 @@ const mainStage = {
             events: [
                 {
                     time: "1:30 PM - 1:55 PM",
-                    title: "Panel: Can You Learn to Be a Founder? The Skills You Need",
+                    title: "Panel: Backing the Future: Key Trends and Challenges in AI Startup Funding",
                     speakers: [
-                        "Faisal Iqbal (Head of Innovation Programs, AWS Middle East & Africa)",
-                        "Rauda Al Dhaheri (Head of the Research Center, ADGM Academy)"
+                        "Eddy Farhat (Executive Director, e& Capital)",
+                        "Alexander Khanin (CEO, Polynome Group)"
                     ],
-                    moderators: ["Barbara Scheck, Stern at NYUAD"]
+                    moderators: ["Swati Trivedi (Marketing Lead at MAGNiTT)"]
                 },
                 {
                     time: "2:00 PM - 2:25 PM",
@@ -116,7 +114,8 @@ const mainStage = {
                         "Muhammad Khalid (AIREV Holding, OnDemand, invested by G42)",
                         "Hao Li (MBZUAI, Founder of Pinscreen)",
                         "Alok Kumar (CEO of CozmoX AI, backed by YCombinator)"
-                    ]
+                    ],
+                    moderators: ["startAD"]
                 },
                 {
                     time: "2:30 PM - 2:55 PM",
@@ -135,14 +134,17 @@ const mainStage = {
                 },
                 {
                     time: "3:30 PM - 3:55 PM",
-                    title: "Fireside Chat: AI in Fintech",
-                    speakers: ["Bilal Abou Diab, Co-Founder at Vault"],
+                    title: "Fireside Chat: Future of FinTech with AI",
+                    speakers: [
+                        "Bilal Abou Diab (Co-Founder at Vault)",
+                        "Adel Hamwi (Senior Associate, Alvarez & Marsal)"
+                    ],
                     moderators: ["Raša Karapandža (NYUAD, Dean of Business School EBS)"]
                 },
                 {
                     time: "4:00 PM - 4:25 PM",
                     title: "Presentation: The Future of AI in Aerospace Systems",
-                    speakers: ["Roberto Sabatini, Khalifa University, Chair of the Aerospace Research Strategy Committee"]
+                    speakers: ["Roberto Sabatini (Khalifa University, Chair of the Aerospace Research Strategy Committee)"]
                 },
                 {
                     time: "4:30 PM - 4:55 PM",

@@ -226,6 +226,14 @@
 
 <script src="cards.js"></script>
 <script src="menu.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        window.addEventListener("load", function() {
+            var loader = document.querySelector(".spinner");
+            loader.style.display = "none";
+        });
+    });
+</script>
 </body>
 
 </html>
