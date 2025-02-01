@@ -473,6 +473,20 @@ $("#Speaker2025_33").click(function() {
 $("#close-Speaker2025_33").click(function() {
     $("#overlay-Speaker2025_33").toggleClass("hidden");
 });
+$("#Speaker2025_34").click(function() {
+    $("#overlay-Speaker2025_34").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_34").click(function() {
+    $("#overlay-Speaker2025_34").toggleClass("hidden");
+});
+$("#Speaker2025_35").click(function() {
+    $("#overlay-Speaker2025_35").toggleClass("hidden");
+});
+
+$("#close-Speaker2025_35").click(function() {
+    $("#overlay-Speaker2025_35").toggleClass("hidden");
+});
 // Overlays for agenda
 
 // document.addEventListener("DOMContentLoaded", function() {
