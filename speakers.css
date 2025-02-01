@@ -562,6 +562,26 @@
     filter: none;
     transform: scale(1.05);
 }
+#Speaker2025_34, #photo-Speaker2025_34 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Jenny_Li\ portrait\ -\ Jenny\ Li.jpeg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_34:hover, #photo-Speaker2025_34:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+#Speaker2025_35, #photo-Speaker2025_35 {
+    filter: grayscale(100%);
+    background-image: url("Assets/speakers/Shantanu\ Jain_6307_Class-of-2021-Senior-Portraits\ -\ Shantanu\ Jain.jpg");
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Speaker2025_35:hover, #photo-Speaker2025_35:hover {
+    filter: none;
+    transform: scale(1.05);
+}
 
 #close-speaker1_2023 {
     float: right;
