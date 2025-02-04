@@ -195,37 +195,73 @@ const mainStage = {
 const buildersRoomAgenda = {
     sections: [
         {
-            title: "Builders Room",
+            title: "Builders Stage",
             events: [
                 {
-                    time: "10:30 AM - 11:15 AM",
-                    title: "Workshop: Opening a Business in the UAE",
-                    speakers: ["Yedhu Gopan (Co-founder Dalma Ventures)"]
+                    time: "9:00 AM - 9:15 AM",
+                    title: "Opening Keynote",
+                    speakers: ["Violet Ventures, Nokia"]
                 },
                 {
-                    time: "11:20 AM - 12:05 PM",
-                    title: "Workshop: The Art of Creating a Brand from Scratch",
-                    speakers: ["Kitopi Team"]
+                    time: "9:15 AM - 9:45 AM",
+                    title: "Going from 0 to 1 as a Founder",
+                    speakers: ["Richa Patil (Founder at Rock34X)"]
                 },
                 {
-                    time: "1:30 PM - 2:15 PM",
-                    title: "Workshop: Fundraising 101",
-                    speakers: ["Jules Chasles (Co-founder of Dopamine, ex-Global Ventures)"]
+                    time: "9:45 AM - 10:15 AM",
+                    title: "How to Build What Matters",
+                    speakers: ["Shantanu Jain (Head of Product at Alpheya)"]
                 },
                 {
-                    time: "2:20 PM - 3:05 PM",
-                    title: "Workshop: How to Find Your Ideal Customer?",
-                    speakers: ["Mohamed Alzaabi (CEO of PetRepublic)"]
+                    time: "10:15 AM - 10:45 AM",
+                    title: "Find an Ideal Customer",
+                    speakers: ["Mohamed Alzaabi (CEO at PetRepublic)"]
                 },
                 {
-                    time: "3:10 PM - 4:55 PM",
-                    title: "Preparation: Teams Prepare for Their Pitch Competition",
-                    speakers: ["Hackathon Teams"]
+                    time: "10:45 AM - 11:15 AM",
+                    title: "Fund(raise): What it Takes to $",
+                    speakers: ["Jules Chasles (Co-Founder at Dopamine)"]
+                },
+                {
+                    time: "11:15 AM - 11:45 AM",
+                    title: "Setting up a Startup in the UAE",
+                    speakers: ["Yedhu Gopan (Co-Founder at Dalma Ventures)"]
+                },
+                {
+                    time: "11:45 AM - 12:15 PM",
+                    title: "Legal Pitfalls You Need to Know",
+                    speakers: ["Hugo Cugnet (Partner at Dopamine)"]
+                },
+                {
+                    time: "12:15 PM - 1:30 PM",
+                    title: "Lunch & Break",
+                    speakers: ["Lunch provided by Slush’D"]
+                },
+                {
+                    time: "1:30 PM - 3:30 PM",
+                    title: "AI For Good: Semi-Finals",
+                    speakers: ["The top 12 invited hackathon teams"]
+                },
+                {
+                    time: "3:30 PM - 5:00 PM",
+                    title: "Polishing & Working on the Pitch",
+                    speakers: ["The top 6 finalist teams"]
+                },
+                {
+                    time: "5:00 PM - 6:00 PM",
+                    title: "AI For Good: Finale",
+                    speakers: ["The top 6 finalist teams"]
+                },
+                {
+                    time: "6:00 PM - 7:00 PM",
+                    title: "Networking Session",
+                    speakers: ["Attendees are invited to network"]
                 }
             ]
         }
     ]
 };
+
 
 
 
@@ -254,6 +290,36 @@ function renderAgenda() {
                         <div class="event-title">${event.title}</div>
                         ${event.speakers ? `<div class="event-speakers">Speakers: <span>${event.speakers.join(', ')}</span></div>` : ''}
                         ${event.moderators ? `<div class="event-moderators">Moderators: <span>${event.moderators.join(', ')}</span></div>` : ''}
+                    </div>
+                </div>
+            `;
+            timeline.innerHTML += eventHtml;
+        });
+
+        container.appendChild(timeline);
+    });
+
+    buildersRoomAgenda.sections.forEach(section => {
+        // Add section header
+        const sectionHeader = document.createElement('div');
+        sectionHeader.className = 'agenda-subheader';
+        sectionHeader.innerHTML = `<h2>${section.title}</h2>`;
+        container.appendChild(sectionHeader);
+
+        // Create timeline div for this section
+        const timeline = document.createElement('div');
+        timeline.className = 'timeline';
+
+        // Add events
+        section.events.forEach(event => {
+            const eventHtml = `
+                <div class="event">
+                    <div class="event-circle"></div>
+                    <div class="event-content">
+                        <div class="event-time">${event.time}</div>
+                        <div class="event-title">${event.title}</div>
+                        ${event.speakers ? `<div class="event-speakers">Speakers: <span>${event.speakers.join(', ')}</span></div>` : ''}
+                        ${event.moderators ? `<div class="event-moderators">Moderators: <span>${event.moderators.join(', ')}</span>` : ''}
                     </div>
                 </div>
             `;
