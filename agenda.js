@@ -139,7 +139,7 @@ const mainStage = {
                         "Bilal Abou Diab (Co-Founder at Vault)",
                         "Adel Hamwi (Senior Associate, Alvarez & Marsal)"
                     ],
-                    moderators: ["Raša Karapandža (NYUAD, Dean of Business School EBS)"]
+                    moderators: ["Jules Chasles (Co-Founder at Dopamine)"]
                 },
                 {
                     time: "4:00 PM - 4:25 PM",
