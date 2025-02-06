@@ -115,7 +115,7 @@ const mainStage = {
                         "Hao Li (MBZUAI, Founder of Pinscreen)",
                         "Alok Kumar (CEO of CozmoX AI, backed by YCombinator)"
                     ],
-                    moderators: ["startAD"]
+                    moderators: ["Ashwin Joshi, Director at startAD"]
                 },
                 {
                     time: "2:30 PM - 2:55 PM",
@@ -224,7 +224,7 @@ const buildersRoomAgenda = {
                 },
                 {
                     time: "11:15 AM - 11:45 AM",
-                    title: "Setting up a Startup in the UAE",
+                    title: "What is Product Market Fit?",
                     speakers: ["Yedhu Gopan (Co-Founder at Dalma Ventures)"]
                 },
                 {
