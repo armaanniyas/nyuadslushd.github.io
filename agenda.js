@@ -73,7 +73,7 @@ const mainStage = {
                 },
                 {
                     time: "12:00 PM - 12:25 PM",
-                    title: "Panel: Can You Learn to Be a Founder? The Skills You Need",
+                    title: "Panel: Can You Learn to Be a Founder? The Skills You Actually Need",
                     speakers: [
                         "Faisal Iqbal (Head of Innovation Programs, AWS Middle East & Africa)",
                         "Rauda Al Dhaheri (Head of the Research Center, ADGM Academy)"
