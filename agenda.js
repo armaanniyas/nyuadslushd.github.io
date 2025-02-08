@@ -73,7 +73,7 @@ const mainStage = {
                 },
                 {
                     time: "12:00 PM - 12:25 PM",
-                    title: "Panel: Can You Learn to Be a Founder? The Skills You Need",
+                    title: "Panel: Can You Learn to Be a Founder? The Skills You Actually Need",
                     speakers: [
                         "Faisal Iqbal (Head of Innovation Programs, AWS Middle East & Africa)",
                         "Rauda Al Dhaheri (Head of the Research Center, ADGM Academy)"
@@ -115,7 +115,7 @@ const mainStage = {
                         "Hao Li (MBZUAI, Founder of Pinscreen)",
                         "Alok Kumar (CEO of CozmoX AI, backed by YCombinator)"
                     ],
-                    moderators: ["startAD"]
+                    moderators: ["Ashwin Joshi, Director at startAD"]
                 },
                 {
                     time: "2:30 PM - 2:55 PM",
@@ -213,7 +213,12 @@ const buildersRoomAgenda = {
                     speakers: ["Jules Chasles (Co-Founder at Dopamine)"]
                 },
                 {
-                    time: "3:00 PM - 3:30 PM",
+                    time: "11:15 AM - 11:45 AM",
+                    title: "Setting up a Startup in the UAE",
+                    speakers: ["Yedhu Gopan (Co-Founder at Dalma Ventures)"]
+                },
+                {
+                    time: "11:45 AM - 12:15 PM",
                     title: "Legal Pitfalls You Need to Know",
                     speakers: ["Hugo Cugnet (Partner at Dopamine)"]
                 },
