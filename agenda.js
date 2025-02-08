@@ -235,7 +235,7 @@ const buildersRoomAgenda = {
                 {
                     time: "4:30 PM - 5:00 PM",
                     title: "Break / Polishing Session",
-                    speakers: ["Open session for attendees"]
+                    speakers: ["Open session for attendees to network"]
                 },
                 {
                     time: "5:00 PM - 6:00 PM",
