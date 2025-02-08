@@ -198,59 +198,44 @@ const buildersRoomAgenda = {
             title: "Builders Stage",
             events: [
                 {
-                    time: "9:00 AM - 9:15 AM",
-                    title: "Opening Keynote",
-                    speakers: ["Violet Ventures, Nokia"]
-                },
-                {
-                    time: "9:15 AM - 9:45 AM",
+                    time: "1:30 PM - 2:00 PM",
                     title: "Going from 0 to 1 as a Founder",
                     speakers: ["Richa Patil (Founder at Rock34X)"]
                 },
                 {
-                    time: "9:45 AM - 10:15 AM",
-                    title: "How to Build What Matters",
-                    speakers: ["Shantanu Jain (Head of Product at Alpheya)"]
-                },
-                {
-                    time: "10:15 AM - 10:45 AM",
+                    time: "2:00 PM - 2:30 PM",
                     title: "Find an Ideal Customer",
                     speakers: ["Mohamed Alzaabi (CEO at PetRepublic)"]
                 },
                 {
-                    time: "10:45 AM - 11:15 AM",
+                    time: "2:30 PM - 3:00 PM",
                     title: "Fund(raise): What it Takes to $",
                     speakers: ["Jules Chasles (Co-Founder at Dopamine)"]
                 },
                 {
-                    time: "11:15 AM - 11:45 AM",
-                    title: "Setting up a Startup in the UAE",
-                    speakers: ["Yedhu Gopan (Co-Founder at Dalma Ventures)"]
-                },
-                {
-                    time: "11:45 AM - 12:15 PM",
+                    time: "3:00 PM - 3:30 PM",
                     title: "Legal Pitfalls You Need to Know",
                     speakers: ["Hugo Cugnet (Partner at Dopamine)"]
                 },
                 {
-                    time: "12:15 PM - 1:30 PM",
-                    title: "Lunch & Break",
-                    speakers: ["Lunch provided by Slush’D"]
+                    time: "3:30 PM - 4:00 PM",
+                    title: "How to Build What Matters",
+                    speakers: ["Shantanu Jain (Head of Product at Alpheya)"]
                 },
                 {
-                    time: "1:30 PM - 3:30 PM",
-                    title: "AI For Good: Semi-Finals",
-                    speakers: ["The top 12 invited hackathon teams"]
+                    time: "4:00 PM - 4:30 PM",
+                    title: "Setting up a Startup in the UAE",
+                    speakers: ["Yedhu Gopan (Co-Founder at Dalma Ventures)"]
                 },
                 {
-                    time: "3:30 PM - 5:00 PM",
-                    title: "Polishing & Working on the Pitch",
-                    speakers: ["The top 6 finalist teams"]
+                    time: "4:30 PM - 5:00 PM",
+                    title: "Break / Polishing Session",
+                    speakers: ["Open session for attendees"]
                 },
                 {
                     time: "5:00 PM - 6:00 PM",
                     title: "AI For Good: Finale",
-                    speakers: ["The top 6 finalist teams"]
+                    speakers: ["The top 12 finalist teams"]
                 },
                 {
                     time: "6:00 PM - 7:00 PM",
@@ -261,6 +246,7 @@ const buildersRoomAgenda = {
         }
     ]
 };
+
 
 
 
